@@ -10,9 +10,9 @@ namespace Matrix
         {
             Console.ForegroundColor = ConsoleColor.Green;
             
-            String [] phrases = { "Wake up, Neo...", "The Matrix has you.", "Folow the white rabbit.", "Knock, knock, Neo." };
+            string [] phrases = { "Wake up, Neo...", "The Matrix has you.", "Folow the white rabbit.", "Knock, knock, Neo." };
 
-            foreach (String phrase in phrases)
+            foreach (string phrase in phrases)
             {
                 foreach (char c in phrase)
                 {

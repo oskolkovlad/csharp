@@ -1,7 +1,7 @@
 ﻿using System;
 
 
-namespace HelloWorld
+namespace _0_HelloWorld
 {
     class Program
     {
