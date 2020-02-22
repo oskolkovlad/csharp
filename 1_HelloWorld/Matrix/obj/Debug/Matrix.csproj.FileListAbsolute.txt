@@ -1,0 +1,12 @@
+Q:\Projects\Learn\Projects\HelloWorld\Matrix\bin\Debug\Matrix.exe.config
+Q:\Projects\Learn\Projects\HelloWorld\Matrix\bin\Debug\Matrix.exe
+Q:\Projects\Learn\Projects\HelloWorld\Matrix\bin\Debug\Matrix.pdb
+Q:\Projects\Learn\Projects\HelloWorld\Matrix\obj\Debug\Matrix.csprojAssemblyReference.cache
+Q:\Projects\Learn\Projects\HelloWorld\Matrix\obj\Debug\Matrix.exe
+Q:\Projects\Learn\Projects\HelloWorld\Matrix\obj\Debug\Matrix.pdb
+Q:\Projects\Learn\Projects\1_HelloWorld\Matrix\bin\Debug\Matrix.exe.config
+Q:\Projects\Learn\Projects\1_HelloWorld\Matrix\bin\Debug\Matrix.exe
+Q:\Projects\Learn\Projects\1_HelloWorld\Matrix\bin\Debug\Matrix.pdb
+Q:\Projects\Learn\Projects\1_HelloWorld\Matrix\obj\Debug\Matrix.csprojAssemblyReference.cache
+Q:\Projects\Learn\Projects\1_HelloWorld\Matrix\obj\Debug\Matrix.exe
+Q:\Projects\Learn\Projects\1_HelloWorld\Matrix\obj\Debug\Matrix.pdb
