@@ -7,7 +7,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "0_HelloWorld", "HelloWorld\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Matrix", "Matrix\Matrix.csproj", "{B086FAF0-35A0-4876-A704-697EB0C2EBB1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1_variables", "1_variables\1_variables.csproj", "{AEF7D81B-25B6-43F9-9511-01BEA989294C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1_Variables", "1_variables\1_Variables.csproj", "{AEF7D81B-25B6-43F9-9511-01BEA989294C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2_Array_List_Enum", "Array_List_Enum\2_Array_List_Enum.csproj", "{85FA8C11-F397-4BD5-B9C0-09D35777FA31}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{AEF7D81B-25B6-43F9-9511-01BEA989294C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AEF7D81B-25B6-43F9-9511-01BEA989294C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AEF7D81B-25B6-43F9-9511-01BEA989294C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{85FA8C11-F397-4BD5-B9C0-09D35777FA31}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{85FA8C11-F397-4BD5-B9C0-09D35777FA31}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{85FA8C11-F397-4BD5-B9C0-09D35777FA31}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{85FA8C11-F397-4BD5-B9C0-09D35777FA31}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

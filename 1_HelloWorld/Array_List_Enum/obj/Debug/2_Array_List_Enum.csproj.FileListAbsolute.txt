@@ -1,0 +1,6 @@
+Q:\Projects\Learn\Projects\1_HelloWorld\Array_List_Enum\bin\Debug\Array_List_Enum.exe.config
+Q:\Projects\Learn\Projects\1_HelloWorld\Array_List_Enum\bin\Debug\Array_List_Enum.exe
+Q:\Projects\Learn\Projects\1_HelloWorld\Array_List_Enum\bin\Debug\Array_List_Enum.pdb
+Q:\Projects\Learn\Projects\1_HelloWorld\Array_List_Enum\obj\Debug\Array_List_Enum.exe
+Q:\Projects\Learn\Projects\1_HelloWorld\Array_List_Enum\obj\Debug\Array_List_Enum.pdb
+Q:\Projects\Learn\Projects\1_HelloWorld\Array_List_Enum\obj\Debug\2_Array_List_Enum.csprojAssemblyReference.cache

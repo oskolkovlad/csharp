@@ -1,7 +1,7 @@
 ﻿using System;
 
 
-namespace _1_variables
+namespace Variables
 {
     class Program
     {
