@@ -66,7 +66,7 @@ namespace Array_List_Enum
 
             Console.WriteLine($"listOne:\t{listOne[0]},\t{listOne[1]},\t{listOne[2]},\t{listOne[3]},\t{listOne[4]}");
 
-            
+
             List<int> listTwo = new List<int>();
             listTwo.Add(1);
             listTwo.Add(2);
@@ -86,7 +86,97 @@ namespace Array_List_Enum
 
             Console.WriteLine("Enum:\n");
 
-            Console.WriteLine("{0}\t{1}\t{2}\t{3}\t{4}", Fuel.A_76, Fuel.A_92, Fuel.A_95, Fuel.Disel, Fuel.Gas);
+            Console.WriteLine("{0}\t{1}\t{2}\t{3}\t{4}\n", Fuel.A_76, Fuel.A_92, Fuel.A_95, Fuel.Disel, Fuel.Gas);
+
+
+            //*****************************************************************************//
+
+            int[] masSort = new int[7];
+            int length = masSort.Length;
+            int tmp = 0;
+
+            for (int i = 0; i < length; i++)
+            {
+                masSort[i] = int.Parse(Console.ReadLine());
+            }
+
+            Console.WriteLine();
+            foreach (int m in masSort)
+            {
+                Console.Write($"{m}\t");
+            }
+            Console.WriteLine();
+
+            for (int i = 0; i < length - 1; i++)
+            {
+                for (int j = i + 1; j < length; j++)
+                {
+                    if (masSort[i] > masSort[j])
+                    {
+                        tmp = masSort[i];
+                        masSort[i] = masSort[j];
+                        masSort[j] = tmp;
+                    }
+                }  
+            }
+
+            Console.WriteLine();
+            foreach (int m in masSort)
+            {
+                Console.Write($"{m}\t");
+            }
+            Console.WriteLine(new string('-', 50));
+
+
+            //*****************************************************************************//
+
+
+            int[,,] mas = { { { 1, 2 },{ 3, 4 } },
+                { { 4, 5 }, { 6, 7 } },
+                { { 7, 8 }, { 9, 10 } },
+                { { 10, 11 }, { 12, 13 } }
+              };
+            
+            int ii = mas.GetUpperBound(0) + 1;
+            int jj = mas.GetUpperBound(1) + 1;
+            int kk = mas.GetUpperBound(2) + 1;
+
+            Console.Write("{");
+            for (int i = 0; i < ii; i++)
+            {
+                Console.Write("{");
+
+                for (int j = 0; j < jj; j++)
+                {
+                    Console.Write("{");
+
+                    for (int k = 0; k < kk; k++)
+                    {
+                        Console.Write("{0}", mas[i, j, k]);
+
+                        if (k < kk - 1)
+                        {
+                            Console.Write(", ");
+                        }
+                    }
+
+                    Console.Write("}");
+                    
+                    if (j < jj - 1)
+                    {
+                        Console.Write(", ");
+                    }
+                }
+
+                Console.Write("}");
+
+                if (i < ii - 1)
+                {
+                    Console.Write(", ");
+                }
+            }
+
+            Console.Write("}");
 
 
             //*****************************************************************************//
