@@ -1,6 +1,6 @@
-Q:\Projects\Learn\Projects\1_HelloWorld\1_variables\bin\Debug\1_variables.exe.config
-Q:\Projects\Learn\Projects\1_HelloWorld\1_variables\bin\Debug\1_variables.exe
-Q:\Projects\Learn\Projects\1_HelloWorld\1_variables\bin\Debug\1_variables.pdb
 Q:\Projects\Learn\Projects\1_HelloWorld\1_variables\obj\Debug\1_variables.csprojAssemblyReference.cache
-Q:\Projects\Learn\Projects\1_HelloWorld\1_variables\obj\Debug\1_variables.exe
-Q:\Projects\Learn\Projects\1_HelloWorld\1_variables\obj\Debug\1_variables.pdb
+Q:\Projects\Learn\Projects\1_HelloWorld\1_variables\bin\Debug\Variables.exe.config
+Q:\Projects\Learn\Projects\1_HelloWorld\1_variables\bin\Debug\Variables.exe
+Q:\Projects\Learn\Projects\1_HelloWorld\1_variables\bin\Debug\Variables.pdb
+Q:\Projects\Learn\Projects\1_HelloWorld\1_variables\obj\Debug\Variables.exe
+Q:\Projects\Learn\Projects\1_HelloWorld\1_variables\obj\Debug\Variables.pdb

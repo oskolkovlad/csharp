@@ -1,0 +1,6 @@
+Q:\Projects\Learn\Projects\1_HelloWorld\Cycles\bin\Debug\Cycles.exe.config
+Q:\Projects\Learn\Projects\1_HelloWorld\Cycles\bin\Debug\Cycles.exe
+Q:\Projects\Learn\Projects\1_HelloWorld\Cycles\bin\Debug\Cycles.pdb
+Q:\Projects\Learn\Projects\1_HelloWorld\Cycles\obj\Debug\4_Cycles.csprojAssemblyReference.cache
+Q:\Projects\Learn\Projects\1_HelloWorld\Cycles\obj\Debug\Cycles.exe
+Q:\Projects\Learn\Projects\1_HelloWorld\Cycles\obj\Debug\Cycles.pdb

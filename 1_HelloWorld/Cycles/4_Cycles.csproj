@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{AEF7D81B-25B6-43F9-9511-01BEA989294C}</ProjectGuid>
+    <ProjectGuid>{68AED0E4-B5C9-4276-8DCC-FB5962A18355}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Variables</RootNamespace>
-    <AssemblyName>Variables</AssemblyName>
+    <RootNamespace>Cycles</RootNamespace>
+    <AssemblyName>Cycles</AssemblyName>
     <TargetFrameworkVersion>v4.7</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
