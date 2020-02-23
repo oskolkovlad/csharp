@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1_Variables", "1_variables\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2_Array_List_Enum", "Array_List_Enum\2_Array_List_Enum.csproj", "{85FA8C11-F397-4BD5-B9C0-09D35777FA31}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3_IfElse_Switch", "IfElse_Switch\3_IfElse_Switch.csproj", "{DABCE35B-7093-4800-B76B-9E0BDC7A36E4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{85FA8C11-F397-4BD5-B9C0-09D35777FA31}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{85FA8C11-F397-4BD5-B9C0-09D35777FA31}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{85FA8C11-F397-4BD5-B9C0-09D35777FA31}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DABCE35B-7093-4800-B76B-9E0BDC7A36E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DABCE35B-7093-4800-B76B-9E0BDC7A36E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DABCE35B-7093-4800-B76B-9E0BDC7A36E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DABCE35B-7093-4800-B76B-9E0BDC7A36E4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

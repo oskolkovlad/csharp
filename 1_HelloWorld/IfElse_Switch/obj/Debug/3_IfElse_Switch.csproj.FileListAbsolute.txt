@@ -1,0 +1,6 @@
+Q:\Projects\Learn\Projects\1_HelloWorld\IfElse_Switch\bin\Debug\IfElse_Switch.exe.config
+Q:\Projects\Learn\Projects\1_HelloWorld\IfElse_Switch\bin\Debug\IfElse_Switch.exe
+Q:\Projects\Learn\Projects\1_HelloWorld\IfElse_Switch\bin\Debug\IfElse_Switch.pdb
+Q:\Projects\Learn\Projects\1_HelloWorld\IfElse_Switch\obj\Debug\3_IfElse_Switch.csprojAssemblyReference.cache
+Q:\Projects\Learn\Projects\1_HelloWorld\IfElse_Switch\obj\Debug\IfElse_Switch.exe
+Q:\Projects\Learn\Projects\1_HelloWorld\IfElse_Switch\obj\Debug\IfElse_Switch.pdb
