@@ -8,11 +8,13 @@ namespace _1_variables
         static void Main(string[] args)
         {
             int     integerType1    =   5;                  // -2147483648 ... 2147483647
+            short   integerType12   =   32000;              // -32768 ... 32767
             long    integerType2    =   100000001;          // -9223372036854775808 ... 9223372036854775807
             byte    integerType3    =   128;                // 0 ... 255
 
             sbyte   integerType4    =   -100;               // -128 ... 127
             uint    integerType5    =   659;                // 0 ... 4294967295
+            ushort  integerType51   =   60000;              // 0 ... 65535
             ulong   integerType6    =   15469577777;        // 0 ... 18446744073709551615
 
             double  realType1       =   25.348;             // -12.34, -1.1, 0, 1, 53.6123123
@@ -33,6 +35,24 @@ namespace _1_variables
             //str.eveverve(); - error
             integerType_var = str.Length;
 
+            Console.WriteLine($"Var: {integerType_var.GetType()}");
+            Console.WriteLine(new string('-', 120));
+
+
+            ///*****///
+
+
+            realType1 = 10 / 4;
+            Console.WriteLine($"Double (int):\t\t{realType1}");
+
+            realType1 = 10.0 / 4.0;
+            Console.WriteLine($"Double (double):\t{realType1}");
+
+            realType1 = 10.0 % 4;
+            Console.WriteLine($"Double (%):\t\t{realType1}");
+
+            Console.WriteLine(new string('-', 120));
+
 
             ///*****///
 
@@ -46,11 +66,11 @@ namespace _1_variables
             
             Console.Write(new string(' ', 3));
             // В консоли будет значение 15, но после вывода значение станет равным 16
-            // То есть сначала выполняется вывод переменной, а после инкрементация
+            // То есть сначала выполняется вывод переменной, а после инкрементация  (постфиксная форма)
             Console.Write("_++: {0}", integerType1++); 
 
             Console.Write(new string(' ', 3));
-            // В консоли будет значение 17, так как используется уже инкрементированное значение переменной
+            // В консоли будет значение 17, так как используется уже инкрементированное значение переменной (префиксная форма)
             Console.Write("++_: {0}", ++integerType1);
 
             Console.Write(new string(' ', 3));
@@ -103,10 +123,60 @@ namespace _1_variables
                 Console.Write(s);
                 Console.Write(new string(' ', 5));
             }
-            Console.WriteLine();
 
             // Замена старого значения на новое
-            Console.WriteLine("Replace: {0}", strType.Replace("Day", "PayDay"));
+            Console.WriteLine($"\nReplace: {strType.Replace("Day", "PayDay")}"); // Используется интерполяция
+
+            Console.WriteLine(new string('-', 120));
+
+
+            ///*****///
+
+            integerType1 = 2 & 5; // 010 & 101 (0*0 1*0 0*1 = 000)
+            Console.WriteLine($"&: {integerType1}");
+
+            integerType1 = 4 | 5; // 100 & 101 (1+1 0+0 0+1 = 101)
+            Console.WriteLine($"|: {integerType1}");
+
+            integerType1 = 45; // 0101101
+            int key = 102;     // 1100110
+            int encrypt = integerType1 ^ key; // 1001011 - 75
+            Console.WriteLine($"encrypt (^): {encrypt}");
+            Console.WriteLine($"decrypt (^): {encrypt ^ key}");
+
+            Console.WriteLine($"~: {~10}");
+
+            Console.WriteLine($">>: {16 >> 1}"); // 8
+
+            Console.WriteLine($"<<: {4 << 1}");  // 8
+
+
+            ///*****///
+
+
+            string st = "1";
+            //int i = st;                // error
+            //int i = (int) st;          // error
+
+            // Явное преобразование переменных
+            int i = Convert.ToInt32(st); // no error
+            i = int.Parse(st);           // no error
+
+            // Неявное преобразование переменных
+            string stt = "string " + i;
+
+
+
+            // Неявное приведение
+            byte bt = 45;
+            int l = bt;
+
+            int j = 5;
+            double d = j;       // no error
+            //int k = d;        // error
+
+            // Кастинг - явное приведение
+            int k = (int) d;    // no error
 
 
             ///*****///
