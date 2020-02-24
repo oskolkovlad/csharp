@@ -1,0 +1,11 @@
+Q:\Projects\Learn\Projects\2_OOP\Class_Property_Constructor\bin\Debug\netcoreapp3.0\Class_Property_Constructor.exe
+Q:\Projects\Learn\Projects\2_OOP\Class_Property_Constructor\bin\Debug\netcoreapp3.0\Class_Property_Constructor.deps.json
+Q:\Projects\Learn\Projects\2_OOP\Class_Property_Constructor\bin\Debug\netcoreapp3.0\Class_Property_Constructor.runtimeconfig.json
+Q:\Projects\Learn\Projects\2_OOP\Class_Property_Constructor\bin\Debug\netcoreapp3.0\Class_Property_Constructor.runtimeconfig.dev.json
+Q:\Projects\Learn\Projects\2_OOP\Class_Property_Constructor\bin\Debug\netcoreapp3.0\Class_Property_Constructor.dll
+Q:\Projects\Learn\Projects\2_OOP\Class_Property_Constructor\bin\Debug\netcoreapp3.0\Class_Property_Constructor.pdb
+Q:\Projects\Learn\Projects\2_OOP\Class_Property_Constructor\obj\Debug\netcoreapp3.0\2_Class_Property_Constructor.csprojAssemblyReference.cache
+Q:\Projects\Learn\Projects\2_OOP\Class_Property_Constructor\obj\Debug\netcoreapp3.0\2_Class_Property_Constructor.AssemblyInfoInputs.cache
+Q:\Projects\Learn\Projects\2_OOP\Class_Property_Constructor\obj\Debug\netcoreapp3.0\2_Class_Property_Constructor.AssemblyInfo.cs
+Q:\Projects\Learn\Projects\2_OOP\Class_Property_Constructor\obj\Debug\netcoreapp3.0\Class_Property_Constructor.dll
+Q:\Projects\Learn\Projects\2_OOP\Class_Property_Constructor\obj\Debug\netcoreapp3.0\Class_Property_Constructor.pdb

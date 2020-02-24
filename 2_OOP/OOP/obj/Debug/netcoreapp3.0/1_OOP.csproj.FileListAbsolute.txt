@@ -1,0 +1,11 @@
+Q:\Projects\Learn\Projects\2_OOP\OOP\obj\Debug\netcoreapp3.0\1_OOP.csprojAssemblyReference.cache
+Q:\Projects\Learn\Projects\2_OOP\OOP\obj\Debug\netcoreapp3.0\1_OOP.AssemblyInfoInputs.cache
+Q:\Projects\Learn\Projects\2_OOP\OOP\obj\Debug\netcoreapp3.0\1_OOP.AssemblyInfo.cs
+Q:\Projects\Learn\Projects\2_OOP\OOP\bin\Debug\netcoreapp3.0\OOP.exe
+Q:\Projects\Learn\Projects\2_OOP\OOP\bin\Debug\netcoreapp3.0\OOP.deps.json
+Q:\Projects\Learn\Projects\2_OOP\OOP\bin\Debug\netcoreapp3.0\OOP.runtimeconfig.json
+Q:\Projects\Learn\Projects\2_OOP\OOP\bin\Debug\netcoreapp3.0\OOP.runtimeconfig.dev.json
+Q:\Projects\Learn\Projects\2_OOP\OOP\bin\Debug\netcoreapp3.0\OOP.dll
+Q:\Projects\Learn\Projects\2_OOP\OOP\bin\Debug\netcoreapp3.0\OOP.pdb
+Q:\Projects\Learn\Projects\2_OOP\OOP\obj\Debug\netcoreapp3.0\OOP.dll
+Q:\Projects\Learn\Projects\2_OOP\OOP\obj\Debug\netcoreapp3.0\OOP.pdb

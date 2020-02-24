@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.0": {
+      "Class_Property_Constructor/1.0.0": {
+        "runtime": {
+          "Class_Property_Constructor.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Class_Property_Constructor/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
