@@ -7,24 +7,32 @@ namespace OOP_Base
     {
         static void Main(string[] args)
         {
-            Person person1 = new Person();
-            Person person2 = new Person();
+            Person person1 = new Person()
+            {
+                firstName = "Миша",
+                lastName = "Большов",
+                age = 23
+                //person1.money = 1000000000; - нет доступа, так как у поля модификатор доступа "private"
+            }; // Инициализатор
 
-            person1.firstName = "Миша";
-            person1.lastName = "Большов";
-            person1.age = 23;
-            //person1.money = 1000000000; - нет доступа, так как у поля модификатор доступа "private"
+            // 1. С помощью инициализатора можно установить значения только доступных из внешнего кода полей и свойств
+            // 2. Инициализатор выполняется полне конструктора
 
-            person2.firstName = "Света";
-            person2.lastName = "Соколова";
-            person2.age = 19;
+            Person person2 = new Person()
+            {
+                firstName = "Света",
+                lastName = "Соколова",
+                age = 19
+            };
 
-            Doctor doctor1 = new Doctor();
-            doctor1.firstName = "Роман";
-            doctor1.lastName = "Щеглов";
-            doctor1.age = 45;
-            doctor1.specialization = "Хирург";
-
+            Doctor doctor1 = new Doctor()
+            {
+                firstName = "Роман",
+                lastName = "Щеглов",
+                age = 45,
+                specialization = "Хирург"
+            };
+            
 
             //*** Полиморфизм ***//
 

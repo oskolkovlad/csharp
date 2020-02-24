@@ -6,7 +6,7 @@ namespace Class_Property_Constructor
     public class Person
     {
         // Конструктор по умолчанию
-        public Person() { }
+        public Person() : this ("Неизвестно", "Неизвестно") { }
 
         // Конструктор пользовательский
         public Person(string name, string sName)
