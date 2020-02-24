@@ -13,6 +13,17 @@ namespace Array_List_Enum
         Gas
     };
 
+    enum DaysOfWeek : byte // byte, short, int, long
+    {
+        Monday = 1,
+        Tuesday,
+        Wednesday,
+        Thursday,
+        Friday,
+        Saturday,
+        Sunday
+    };
+
     class Program
     {
         static void Main(string[] args)
@@ -87,6 +98,14 @@ namespace Array_List_Enum
             Console.WriteLine("Enum:\n");
 
             Console.WriteLine("{0}\t{1}\t{2}\t{3}\t{4}\n", Fuel.A_76, Fuel.A_92, Fuel.A_95, Fuel.Disel, Fuel.Gas);
+            Console.WriteLine("{0}\n{1}\n{2}\n{3}\n{4}\n{5}\n{6}", DayOfWeek.Monday, DayOfWeek.Tuesday, DayOfWeek.Wednesday,
+                DayOfWeek.Thursday, DayOfWeek.Friday, DayOfWeek.Saturday, DayOfWeek.Sunday);
+            DayOfWeek day = DayOfWeek.Monday;
+            Console.WriteLine($"Day: {day};\tnumber: {(byte)day}");
+            day = DayOfWeek.Tuesday;
+            Console.WriteLine($"Day: {day};\tnumber: {(byte)day}");
+            day = DayOfWeek.Wednesday;
+            Console.WriteLine($"Day: {day};\tnumber: {(byte)day}\n");
 
 
             //*****************************************************************************//
@@ -95,6 +114,7 @@ namespace Array_List_Enum
             int length = masSort.Length;
             int tmp = 0;
 
+            Console.WriteLine("Введите 7 целых чисел для массива:");
             for (int i = 0; i < length; i++)
             {
                 masSort[i] = int.Parse(Console.ReadLine());
@@ -120,12 +140,14 @@ namespace Array_List_Enum
                 }  
             }
 
-            Console.WriteLine();
             foreach (int m in masSort)
             {
                 Console.Write($"{m}\t");
             }
-            Console.WriteLine(new string('-', 50));
+
+
+            Console.WriteLine();
+            Console.WriteLine(new string('-', 100));
 
 
             //*****************************************************************************//

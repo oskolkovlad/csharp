@@ -1,0 +1,6 @@
+Q:\Projects\Learn\Projects\1_HelloWorld\Methods\bin\Debug\Methods.exe.config
+Q:\Projects\Learn\Projects\1_HelloWorld\Methods\bin\Debug\Methods.exe
+Q:\Projects\Learn\Projects\1_HelloWorld\Methods\bin\Debug\Methods.pdb
+Q:\Projects\Learn\Projects\1_HelloWorld\Methods\obj\Debug\5_Methods.csprojAssemblyReference.cache
+Q:\Projects\Learn\Projects\1_HelloWorld\Methods\obj\Debug\Methods.exe
+Q:\Projects\Learn\Projects\1_HelloWorld\Methods\obj\Debug\Methods.pdb
