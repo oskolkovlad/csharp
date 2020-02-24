@@ -7,7 +7,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "1_OOP_Base", "OOP\1_OOP_Bas
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "2_Class_Property_Constructor", "Class_Property_Constructor\2_Class_Property_Constructor.csproj", "{B99C221C-E47B-46FA-AAAB-66D2BFBED847}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3_Method", "Method\3_Method.csproj", "{260F5845-7B49-4E2B-A093-7FB1A6E2D78F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "3_Method", "Method\3_Method.csproj", "{260F5845-7B49-4E2B-A093-7FB1A6E2D78F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

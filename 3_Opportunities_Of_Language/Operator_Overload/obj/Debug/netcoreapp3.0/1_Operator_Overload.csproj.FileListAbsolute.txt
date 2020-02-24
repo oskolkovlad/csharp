@@ -1,0 +1,11 @@
+Q:\Projects\Learn\Projects\3_Opportunities_Of_Language\Operator_Overload\bin\Debug\netcoreapp3.0\Operator_Overload.exe
+Q:\Projects\Learn\Projects\3_Opportunities_Of_Language\Operator_Overload\bin\Debug\netcoreapp3.0\Operator_Overload.deps.json
+Q:\Projects\Learn\Projects\3_Opportunities_Of_Language\Operator_Overload\bin\Debug\netcoreapp3.0\Operator_Overload.runtimeconfig.json
+Q:\Projects\Learn\Projects\3_Opportunities_Of_Language\Operator_Overload\bin\Debug\netcoreapp3.0\Operator_Overload.runtimeconfig.dev.json
+Q:\Projects\Learn\Projects\3_Opportunities_Of_Language\Operator_Overload\bin\Debug\netcoreapp3.0\Operator_Overload.dll
+Q:\Projects\Learn\Projects\3_Opportunities_Of_Language\Operator_Overload\bin\Debug\netcoreapp3.0\Operator_Overload.pdb
+Q:\Projects\Learn\Projects\3_Opportunities_Of_Language\Operator_Overload\obj\Debug\netcoreapp3.0\1_Operator_Overload.csprojAssemblyReference.cache
+Q:\Projects\Learn\Projects\3_Opportunities_Of_Language\Operator_Overload\obj\Debug\netcoreapp3.0\1_Operator_Overload.AssemblyInfoInputs.cache
+Q:\Projects\Learn\Projects\3_Opportunities_Of_Language\Operator_Overload\obj\Debug\netcoreapp3.0\1_Operator_Overload.AssemblyInfo.cs
+Q:\Projects\Learn\Projects\3_Opportunities_Of_Language\Operator_Overload\obj\Debug\netcoreapp3.0\Operator_Overload.dll
+Q:\Projects\Learn\Projects\3_Opportunities_Of_Language\Operator_Overload\obj\Debug\netcoreapp3.0\Operator_Overload.pdb
