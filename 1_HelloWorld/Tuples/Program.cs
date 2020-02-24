@@ -1,8 +1,25 @@
 ﻿using System;
 
 
-namespace Tuples
+namespace Tuples_and_Struct
 {
+    struct User
+    {
+        public string name;
+        public byte age;
+
+        public User(string name, byte age)
+        {
+            this.name = name;
+            this.age = age;
+        }
+
+        public void GetInfo()
+        {
+            Console.WriteLine("Name: {0},\tAge: {1}.", name, age);
+        }
+    }
+
     class Program
     {
         static void Main(string[] args)
@@ -26,7 +43,14 @@ namespace Tuples
 
             Console.WriteLine("GetValues:\t Item1 - {0}; Item2 - {1}", GetValues().Item1, GetValues().Item2);
             var res = GetData(("Manisha", 27), 1);
-            Console.WriteLine("GetData:\t Name - {0}; Age - {1}", res.name, res.age);
+            Console.WriteLine("GetData:\t Name - {0}; Age - {1}\n", res.name, res.age);
+
+            User tom;
+            tom.name = "Tom";
+            tom.age = 45;
+            tom.GetInfo();
+            User masha = new User("Masha", 18);
+            masha.GetInfo();
                        
 
             Console.ReadKey();

@@ -3,3 +3,4 @@ Q:\Projects\Learn\Projects\1_HelloWorld\Tuples\bin\Debug\Tuples.exe
 Q:\Projects\Learn\Projects\1_HelloWorld\Tuples\bin\Debug\Tuples.pdb
 Q:\Projects\Learn\Projects\1_HelloWorld\Tuples\obj\Debug\Tuples.exe
 Q:\Projects\Learn\Projects\1_HelloWorld\Tuples\obj\Debug\Tuples.pdb
+Q:\Projects\Learn\Projects\1_HelloWorld\Tuples\obj\Debug\6_Tuples.csprojAssemblyReference.cache

@@ -17,7 +17,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4_Cycles", "Cycles\4_Cycles
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "5_Methods", "Methods\5_Methods.csproj", "{7574D4A8-2E18-4FCA-846E-006D3F3FA412}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "6_Tuples", "Tuples\6_Tuples.csproj", "{20530371-1A8B-4786-964E-553750882838}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "6_Tuples_and_Struct", "Tuples\6_Tuples_and_Struct.csproj", "{20530371-1A8B-4786-964E-553750882838}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

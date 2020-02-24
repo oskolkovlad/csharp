@@ -1,0 +1,6 @@
+Q:\Projects\Learn\Projects\1_HelloWorld\Tuples\bin\Debug\Tuples_and_Struct.exe.config
+Q:\Projects\Learn\Projects\1_HelloWorld\Tuples\bin\Debug\Tuples_and_Struct.exe
+Q:\Projects\Learn\Projects\1_HelloWorld\Tuples\bin\Debug\Tuples_and_Struct.pdb
+Q:\Projects\Learn\Projects\1_HelloWorld\Tuples\obj\Debug\6_Tuples_and_Struct.csprojAssemblyReference.cache
+Q:\Projects\Learn\Projects\1_HelloWorld\Tuples\obj\Debug\Tuples_and_Struct.exe
+Q:\Projects\Learn\Projects\1_HelloWorld\Tuples\obj\Debug\Tuples_and_Struct.pdb
