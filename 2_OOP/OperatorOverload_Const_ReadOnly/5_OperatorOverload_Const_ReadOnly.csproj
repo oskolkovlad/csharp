@@ -1,0 +1,10 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+    <AssemblyName>OperatorOverload_Const_ReadOnly</AssemblyName>
+    <RootNamespace>OperatorOverload_Const_ReadOnly</RootNamespace>
+  </PropertyGroup>
+
+</Project>

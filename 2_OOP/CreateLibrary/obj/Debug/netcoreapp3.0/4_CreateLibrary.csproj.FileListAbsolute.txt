@@ -1,0 +1,14 @@
+Q:\Projects\Learn\Projects\2_OOP\CreateLibrary\bin\Debug\netcoreapp3.0\CreateLibrary.exe
+Q:\Projects\Learn\Projects\2_OOP\CreateLibrary\bin\Debug\netcoreapp3.0\CreateLibrary.deps.json
+Q:\Projects\Learn\Projects\2_OOP\CreateLibrary\bin\Debug\netcoreapp3.0\CreateLibrary.runtimeconfig.json
+Q:\Projects\Learn\Projects\2_OOP\CreateLibrary\bin\Debug\netcoreapp3.0\CreateLibrary.runtimeconfig.dev.json
+Q:\Projects\Learn\Projects\2_OOP\CreateLibrary\bin\Debug\netcoreapp3.0\CreateLibrary.dll
+Q:\Projects\Learn\Projects\2_OOP\CreateLibrary\bin\Debug\netcoreapp3.0\CreateLibrary.pdb
+Q:\Projects\Learn\Projects\2_OOP\CreateLibrary\bin\Debug\netcoreapp3.0\MyLib.dll
+Q:\Projects\Learn\Projects\2_OOP\CreateLibrary\bin\Debug\netcoreapp3.0\MyLib.pdb
+Q:\Projects\Learn\Projects\2_OOP\CreateLibrary\obj\Debug\netcoreapp3.0\4_CreateLibrary.csprojAssemblyReference.cache
+Q:\Projects\Learn\Projects\2_OOP\CreateLibrary\obj\Debug\netcoreapp3.0\4_CreateLibrary.AssemblyInfoInputs.cache
+Q:\Projects\Learn\Projects\2_OOP\CreateLibrary\obj\Debug\netcoreapp3.0\4_CreateLibrary.AssemblyInfo.cs
+Q:\Projects\Learn\Projects\2_OOP\CreateLibrary\obj\Debug\netcoreapp3.0\4_CreateLibrary.csproj.CopyComplete
+Q:\Projects\Learn\Projects\2_OOP\CreateLibrary\obj\Debug\netcoreapp3.0\CreateLibrary.dll
+Q:\Projects\Learn\Projects\2_OOP\CreateLibrary\obj\Debug\netcoreapp3.0\CreateLibrary.pdb

@@ -1,0 +1,11 @@
+Q:\Projects\Learn\Projects\2_OOP\OperatorOverload_Const_ReadOnly\bin\Debug\netcoreapp3.0\OperatorOverload_Const_ReadOnly.exe
+Q:\Projects\Learn\Projects\2_OOP\OperatorOverload_Const_ReadOnly\bin\Debug\netcoreapp3.0\OperatorOverload_Const_ReadOnly.deps.json
+Q:\Projects\Learn\Projects\2_OOP\OperatorOverload_Const_ReadOnly\bin\Debug\netcoreapp3.0\OperatorOverload_Const_ReadOnly.runtimeconfig.json
+Q:\Projects\Learn\Projects\2_OOP\OperatorOverload_Const_ReadOnly\bin\Debug\netcoreapp3.0\OperatorOverload_Const_ReadOnly.runtimeconfig.dev.json
+Q:\Projects\Learn\Projects\2_OOP\OperatorOverload_Const_ReadOnly\bin\Debug\netcoreapp3.0\OperatorOverload_Const_ReadOnly.dll
+Q:\Projects\Learn\Projects\2_OOP\OperatorOverload_Const_ReadOnly\bin\Debug\netcoreapp3.0\OperatorOverload_Const_ReadOnly.pdb
+Q:\Projects\Learn\Projects\2_OOP\OperatorOverload_Const_ReadOnly\obj\Debug\netcoreapp3.0\5_OperatorOverload_Const_ReadOnly.csprojAssemblyReference.cache
+Q:\Projects\Learn\Projects\2_OOP\OperatorOverload_Const_ReadOnly\obj\Debug\netcoreapp3.0\5_OperatorOverload_Const_ReadOnly.AssemblyInfoInputs.cache
+Q:\Projects\Learn\Projects\2_OOP\OperatorOverload_Const_ReadOnly\obj\Debug\netcoreapp3.0\5_OperatorOverload_Const_ReadOnly.AssemblyInfo.cs
+Q:\Projects\Learn\Projects\2_OOP\OperatorOverload_Const_ReadOnly\obj\Debug\netcoreapp3.0\OperatorOverload_Const_ReadOnly.dll
+Q:\Projects\Learn\Projects\2_OOP\OperatorOverload_Const_ReadOnly\obj\Debug\netcoreapp3.0\OperatorOverload_Const_ReadOnly.pdb
