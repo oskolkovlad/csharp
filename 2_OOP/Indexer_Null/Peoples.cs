@@ -22,14 +22,8 @@
         // Индексатор должен иметь хотя бы один параметр
         public Person this[int index]
         {
-            get
-            {
-                return data[index];
-            }
-            set
-            {
-                data[index] = value;
-            }
+            get { return data[index]; }
+            set { data[index] = value; }
         }
 
         // Перегрузка индексатора

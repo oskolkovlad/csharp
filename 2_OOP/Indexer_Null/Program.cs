@@ -40,6 +40,21 @@ namespace Indexer_Null
             //***********************************************************//
 
 
+            // Task1
+
+            Team team = new Team();
+            team[0] = new Player("Derber", 21);
+            team[1] = new Player("Alonso", 4);
+            team[12] = new Player("Alonso", 4);
+
+            Console.WriteLine($"\nteam[0].Name: {team[0]?.Name}; team[0].Number: {team[0]?.Number}");
+            Console.WriteLine($"team[1].Name: {team[1]?.Name}; team[1].Number: {team[1]?.Number}");
+            Console.WriteLine($"team[12].Name: {team[12]?.Name}; team[1].Number: {team[12]?.Number}");
+
+
+            //***********************************************************//
+
+
             Console.ReadKey();
         }
     }
