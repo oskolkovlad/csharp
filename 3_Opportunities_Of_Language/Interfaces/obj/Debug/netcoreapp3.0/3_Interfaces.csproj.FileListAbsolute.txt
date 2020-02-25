@@ -1,0 +1,11 @@
+Q:\Projects\Learn\Projects\3_Opportunities_Of_Language\Interfaces\bin\Debug\netcoreapp3.0\Interfaces.exe
+Q:\Projects\Learn\Projects\3_Opportunities_Of_Language\Interfaces\bin\Debug\netcoreapp3.0\Interfaces.deps.json
+Q:\Projects\Learn\Projects\3_Opportunities_Of_Language\Interfaces\bin\Debug\netcoreapp3.0\Interfaces.runtimeconfig.json
+Q:\Projects\Learn\Projects\3_Opportunities_Of_Language\Interfaces\bin\Debug\netcoreapp3.0\Interfaces.runtimeconfig.dev.json
+Q:\Projects\Learn\Projects\3_Opportunities_Of_Language\Interfaces\bin\Debug\netcoreapp3.0\Interfaces.dll
+Q:\Projects\Learn\Projects\3_Opportunities_Of_Language\Interfaces\bin\Debug\netcoreapp3.0\Interfaces.pdb
+Q:\Projects\Learn\Projects\3_Opportunities_Of_Language\Interfaces\obj\Debug\netcoreapp3.0\3_Interfaces.csprojAssemblyReference.cache
+Q:\Projects\Learn\Projects\3_Opportunities_Of_Language\Interfaces\obj\Debug\netcoreapp3.0\3_Interfaces.AssemblyInfoInputs.cache
+Q:\Projects\Learn\Projects\3_Opportunities_Of_Language\Interfaces\obj\Debug\netcoreapp3.0\3_Interfaces.AssemblyInfo.cs
+Q:\Projects\Learn\Projects\3_Opportunities_Of_Language\Interfaces\obj\Debug\netcoreapp3.0\Interfaces.dll
+Q:\Projects\Learn\Projects\3_Opportunities_Of_Language\Interfaces\obj\Debug\netcoreapp3.0\Interfaces.pdb
