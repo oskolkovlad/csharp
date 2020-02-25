@@ -1,0 +1,10 @@
+Q:\Projects\Learn\Projects\2_OOP\Virtual_Method_and_Property\obj\Debug\netcoreapp3.0\8_Virtual_Method_and_Property.AssemblyInfoInputs.cache
+Q:\Projects\Learn\Projects\2_OOP\Virtual_Method_and_Property\obj\Debug\netcoreapp3.0\8_Virtual_Method_and_Property.AssemblyInfo.cs
+Q:\Projects\Learn\Projects\2_OOP\Virtual_Method_and_Property\bin\Debug\netcoreapp3.0\Virtual_Method_and_Property.exe
+Q:\Projects\Learn\Projects\2_OOP\Virtual_Method_and_Property\bin\Debug\netcoreapp3.0\Virtual_Method_and_Property.deps.json
+Q:\Projects\Learn\Projects\2_OOP\Virtual_Method_and_Property\bin\Debug\netcoreapp3.0\Virtual_Method_and_Property.runtimeconfig.json
+Q:\Projects\Learn\Projects\2_OOP\Virtual_Method_and_Property\bin\Debug\netcoreapp3.0\Virtual_Method_and_Property.runtimeconfig.dev.json
+Q:\Projects\Learn\Projects\2_OOP\Virtual_Method_and_Property\bin\Debug\netcoreapp3.0\Virtual_Method_and_Property.dll
+Q:\Projects\Learn\Projects\2_OOP\Virtual_Method_and_Property\bin\Debug\netcoreapp3.0\Virtual_Method_and_Property.pdb
+Q:\Projects\Learn\Projects\2_OOP\Virtual_Method_and_Property\obj\Debug\netcoreapp3.0\Virtual_Method_and_Property.dll
+Q:\Projects\Learn\Projects\2_OOP\Virtual_Method_and_Property\obj\Debug\netcoreapp3.0\Virtual_Method_and_Property.pdb
