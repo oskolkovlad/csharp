@@ -1,0 +1,11 @@
+Q:\Projects\Learn\Projects\3_Opportunities_Of_Language\Exception\obj\Debug\netcoreapp3.0\4_Exception.csprojAssemblyReference.cache
+Q:\Projects\Learn\Projects\3_Opportunities_Of_Language\Exception\obj\Debug\netcoreapp3.0\4_Exception.AssemblyInfoInputs.cache
+Q:\Projects\Learn\Projects\3_Opportunities_Of_Language\Exception\obj\Debug\netcoreapp3.0\4_Exception.AssemblyInfo.cs
+Q:\Projects\Learn\Projects\3_Opportunities_Of_Language\Exception\bin\Debug\netcoreapp3.0\Exceptions.exe
+Q:\Projects\Learn\Projects\3_Opportunities_Of_Language\Exception\bin\Debug\netcoreapp3.0\Exceptions.deps.json
+Q:\Projects\Learn\Projects\3_Opportunities_Of_Language\Exception\bin\Debug\netcoreapp3.0\Exceptions.runtimeconfig.json
+Q:\Projects\Learn\Projects\3_Opportunities_Of_Language\Exception\bin\Debug\netcoreapp3.0\Exceptions.runtimeconfig.dev.json
+Q:\Projects\Learn\Projects\3_Opportunities_Of_Language\Exception\bin\Debug\netcoreapp3.0\Exceptions.dll
+Q:\Projects\Learn\Projects\3_Opportunities_Of_Language\Exception\bin\Debug\netcoreapp3.0\Exceptions.pdb
+Q:\Projects\Learn\Projects\3_Opportunities_Of_Language\Exception\obj\Debug\netcoreapp3.0\Exceptions.dll
+Q:\Projects\Learn\Projects\3_Opportunities_Of_Language\Exception\obj\Debug\netcoreapp3.0\Exceptions.pdb
