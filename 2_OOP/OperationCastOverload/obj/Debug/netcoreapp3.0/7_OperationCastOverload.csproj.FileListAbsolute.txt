@@ -1,0 +1,11 @@
+Q:\Projects\Learn\Projects\2_OOP\OperationCastOverload\bin\Debug\netcoreapp3.0\OperationCastOverload.exe
+Q:\Projects\Learn\Projects\2_OOP\OperationCastOverload\bin\Debug\netcoreapp3.0\OperationCastOverload.deps.json
+Q:\Projects\Learn\Projects\2_OOP\OperationCastOverload\bin\Debug\netcoreapp3.0\OperationCastOverload.runtimeconfig.json
+Q:\Projects\Learn\Projects\2_OOP\OperationCastOverload\bin\Debug\netcoreapp3.0\OperationCastOverload.runtimeconfig.dev.json
+Q:\Projects\Learn\Projects\2_OOP\OperationCastOverload\bin\Debug\netcoreapp3.0\OperationCastOverload.dll
+Q:\Projects\Learn\Projects\2_OOP\OperationCastOverload\bin\Debug\netcoreapp3.0\OperationCastOverload.pdb
+Q:\Projects\Learn\Projects\2_OOP\OperationCastOverload\obj\Debug\netcoreapp3.0\7_OperationCastOverload.csprojAssemblyReference.cache
+Q:\Projects\Learn\Projects\2_OOP\OperationCastOverload\obj\Debug\netcoreapp3.0\7_OperationCastOverload.AssemblyInfoInputs.cache
+Q:\Projects\Learn\Projects\2_OOP\OperationCastOverload\obj\Debug\netcoreapp3.0\7_OperationCastOverload.AssemblyInfo.cs
+Q:\Projects\Learn\Projects\2_OOP\OperationCastOverload\obj\Debug\netcoreapp3.0\OperationCastOverload.dll
+Q:\Projects\Learn\Projects\2_OOP\OperationCastOverload\obj\Debug\netcoreapp3.0\OperationCastOverload.pdb
