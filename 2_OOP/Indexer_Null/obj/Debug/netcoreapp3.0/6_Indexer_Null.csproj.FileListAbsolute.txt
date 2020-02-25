@@ -1,0 +1,11 @@
+Q:\Projects\Learn\Projects\2_OOP\Indexer_Null\bin\Debug\netcoreapp3.0\Indexer_Null.exe
+Q:\Projects\Learn\Projects\2_OOP\Indexer_Null\bin\Debug\netcoreapp3.0\Indexer_Null.deps.json
+Q:\Projects\Learn\Projects\2_OOP\Indexer_Null\bin\Debug\netcoreapp3.0\Indexer_Null.runtimeconfig.json
+Q:\Projects\Learn\Projects\2_OOP\Indexer_Null\bin\Debug\netcoreapp3.0\Indexer_Null.runtimeconfig.dev.json
+Q:\Projects\Learn\Projects\2_OOP\Indexer_Null\bin\Debug\netcoreapp3.0\Indexer_Null.dll
+Q:\Projects\Learn\Projects\2_OOP\Indexer_Null\bin\Debug\netcoreapp3.0\Indexer_Null.pdb
+Q:\Projects\Learn\Projects\2_OOP\Indexer_Null\obj\Debug\netcoreapp3.0\6_Indexer_Null.csprojAssemblyReference.cache
+Q:\Projects\Learn\Projects\2_OOP\Indexer_Null\obj\Debug\netcoreapp3.0\6_Indexer_Null.AssemblyInfoInputs.cache
+Q:\Projects\Learn\Projects\2_OOP\Indexer_Null\obj\Debug\netcoreapp3.0\6_Indexer_Null.AssemblyInfo.cs
+Q:\Projects\Learn\Projects\2_OOP\Indexer_Null\obj\Debug\netcoreapp3.0\Indexer_Null.dll
+Q:\Projects\Learn\Projects\2_OOP\Indexer_Null\obj\Debug\netcoreapp3.0\Indexer_Null.pdb

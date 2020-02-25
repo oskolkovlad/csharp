@@ -11,9 +11,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "3_Method", "Method\3_Method
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "4_CreateLibrary", "CreateLibrary\4_CreateLibrary.csproj", "{D7FF77C5-4B46-4875-9BE5-A73875FD9889}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyLib", "MyLib\MyLib.csproj", "{E6202F51-D6C2-4089-8C23-60BE45C76385}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyLib", "MyLib\MyLib.csproj", "{E6202F51-D6C2-4089-8C23-60BE45C76385}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "5_OperatorOverload_Const_ReadOnly", "OperatorOverload_Const_ReadOnly\5_OperatorOverload_Const_ReadOnly.csproj", "{38F0E782-04BB-472D-BCC9-83F8C7D2BB2B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "5_OperatorOverload_Const_ReadOnly", "OperatorOverload_Const_ReadOnly\5_OperatorOverload_Const_ReadOnly.csproj", "{38F0E782-04BB-472D-BCC9-83F8C7D2BB2B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "6_Indexer_Null", "Indexer_Null\6_Indexer_Null.csproj", "{80C7D03F-5E26-4085-A1EC-3A39632B20C1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,10 @@ Global
 		{38F0E782-04BB-472D-BCC9-83F8C7D2BB2B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{38F0E782-04BB-472D-BCC9-83F8C7D2BB2B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{38F0E782-04BB-472D-BCC9-83F8C7D2BB2B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{80C7D03F-5E26-4085-A1EC-3A39632B20C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{80C7D03F-5E26-4085-A1EC-3A39632B20C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{80C7D03F-5E26-4085-A1EC-3A39632B20C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{80C7D03F-5E26-4085-A1EC-3A39632B20C1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
