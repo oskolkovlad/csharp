@@ -1,0 +1,11 @@
+Q:\Projects\Learn\Projects\3_Opportunities_Of_Language\Generics\bin\Debug\netcoreapp3.0\Generics.exe
+Q:\Projects\Learn\Projects\3_Opportunities_Of_Language\Generics\bin\Debug\netcoreapp3.0\Generics.deps.json
+Q:\Projects\Learn\Projects\3_Opportunities_Of_Language\Generics\bin\Debug\netcoreapp3.0\Generics.runtimeconfig.json
+Q:\Projects\Learn\Projects\3_Opportunities_Of_Language\Generics\bin\Debug\netcoreapp3.0\Generics.runtimeconfig.dev.json
+Q:\Projects\Learn\Projects\3_Opportunities_Of_Language\Generics\bin\Debug\netcoreapp3.0\Generics.dll
+Q:\Projects\Learn\Projects\3_Opportunities_Of_Language\Generics\bin\Debug\netcoreapp3.0\Generics.pdb
+Q:\Projects\Learn\Projects\3_Opportunities_Of_Language\Generics\obj\Debug\netcoreapp3.0\2_Generics.csprojAssemblyReference.cache
+Q:\Projects\Learn\Projects\3_Opportunities_Of_Language\Generics\obj\Debug\netcoreapp3.0\2_Generics.AssemblyInfoInputs.cache
+Q:\Projects\Learn\Projects\3_Opportunities_Of_Language\Generics\obj\Debug\netcoreapp3.0\2_Generics.AssemblyInfo.cs
+Q:\Projects\Learn\Projects\3_Opportunities_Of_Language\Generics\obj\Debug\netcoreapp3.0\Generics.dll
+Q:\Projects\Learn\Projects\3_Opportunities_Of_Language\Generics\obj\Debug\netcoreapp3.0\Generics.pdb
