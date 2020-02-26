@@ -9,6 +9,16 @@ namespace Exceptions
     {
         static void Main(string[] args)
         {
+            try
+            {
+                Person person = new Person("Вася", 9);
+            }
+            catch(AgeOverExeption ex)
+            {
+                Console.WriteLine($"Ошибка: {ex.Message}\n{ex.Value} - недостаточный для регистрации возраст!\n");
+            }
+
+
             var a = 5;
             int b = 2000000000;
             int c = 2000000000;
