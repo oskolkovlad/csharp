@@ -1,9 +1,13 @@
-﻿using System;
-namespace Generics
+﻿namespace Generics
 {
-    public class Banan<T> : Product<T>
+
+    //*** Наследование обобщенных типов ***//
+
+    // 2. Второй вариант представляет создание обычного необобщенного класса-наследника.
+    // В этом случае при наследовании у базового класса надо явным образом определить используемый тип.
+    public class Banan : Product<int>
     {
-        public Banan(string name, T volume)
+        public Banan(string name, int volume)
             : base(name, volume) { }
     }
 }

@@ -21,7 +21,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "7_OperationCastOverload", "
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "8_Virtual_Method_and_Property", "Virtual_Method_and_Property\8_Virtual_Method_and_Property.csproj", "{98359944-93F2-4FE5-A400-6C6CD383D1E7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Abstract_Shadowing", "Abstract_Shadowing\Abstract_Shadowing.csproj", "{57714D01-886D-4E39-BC4E-9936CC940396}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "9_Abstract_Shadowing", "Abstract_Shadowing\9_Abstract_Shadowing.csproj", "{57714D01-886D-4E39-BC4E-9936CC940396}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
