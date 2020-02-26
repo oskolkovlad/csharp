@@ -141,8 +141,26 @@ namespace Delegate_Event
             //******************************************************************************************************//
 
 
+            Console.WriteLine(new string('-', 60));
+
+
+            Acount account = new Acount(200.0);
+            //Acount.MessageHandler msg = ShowMesage;
+
+            account.RegistratorHandler(new Acount.MessageHandler(ShowMesage));
+            account.Withdraw(150.0);
+            account.Withdraw(100.0);
+            account.Withdraw(50.0);
+            account.Put(10000000.0);
+
+
+            //******************************************************************************************************//
+
+
             Console.ReadKey();
         }
+
+        public static void ShowMesage(string message) => Console.WriteLine(message);
 
         private static void Person_DoWork(object sender, EventArgs e)
         {
