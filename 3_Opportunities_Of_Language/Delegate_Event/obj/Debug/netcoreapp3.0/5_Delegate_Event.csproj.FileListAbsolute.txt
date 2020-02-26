@@ -1,0 +1,11 @@
+Q:\Projects\Learn\Projects\3_Opportunities_Of_Language\Delegate_Event\bin\Debug\netcoreapp3.0\Delegate_Event.exe
+Q:\Projects\Learn\Projects\3_Opportunities_Of_Language\Delegate_Event\bin\Debug\netcoreapp3.0\Delegate_Event.deps.json
+Q:\Projects\Learn\Projects\3_Opportunities_Of_Language\Delegate_Event\bin\Debug\netcoreapp3.0\Delegate_Event.runtimeconfig.json
+Q:\Projects\Learn\Projects\3_Opportunities_Of_Language\Delegate_Event\bin\Debug\netcoreapp3.0\Delegate_Event.runtimeconfig.dev.json
+Q:\Projects\Learn\Projects\3_Opportunities_Of_Language\Delegate_Event\bin\Debug\netcoreapp3.0\Delegate_Event.dll
+Q:\Projects\Learn\Projects\3_Opportunities_Of_Language\Delegate_Event\bin\Debug\netcoreapp3.0\Delegate_Event.pdb
+Q:\Projects\Learn\Projects\3_Opportunities_Of_Language\Delegate_Event\obj\Debug\netcoreapp3.0\5_Delegate_Event.csprojAssemblyReference.cache
+Q:\Projects\Learn\Projects\3_Opportunities_Of_Language\Delegate_Event\obj\Debug\netcoreapp3.0\5_Delegate_Event.AssemblyInfoInputs.cache
+Q:\Projects\Learn\Projects\3_Opportunities_Of_Language\Delegate_Event\obj\Debug\netcoreapp3.0\5_Delegate_Event.AssemblyInfo.cs
+Q:\Projects\Learn\Projects\3_Opportunities_Of_Language\Delegate_Event\obj\Debug\netcoreapp3.0\Delegate_Event.dll
+Q:\Projects\Learn\Projects\3_Opportunities_Of_Language\Delegate_Event\obj\Debug\netcoreapp3.0\Delegate_Event.pdb

@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.0": {
+      "Delegate_Event/1.0.0": {
+        "runtime": {
+          "Delegate_Event.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Delegate_Event/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
