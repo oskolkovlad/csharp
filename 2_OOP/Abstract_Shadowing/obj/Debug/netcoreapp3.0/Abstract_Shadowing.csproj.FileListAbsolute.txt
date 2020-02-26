@@ -1,0 +1,11 @@
+Q:\Projects\Learn\Projects\2_OOP\Abstract_Shadowing\bin\Debug\netcoreapp3.0\Abstract_Shadowing.exe
+Q:\Projects\Learn\Projects\2_OOP\Abstract_Shadowing\bin\Debug\netcoreapp3.0\Abstract_Shadowing.deps.json
+Q:\Projects\Learn\Projects\2_OOP\Abstract_Shadowing\bin\Debug\netcoreapp3.0\Abstract_Shadowing.runtimeconfig.json
+Q:\Projects\Learn\Projects\2_OOP\Abstract_Shadowing\bin\Debug\netcoreapp3.0\Abstract_Shadowing.runtimeconfig.dev.json
+Q:\Projects\Learn\Projects\2_OOP\Abstract_Shadowing\bin\Debug\netcoreapp3.0\Abstract_Shadowing.dll
+Q:\Projects\Learn\Projects\2_OOP\Abstract_Shadowing\bin\Debug\netcoreapp3.0\Abstract_Shadowing.pdb
+Q:\Projects\Learn\Projects\2_OOP\Abstract_Shadowing\obj\Debug\netcoreapp3.0\Abstract_Shadowing.csprojAssemblyReference.cache
+Q:\Projects\Learn\Projects\2_OOP\Abstract_Shadowing\obj\Debug\netcoreapp3.0\Abstract_Shadowing.AssemblyInfoInputs.cache
+Q:\Projects\Learn\Projects\2_OOP\Abstract_Shadowing\obj\Debug\netcoreapp3.0\Abstract_Shadowing.AssemblyInfo.cs
+Q:\Projects\Learn\Projects\2_OOP\Abstract_Shadowing\obj\Debug\netcoreapp3.0\Abstract_Shadowing.dll
+Q:\Projects\Learn\Projects\2_OOP\Abstract_Shadowing\obj\Debug\netcoreapp3.0\Abstract_Shadowing.pdb
