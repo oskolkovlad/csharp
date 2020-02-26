@@ -1,0 +1,11 @@
+Q:\Projects\Learn\Projects\3_Opportunities_Of_Language\Async_Await_Thread\bin\Debug\netcoreapp3.0\Async_Await_Thread.exe
+Q:\Projects\Learn\Projects\3_Opportunities_Of_Language\Async_Await_Thread\bin\Debug\netcoreapp3.0\Async_Await_Thread.deps.json
+Q:\Projects\Learn\Projects\3_Opportunities_Of_Language\Async_Await_Thread\bin\Debug\netcoreapp3.0\Async_Await_Thread.runtimeconfig.json
+Q:\Projects\Learn\Projects\3_Opportunities_Of_Language\Async_Await_Thread\bin\Debug\netcoreapp3.0\Async_Await_Thread.runtimeconfig.dev.json
+Q:\Projects\Learn\Projects\3_Opportunities_Of_Language\Async_Await_Thread\bin\Debug\netcoreapp3.0\Async_Await_Thread.dll
+Q:\Projects\Learn\Projects\3_Opportunities_Of_Language\Async_Await_Thread\bin\Debug\netcoreapp3.0\Async_Await_Thread.pdb
+Q:\Projects\Learn\Projects\3_Opportunities_Of_Language\Async_Await_Thread\obj\Debug\netcoreapp3.0\7_Async_Await_Thread.csprojAssemblyReference.cache
+Q:\Projects\Learn\Projects\3_Opportunities_Of_Language\Async_Await_Thread\obj\Debug\netcoreapp3.0\7_Async_Await_Thread.AssemblyInfoInputs.cache
+Q:\Projects\Learn\Projects\3_Opportunities_Of_Language\Async_Await_Thread\obj\Debug\netcoreapp3.0\7_Async_Await_Thread.AssemblyInfo.cs
+Q:\Projects\Learn\Projects\3_Opportunities_Of_Language\Async_Await_Thread\obj\Debug\netcoreapp3.0\Async_Await_Thread.dll
+Q:\Projects\Learn\Projects\3_Opportunities_Of_Language\Async_Await_Thread\obj\Debug\netcoreapp3.0\Async_Await_Thread.pdb
