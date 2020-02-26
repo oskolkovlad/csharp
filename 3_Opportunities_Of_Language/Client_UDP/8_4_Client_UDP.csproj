@@ -1,0 +1,10 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+    <AssemblyName>Client_UDP</AssemblyName>
+    <RootNamespace>Client_UDP</RootNamespace>
+  </PropertyGroup>
+
+</Project>

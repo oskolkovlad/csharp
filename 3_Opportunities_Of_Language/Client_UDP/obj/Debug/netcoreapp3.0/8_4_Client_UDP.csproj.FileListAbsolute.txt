@@ -1,0 +1,10 @@
+Q:\Projects\Learn\Projects\3_Opportunities_Of_Language\Client_UDP\bin\Debug\netcoreapp3.0\Client_UDP.exe
+Q:\Projects\Learn\Projects\3_Opportunities_Of_Language\Client_UDP\bin\Debug\netcoreapp3.0\Client_UDP.deps.json
+Q:\Projects\Learn\Projects\3_Opportunities_Of_Language\Client_UDP\bin\Debug\netcoreapp3.0\Client_UDP.runtimeconfig.json
+Q:\Projects\Learn\Projects\3_Opportunities_Of_Language\Client_UDP\bin\Debug\netcoreapp3.0\Client_UDP.runtimeconfig.dev.json
+Q:\Projects\Learn\Projects\3_Opportunities_Of_Language\Client_UDP\bin\Debug\netcoreapp3.0\Client_UDP.dll
+Q:\Projects\Learn\Projects\3_Opportunities_Of_Language\Client_UDP\bin\Debug\netcoreapp3.0\Client_UDP.pdb
+Q:\Projects\Learn\Projects\3_Opportunities_Of_Language\Client_UDP\obj\Debug\netcoreapp3.0\8_4_Client_UDP.AssemblyInfoInputs.cache
+Q:\Projects\Learn\Projects\3_Opportunities_Of_Language\Client_UDP\obj\Debug\netcoreapp3.0\8_4_Client_UDP.AssemblyInfo.cs
+Q:\Projects\Learn\Projects\3_Opportunities_Of_Language\Client_UDP\obj\Debug\netcoreapp3.0\Client_UDP.dll
+Q:\Projects\Learn\Projects\3_Opportunities_Of_Language\Client_UDP\obj\Debug\netcoreapp3.0\Client_UDP.pdb

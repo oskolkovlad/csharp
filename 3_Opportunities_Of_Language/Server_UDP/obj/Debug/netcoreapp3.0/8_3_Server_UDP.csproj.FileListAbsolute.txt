@@ -1,0 +1,10 @@
+Q:\Projects\Learn\Projects\3_Opportunities_Of_Language\Server_UDP\bin\Debug\netcoreapp3.0\Server_UDP.exe
+Q:\Projects\Learn\Projects\3_Opportunities_Of_Language\Server_UDP\bin\Debug\netcoreapp3.0\Server_UDP.deps.json
+Q:\Projects\Learn\Projects\3_Opportunities_Of_Language\Server_UDP\bin\Debug\netcoreapp3.0\Server_UDP.runtimeconfig.json
+Q:\Projects\Learn\Projects\3_Opportunities_Of_Language\Server_UDP\bin\Debug\netcoreapp3.0\Server_UDP.runtimeconfig.dev.json
+Q:\Projects\Learn\Projects\3_Opportunities_Of_Language\Server_UDP\bin\Debug\netcoreapp3.0\Server_UDP.dll
+Q:\Projects\Learn\Projects\3_Opportunities_Of_Language\Server_UDP\bin\Debug\netcoreapp3.0\Server_UDP.pdb
+Q:\Projects\Learn\Projects\3_Opportunities_Of_Language\Server_UDP\obj\Debug\netcoreapp3.0\8_3_Server_UDP.AssemblyInfoInputs.cache
+Q:\Projects\Learn\Projects\3_Opportunities_Of_Language\Server_UDP\obj\Debug\netcoreapp3.0\8_3_Server_UDP.AssemblyInfo.cs
+Q:\Projects\Learn\Projects\3_Opportunities_Of_Language\Server_UDP\obj\Debug\netcoreapp3.0\Server_UDP.dll
+Q:\Projects\Learn\Projects\3_Opportunities_Of_Language\Server_UDP\obj\Debug\netcoreapp3.0\Server_UDP.pdb
