@@ -1,0 +1,11 @@
+Q:\Projects\Learn\Projects\3_Opportunities_Of_Language\Stream_Files\bin\Debug\netcoreapp3.0\Stream_Files.exe
+Q:\Projects\Learn\Projects\3_Opportunities_Of_Language\Stream_Files\bin\Debug\netcoreapp3.0\Stream_Files.deps.json
+Q:\Projects\Learn\Projects\3_Opportunities_Of_Language\Stream_Files\bin\Debug\netcoreapp3.0\Stream_Files.runtimeconfig.json
+Q:\Projects\Learn\Projects\3_Opportunities_Of_Language\Stream_Files\bin\Debug\netcoreapp3.0\Stream_Files.runtimeconfig.dev.json
+Q:\Projects\Learn\Projects\3_Opportunities_Of_Language\Stream_Files\bin\Debug\netcoreapp3.0\Stream_Files.dll
+Q:\Projects\Learn\Projects\3_Opportunities_Of_Language\Stream_Files\bin\Debug\netcoreapp3.0\Stream_Files.pdb
+Q:\Projects\Learn\Projects\3_Opportunities_Of_Language\Stream_Files\obj\Debug\netcoreapp3.0\6_Stream_Files.csprojAssemblyReference.cache
+Q:\Projects\Learn\Projects\3_Opportunities_Of_Language\Stream_Files\obj\Debug\netcoreapp3.0\6_Stream_Files.AssemblyInfoInputs.cache
+Q:\Projects\Learn\Projects\3_Opportunities_Of_Language\Stream_Files\obj\Debug\netcoreapp3.0\6_Stream_Files.AssemblyInfo.cs
+Q:\Projects\Learn\Projects\3_Opportunities_Of_Language\Stream_Files\obj\Debug\netcoreapp3.0\Stream_Files.dll
+Q:\Projects\Learn\Projects\3_Opportunities_Of_Language\Stream_Files\obj\Debug\netcoreapp3.0\Stream_Files.pdb
