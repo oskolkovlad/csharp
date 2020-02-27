@@ -107,6 +107,8 @@ namespace Delegate_Event
             //******************************************************************************************************//
 
 
+            // События сигнализируют системе о том, что произошло определенное действие.
+            // И если нам надо отследить эти действия, то как раз мы можем применять события.
             Person person = new Person()
             {
                 Name = "Петр"
@@ -150,21 +152,40 @@ namespace Delegate_Event
 
             //*** ПРАКТИЧЕСКОЕ ПРИМЕНЕНИЕ DELEGATE ***//
 
-            Acount account = new Acount(200.0);
-            account.RegistratorHandler(new Acount.MessageHandler(ShowMesage));
-            account.Withdraw(150.0);
-            account.Withdraw(100.0);
-            account.Withdraw(50.0);
-            account.Put(10000000.0);
+            AcountDelegate accountDel = new AcountDelegate(200.0);
+            accountDel.RegistratorHandler(new AcountDelegate.MessageHandler(ShowMesage));
+            accountDel.Withdraw(150.0);
+            accountDel.Withdraw(100.0);
+            accountDel.Withdraw(50.0);
+            accountDel.Put(10000000.0);
+
+
+            Console.WriteLine(new string('-', 50));
+
+
+            //*** ПРАКТИЧЕСКОЕ ПРИМЕНЕНИЕ EVENT ***//
+
+            AcountEvent acountEvent = new AcountEvent(300);
+            //acountEvent.AcountEventHandler += (message) => Console.WriteLine(message);
+            acountEvent._acountEventHandler += ShowMesage;
+
+            acountEvent.Take(200);
+            acountEvent.Take(200);
+            acountEvent.Take(50);
+            acountEvent.Put(5000);
+
+            acountEvent.AcountEventHandler += ShowMesage;
+            acountEvent.AcountEventHandler -= ShowMesage;
 
 
             //******************************************************************************************************//
 
+            #region Анонимные методы и лямбды
 
             Console.WriteLine(new string('-', 60));
 
 
-            //*** Анонимные методы и лямбды ***//
+            //*** Анонимные методы ***//
 
 
             // Если анонимный метод использует параметры, то они должны соответствовать параметрам делегата.
@@ -230,6 +251,8 @@ namespace Delegate_Event
 
             Console.WriteLine(new string('-', 60));
 
+            #endregion
+
 
             //******************************************************************************************************//
 
@@ -240,6 +263,11 @@ namespace Delegate_Event
         public static int LambdaFunc(int a, Func<int, int> lambda) => lambda(a);
 
         public static void ShowMesage(string message) => Console.WriteLine(message);
+        public static void ShowMesage(object sender, AcountEventArgs e)
+        {
+            Console.WriteLine($"Сумма транзакции: {e.Sum}");
+            Console.WriteLine(e.Message);
+        }
 
         private static void Person_DoWork(object sender, EventArgs e)
         {
