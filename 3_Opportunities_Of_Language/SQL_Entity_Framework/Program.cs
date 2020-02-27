@@ -43,9 +43,9 @@ namespace SQL_Entity_Framework
                 // Обновление БД: update-database
 
                 // Обновление данных - UPDATE
-                //var s = context.Groups.Single(x => x.Id == group.Id);
-                //s.Name = "jjklasf";
-                //context.SaveChanges();
+                var s = context.Groups.Single(x => x.Id == group.Id);
+                s.Name = "jjklasf";
+                context.SaveChanges();
 
 
                 Console.WriteLine($"id: {group.Id}; Name: {group.Name}; Year: {group.Year}");

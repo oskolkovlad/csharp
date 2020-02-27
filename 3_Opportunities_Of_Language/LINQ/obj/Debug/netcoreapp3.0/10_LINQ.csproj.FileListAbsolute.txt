@@ -1,0 +1,11 @@
+Q:\Projects\Learn\Projects\3_Opportunities_Of_Language\LINQ\bin\Debug\netcoreapp3.0\LINQ.exe
+Q:\Projects\Learn\Projects\3_Opportunities_Of_Language\LINQ\bin\Debug\netcoreapp3.0\LINQ.deps.json
+Q:\Projects\Learn\Projects\3_Opportunities_Of_Language\LINQ\bin\Debug\netcoreapp3.0\LINQ.runtimeconfig.json
+Q:\Projects\Learn\Projects\3_Opportunities_Of_Language\LINQ\bin\Debug\netcoreapp3.0\LINQ.runtimeconfig.dev.json
+Q:\Projects\Learn\Projects\3_Opportunities_Of_Language\LINQ\bin\Debug\netcoreapp3.0\LINQ.dll
+Q:\Projects\Learn\Projects\3_Opportunities_Of_Language\LINQ\bin\Debug\netcoreapp3.0\LINQ.pdb
+Q:\Projects\Learn\Projects\3_Opportunities_Of_Language\LINQ\obj\Debug\netcoreapp3.0\10_LINQ.csprojAssemblyReference.cache
+Q:\Projects\Learn\Projects\3_Opportunities_Of_Language\LINQ\obj\Debug\netcoreapp3.0\10_LINQ.AssemblyInfoInputs.cache
+Q:\Projects\Learn\Projects\3_Opportunities_Of_Language\LINQ\obj\Debug\netcoreapp3.0\10_LINQ.AssemblyInfo.cs
+Q:\Projects\Learn\Projects\3_Opportunities_Of_Language\LINQ\obj\Debug\netcoreapp3.0\LINQ.dll
+Q:\Projects\Learn\Projects\3_Opportunities_Of_Language\LINQ\obj\Debug\netcoreapp3.0\LINQ.pdb

@@ -27,6 +27,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "8_4_Client_UDP", "Client_UD
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "9_SQL_Entity_Framework", "SQL_Entity_Framework\9_SQL_Entity_Framework.csproj", "{210EBC71-6295-46AF-85D7-48CC8F3CC5EC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "10_LINQ", "LINQ\10_LINQ.csproj", "{C6B114ED-3765-4A56-938E-172BEFED23DC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -81,6 +83,10 @@ Global
 		{210EBC71-6295-46AF-85D7-48CC8F3CC5EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{210EBC71-6295-46AF-85D7-48CC8F3CC5EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{210EBC71-6295-46AF-85D7-48CC8F3CC5EC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C6B114ED-3765-4A56-938E-172BEFED23DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C6B114ED-3765-4A56-938E-172BEFED23DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C6B114ED-3765-4A56-938E-172BEFED23DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C6B114ED-3765-4A56-938E-172BEFED23DC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
