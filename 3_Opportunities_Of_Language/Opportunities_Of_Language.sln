@@ -21,9 +21,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "8_1_Server_TCP", "Server_TC
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "8_2_Client_TCP", "Client_TCP\8_2_Client_TCP.csproj", "{73F6F811-57BF-454E-9C21-F68ADB22E4F1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "8_3_Server_UDP", "Server_UDP\8_3_Server_UDP.csproj", "{1DF2C109-6380-4C30-B350-C432B2B22CFD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "8_3_Server_UDP", "Server_UDP\8_3_Server_UDP.csproj", "{1DF2C109-6380-4C30-B350-C432B2B22CFD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "8_4_Client_UDP", "Client_UDP\8_4_Client_UDP.csproj", "{AB6B0961-A0F0-4868-A1B4-98E5E3DD3BC8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "8_4_Client_UDP", "Client_UDP\8_4_Client_UDP.csproj", "{AB6B0961-A0F0-4868-A1B4-98E5E3DD3BC8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "9_SQL_Entity_Framework", "SQL_Entity_Framework\9_SQL_Entity_Framework.csproj", "{210EBC71-6295-46AF-85D7-48CC8F3CC5EC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -75,6 +77,10 @@ Global
 		{AB6B0961-A0F0-4868-A1B4-98E5E3DD3BC8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AB6B0961-A0F0-4868-A1B4-98E5E3DD3BC8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AB6B0961-A0F0-4868-A1B4-98E5E3DD3BC8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{210EBC71-6295-46AF-85D7-48CC8F3CC5EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{210EBC71-6295-46AF-85D7-48CC8F3CC5EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{210EBC71-6295-46AF-85D7-48CC8F3CC5EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{210EBC71-6295-46AF-85D7-48CC8F3CC5EC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

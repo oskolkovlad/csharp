@@ -1,0 +1,15 @@
+Q:\Projects\Learn\Projects\3_Opportunities_Of_Language\SQL_Entity_Framework\bin\Debug\SQL_Entity_Framework.exe.config
+Q:\Projects\Learn\Projects\3_Opportunities_Of_Language\SQL_Entity_Framework\bin\Debug\SQL_Entity_Framework.exe
+Q:\Projects\Learn\Projects\3_Opportunities_Of_Language\SQL_Entity_Framework\bin\Debug\SQL_Entity_Framework.pdb
+Q:\Projects\Learn\Projects\3_Opportunities_Of_Language\SQL_Entity_Framework\bin\Debug\EntityFramework.dll
+Q:\Projects\Learn\Projects\3_Opportunities_Of_Language\SQL_Entity_Framework\bin\Debug\EntityFramework.SqlServer.dll
+Q:\Projects\Learn\Projects\3_Opportunities_Of_Language\SQL_Entity_Framework\bin\Debug\EntityFramework.xml
+Q:\Projects\Learn\Projects\3_Opportunities_Of_Language\SQL_Entity_Framework\bin\Debug\EntityFramework.SqlServer.xml
+Q:\Projects\Learn\Projects\3_Opportunities_Of_Language\SQL_Entity_Framework\obj\Debug\9_SQL_Entity_Framework.csprojAssemblyReference.cache
+Q:\Projects\Learn\Projects\3_Opportunities_Of_Language\SQL_Entity_Framework\obj\Debug\9_SQL_Entity_Framework.csproj.CopyComplete
+Q:\Projects\Learn\Projects\3_Opportunities_Of_Language\SQL_Entity_Framework\obj\Debug\SQL_Entity_Framework.exe
+Q:\Projects\Learn\Projects\3_Opportunities_Of_Language\SQL_Entity_Framework\obj\Debug\SQL_Entity_Framework.pdb
+Q:\Projects\Learn\Projects\3_Opportunities_Of_Language\SQL_Entity_Framework\obj\Debug\SQL_Entity_Framework.Migrations.InitialCreate.resources
+Q:\Projects\Learn\Projects\3_Opportunities_Of_Language\SQL_Entity_Framework\obj\Debug\9_SQL_Entity_Framework.csproj.GenerateResource.cache
+Q:\Projects\Learn\Projects\3_Opportunities_Of_Language\SQL_Entity_Framework\obj\Debug\SQL_Entity_Framework.Migrations.AddGroupType.resources
+Q:\Projects\Learn\Projects\3_Opportunities_Of_Language\SQL_Entity_Framework\obj\Debug\SQL_Entity_Framework.Migrations.AddGroupType1.resources
