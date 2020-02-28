@@ -1,0 +1,11 @@
+Q:\Projects\Learn\Projects\4_Advanced\Extension_Method\bin\Debug\netcoreapp3.0\Extension_Method.exe
+Q:\Projects\Learn\Projects\4_Advanced\Extension_Method\bin\Debug\netcoreapp3.0\Extension_Method.deps.json
+Q:\Projects\Learn\Projects\4_Advanced\Extension_Method\bin\Debug\netcoreapp3.0\Extension_Method.runtimeconfig.json
+Q:\Projects\Learn\Projects\4_Advanced\Extension_Method\bin\Debug\netcoreapp3.0\Extension_Method.runtimeconfig.dev.json
+Q:\Projects\Learn\Projects\4_Advanced\Extension_Method\bin\Debug\netcoreapp3.0\Extension_Method.dll
+Q:\Projects\Learn\Projects\4_Advanced\Extension_Method\bin\Debug\netcoreapp3.0\Extension_Method.pdb
+Q:\Projects\Learn\Projects\4_Advanced\Extension_Method\obj\Debug\netcoreapp3.0\1_Extension_Method.csprojAssemblyReference.cache
+Q:\Projects\Learn\Projects\4_Advanced\Extension_Method\obj\Debug\netcoreapp3.0\1_Extension_Method.AssemblyInfoInputs.cache
+Q:\Projects\Learn\Projects\4_Advanced\Extension_Method\obj\Debug\netcoreapp3.0\1_Extension_Method.AssemblyInfo.cs
+Q:\Projects\Learn\Projects\4_Advanced\Extension_Method\obj\Debug\netcoreapp3.0\Extension_Method.dll
+Q:\Projects\Learn\Projects\4_Advanced\Extension_Method\obj\Debug\netcoreapp3.0\Extension_Method.pdb
