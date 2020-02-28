@@ -1,0 +1,11 @@
+Q:\Projects\Learn\Projects\4_Advanced\Indexer_Yield_IEnumerable\bin\Debug\netcoreapp3.0\Indexer_Yield_IEnumerable.exe
+Q:\Projects\Learn\Projects\4_Advanced\Indexer_Yield_IEnumerable\bin\Debug\netcoreapp3.0\Indexer_Yield_IEnumerable.deps.json
+Q:\Projects\Learn\Projects\4_Advanced\Indexer_Yield_IEnumerable\bin\Debug\netcoreapp3.0\Indexer_Yield_IEnumerable.runtimeconfig.json
+Q:\Projects\Learn\Projects\4_Advanced\Indexer_Yield_IEnumerable\bin\Debug\netcoreapp3.0\Indexer_Yield_IEnumerable.runtimeconfig.dev.json
+Q:\Projects\Learn\Projects\4_Advanced\Indexer_Yield_IEnumerable\bin\Debug\netcoreapp3.0\Indexer_Yield_IEnumerable.dll
+Q:\Projects\Learn\Projects\4_Advanced\Indexer_Yield_IEnumerable\bin\Debug\netcoreapp3.0\Indexer_Yield_IEnumerable.pdb
+Q:\Projects\Learn\Projects\4_Advanced\Indexer_Yield_IEnumerable\obj\Debug\netcoreapp3.0\2_Indexer_Yield_IEnumerable.csprojAssemblyReference.cache
+Q:\Projects\Learn\Projects\4_Advanced\Indexer_Yield_IEnumerable\obj\Debug\netcoreapp3.0\2_Indexer_Yield_IEnumerable.AssemblyInfoInputs.cache
+Q:\Projects\Learn\Projects\4_Advanced\Indexer_Yield_IEnumerable\obj\Debug\netcoreapp3.0\2_Indexer_Yield_IEnumerable.AssemblyInfo.cs
+Q:\Projects\Learn\Projects\4_Advanced\Indexer_Yield_IEnumerable\obj\Debug\netcoreapp3.0\Indexer_Yield_IEnumerable.dll
+Q:\Projects\Learn\Projects\4_Advanced\Indexer_Yield_IEnumerable\obj\Debug\netcoreapp3.0\Indexer_Yield_IEnumerable.pdb

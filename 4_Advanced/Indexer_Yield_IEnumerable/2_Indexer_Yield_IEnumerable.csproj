@@ -1,0 +1,10 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+    <AssemblyName>Indexer_Yield_IEnumerable</AssemblyName>
+    <RootNamespace>Indexer_Yield_IEnumerable</RootNamespace>
+  </PropertyGroup>
+
+</Project>

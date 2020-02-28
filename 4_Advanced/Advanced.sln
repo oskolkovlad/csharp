@@ -5,6 +5,8 @@ VisualStudioVersion = 16.0.29324.140
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "1_Extension_Method", "Extension_Method\1_Extension_Method.csproj", "{CDF5AB34-1CF1-42D2-A0A2-6B97FB43E554}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2_Indexer_Yield_IEnumerable", "Indexer_Yield_IEnumerable\2_Indexer_Yield_IEnumerable.csproj", "{E313E408-DD77-4F9C-A1AD-0392A813ADAA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{CDF5AB34-1CF1-42D2-A0A2-6B97FB43E554}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CDF5AB34-1CF1-42D2-A0A2-6B97FB43E554}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CDF5AB34-1CF1-42D2-A0A2-6B97FB43E554}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E313E408-DD77-4F9C-A1AD-0392A813ADAA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E313E408-DD77-4F9C-A1AD-0392A813ADAA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E313E408-DD77-4F9C-A1AD-0392A813ADAA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E313E408-DD77-4F9C-A1AD-0392A813ADAA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
