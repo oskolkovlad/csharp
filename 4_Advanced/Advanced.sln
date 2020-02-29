@@ -9,7 +9,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "2_Indexer_Yield_IEnumerable
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "3_Anonymous_type_and_Tuples", "Anonymous_type_and_Tuples\3_Anonymous_type_and_Tuples.csproj", "{A836D70B-0C1D-4F55-AE83-9A3238F0054E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4_AnonymMethod_Lambda", "AnonymMethod_Lambda\4_AnonymMethod_Lambda.csproj", "{944F9723-F3D4-4413-BFCE-9D70238425A1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "4_AnonymMethod_Lambda", "AnonymMethod_Lambda\4_AnonymMethod_Lambda.csproj", "{944F9723-F3D4-4413-BFCE-9D70238425A1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "5_Attribute_Reflection", "Attribute_Reflection\5_Attribute_Reflection.csproj", "{685B95EA-B323-461A-9DE9-D34589F3817F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{944F9723-F3D4-4413-BFCE-9D70238425A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{944F9723-F3D4-4413-BFCE-9D70238425A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{944F9723-F3D4-4413-BFCE-9D70238425A1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{685B95EA-B323-461A-9DE9-D34589F3817F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{685B95EA-B323-461A-9DE9-D34589F3817F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{685B95EA-B323-461A-9DE9-D34589F3817F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{685B95EA-B323-461A-9DE9-D34589F3817F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

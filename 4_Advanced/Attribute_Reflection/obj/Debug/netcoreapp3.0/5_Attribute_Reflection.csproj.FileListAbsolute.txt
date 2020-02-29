@@ -1,0 +1,11 @@
+Q:\Projects\Learn\Projects\4_Advanced\Attribute_Reflection\bin\Debug\netcoreapp3.0\Attribute_Reflection.exe
+Q:\Projects\Learn\Projects\4_Advanced\Attribute_Reflection\bin\Debug\netcoreapp3.0\Attribute_Reflection.deps.json
+Q:\Projects\Learn\Projects\4_Advanced\Attribute_Reflection\bin\Debug\netcoreapp3.0\Attribute_Reflection.runtimeconfig.json
+Q:\Projects\Learn\Projects\4_Advanced\Attribute_Reflection\bin\Debug\netcoreapp3.0\Attribute_Reflection.runtimeconfig.dev.json
+Q:\Projects\Learn\Projects\4_Advanced\Attribute_Reflection\bin\Debug\netcoreapp3.0\Attribute_Reflection.dll
+Q:\Projects\Learn\Projects\4_Advanced\Attribute_Reflection\bin\Debug\netcoreapp3.0\Attribute_Reflection.pdb
+Q:\Projects\Learn\Projects\4_Advanced\Attribute_Reflection\obj\Debug\netcoreapp3.0\5_Attribute_Reflection.csprojAssemblyReference.cache
+Q:\Projects\Learn\Projects\4_Advanced\Attribute_Reflection\obj\Debug\netcoreapp3.0\5_Attribute_Reflection.AssemblyInfoInputs.cache
+Q:\Projects\Learn\Projects\4_Advanced\Attribute_Reflection\obj\Debug\netcoreapp3.0\5_Attribute_Reflection.AssemblyInfo.cs
+Q:\Projects\Learn\Projects\4_Advanced\Attribute_Reflection\obj\Debug\netcoreapp3.0\Attribute_Reflection.dll
+Q:\Projects\Learn\Projects\4_Advanced\Attribute_Reflection\obj\Debug\netcoreapp3.0\Attribute_Reflection.pdb
