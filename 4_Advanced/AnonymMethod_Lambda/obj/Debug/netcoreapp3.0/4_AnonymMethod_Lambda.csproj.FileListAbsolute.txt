@@ -1,0 +1,11 @@
+Q:\Projects\Learn\Projects\4_Advanced\AnonymMethod_Lambda\bin\Debug\netcoreapp3.0\AnonymMethod_Lambda.exe
+Q:\Projects\Learn\Projects\4_Advanced\AnonymMethod_Lambda\bin\Debug\netcoreapp3.0\AnonymMethod_Lambda.deps.json
+Q:\Projects\Learn\Projects\4_Advanced\AnonymMethod_Lambda\bin\Debug\netcoreapp3.0\AnonymMethod_Lambda.runtimeconfig.json
+Q:\Projects\Learn\Projects\4_Advanced\AnonymMethod_Lambda\bin\Debug\netcoreapp3.0\AnonymMethod_Lambda.runtimeconfig.dev.json
+Q:\Projects\Learn\Projects\4_Advanced\AnonymMethod_Lambda\bin\Debug\netcoreapp3.0\AnonymMethod_Lambda.dll
+Q:\Projects\Learn\Projects\4_Advanced\AnonymMethod_Lambda\bin\Debug\netcoreapp3.0\AnonymMethod_Lambda.pdb
+Q:\Projects\Learn\Projects\4_Advanced\AnonymMethod_Lambda\obj\Debug\netcoreapp3.0\4_AnonymMethod_Lambda.csprojAssemblyReference.cache
+Q:\Projects\Learn\Projects\4_Advanced\AnonymMethod_Lambda\obj\Debug\netcoreapp3.0\4_AnonymMethod_Lambda.AssemblyInfoInputs.cache
+Q:\Projects\Learn\Projects\4_Advanced\AnonymMethod_Lambda\obj\Debug\netcoreapp3.0\4_AnonymMethod_Lambda.AssemblyInfo.cs
+Q:\Projects\Learn\Projects\4_Advanced\AnonymMethod_Lambda\obj\Debug\netcoreapp3.0\AnonymMethod_Lambda.dll
+Q:\Projects\Learn\Projects\4_Advanced\AnonymMethod_Lambda\obj\Debug\netcoreapp3.0\AnonymMethod_Lambda.pdb
