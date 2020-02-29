@@ -11,7 +11,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "3_Anonymous_type_and_Tuples
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "4_AnonymMethod_Lambda", "AnonymMethod_Lambda\4_AnonymMethod_Lambda.csproj", "{944F9723-F3D4-4413-BFCE-9D70238425A1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "5_Attribute_Reflection", "Attribute_Reflection\5_Attribute_Reflection.csproj", "{685B95EA-B323-461A-9DE9-D34589F3817F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "5_Attribute_Reflection", "Attribute_Reflection\5_Attribute_Reflection.csproj", "{685B95EA-B323-461A-9DE9-D34589F3817F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "6_Serialization", "Serialization\6_Serialization.csproj", "{3E616364-D57A-4994-BE6E-3101E7BF6F4B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{685B95EA-B323-461A-9DE9-D34589F3817F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{685B95EA-B323-461A-9DE9-D34589F3817F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{685B95EA-B323-461A-9DE9-D34589F3817F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3E616364-D57A-4994-BE6E-3101E7BF6F4B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E616364-D57A-4994-BE6E-3101E7BF6F4B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E616364-D57A-4994-BE6E-3101E7BF6F4B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E616364-D57A-4994-BE6E-3101E7BF6F4B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

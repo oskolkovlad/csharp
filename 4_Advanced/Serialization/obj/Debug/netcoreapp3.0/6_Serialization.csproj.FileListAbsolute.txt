@@ -1,0 +1,13 @@
+Q:\Projects\Learn\Projects\4_Advanced\Serialization\bin\Debug\netcoreapp3.0\Serialization.exe
+Q:\Projects\Learn\Projects\4_Advanced\Serialization\bin\Debug\netcoreapp3.0\Serialization.deps.json
+Q:\Projects\Learn\Projects\4_Advanced\Serialization\bin\Debug\netcoreapp3.0\Serialization.runtimeconfig.json
+Q:\Projects\Learn\Projects\4_Advanced\Serialization\bin\Debug\netcoreapp3.0\Serialization.runtimeconfig.dev.json
+Q:\Projects\Learn\Projects\4_Advanced\Serialization\bin\Debug\netcoreapp3.0\Serialization.dll
+Q:\Projects\Learn\Projects\4_Advanced\Serialization\bin\Debug\netcoreapp3.0\Serialization.pdb
+Q:\Projects\Learn\Projects\4_Advanced\Serialization\obj\Debug\netcoreapp3.0\6_Serialization.csprojAssemblyReference.cache
+Q:\Projects\Learn\Projects\4_Advanced\Serialization\obj\Debug\netcoreapp3.0\6_Serialization.AssemblyInfoInputs.cache
+Q:\Projects\Learn\Projects\4_Advanced\Serialization\obj\Debug\netcoreapp3.0\6_Serialization.AssemblyInfo.cs
+Q:\Projects\Learn\Projects\4_Advanced\Serialization\obj\Debug\netcoreapp3.0\Serialization.dll
+Q:\Projects\Learn\Projects\4_Advanced\Serialization\obj\Debug\netcoreapp3.0\Serialization.pdb
+Q:\Projects\Learn\Projects\4_Advanced\Serialization\obj\Debug\netcoreapp3.0\6_Serialization.csproj.CopyComplete
+Q:\Projects\Learn\Projects\4_Advanced\Serialization\bin\Debug\netcoreapp3.0\SoapFormatter.dll

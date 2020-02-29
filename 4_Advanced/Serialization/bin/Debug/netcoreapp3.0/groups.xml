@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<ArrayOfGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Group>
+    <Number>0</Number>
+    <Name>Группа 0</Name>
+  </Group>
+  <Group>
+    <Number>1</Number>
+    <Name>Группа 1</Name>
+  </Group>
+  <Group>
+    <Number>2</Number>
+    <Name>Группа 2</Name>
+  </Group>
+  <Group>
+    <Number>3</Number>
+    <Name>Группа 3</Name>
+  </Group>
+  <Group>
+    <Number>4</Number>
+    <Name>Группа 4</Name>
+  </Group>
+  <Group>
+    <Number>5</Number>
+    <Name>Группа 5</Name>
+  </Group>
+  <Group>
+    <Number>6</Number>
+    <Name>Группа 6</Name>
+  </Group>
+  <Group>
+    <Number>7</Number>
+    <Name>Группа 7</Name>
+  </Group>
+  <Group>
+    <Number>8</Number>
+    <Name>Группа 8</Name>
+  </Group>
+  <Group>
+    <Number>9</Number>
+    <Name>Группа 9</Name>
+  </Group>
+</ArrayOfGroup>
