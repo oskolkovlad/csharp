@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.0": {
+      "Anonymous_type_and_Tuples/1.0.0": {
+        "runtime": {
+          "Anonymous_type_and_Tuples.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Anonymous_type_and_Tuples/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

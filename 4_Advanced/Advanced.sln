@@ -5,7 +5,9 @@ VisualStudioVersion = 16.0.29324.140
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "1_Extension_Method", "Extension_Method\1_Extension_Method.csproj", "{CDF5AB34-1CF1-42D2-A0A2-6B97FB43E554}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2_Indexer_Yield_IEnumerable", "Indexer_Yield_IEnumerable\2_Indexer_Yield_IEnumerable.csproj", "{E313E408-DD77-4F9C-A1AD-0392A813ADAA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "2_Indexer_Yield_IEnumerable", "Indexer_Yield_IEnumerable\2_Indexer_Yield_IEnumerable.csproj", "{E313E408-DD77-4F9C-A1AD-0392A813ADAA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3_Anonymous_type_and_Tuples", "Anonymous_type_and_Tuples\3_Anonymous_type_and_Tuples.csproj", "{A836D70B-0C1D-4F55-AE83-9A3238F0054E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{E313E408-DD77-4F9C-A1AD-0392A813ADAA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E313E408-DD77-4F9C-A1AD-0392A813ADAA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E313E408-DD77-4F9C-A1AD-0392A813ADAA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A836D70B-0C1D-4F55-AE83-9A3238F0054E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A836D70B-0C1D-4F55-AE83-9A3238F0054E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A836D70B-0C1D-4F55-AE83-9A3238F0054E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A836D70B-0C1D-4F55-AE83-9A3238F0054E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

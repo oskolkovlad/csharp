@@ -1,0 +1,11 @@
+Q:\Projects\Learn\Projects\4_Advanced\Anonymous_type_and_Tuples\bin\Debug\netcoreapp3.0\Anonymous_type_and_Tuples.exe
+Q:\Projects\Learn\Projects\4_Advanced\Anonymous_type_and_Tuples\bin\Debug\netcoreapp3.0\Anonymous_type_and_Tuples.deps.json
+Q:\Projects\Learn\Projects\4_Advanced\Anonymous_type_and_Tuples\bin\Debug\netcoreapp3.0\Anonymous_type_and_Tuples.runtimeconfig.json
+Q:\Projects\Learn\Projects\4_Advanced\Anonymous_type_and_Tuples\bin\Debug\netcoreapp3.0\Anonymous_type_and_Tuples.runtimeconfig.dev.json
+Q:\Projects\Learn\Projects\4_Advanced\Anonymous_type_and_Tuples\bin\Debug\netcoreapp3.0\Anonymous_type_and_Tuples.dll
+Q:\Projects\Learn\Projects\4_Advanced\Anonymous_type_and_Tuples\bin\Debug\netcoreapp3.0\Anonymous_type_and_Tuples.pdb
+Q:\Projects\Learn\Projects\4_Advanced\Anonymous_type_and_Tuples\obj\Debug\netcoreapp3.0\3_Anonymous_type_and_Tuples.csprojAssemblyReference.cache
+Q:\Projects\Learn\Projects\4_Advanced\Anonymous_type_and_Tuples\obj\Debug\netcoreapp3.0\3_Anonymous_type_and_Tuples.AssemblyInfoInputs.cache
+Q:\Projects\Learn\Projects\4_Advanced\Anonymous_type_and_Tuples\obj\Debug\netcoreapp3.0\3_Anonymous_type_and_Tuples.AssemblyInfo.cs
+Q:\Projects\Learn\Projects\4_Advanced\Anonymous_type_and_Tuples\obj\Debug\netcoreapp3.0\Anonymous_type_and_Tuples.dll
+Q:\Projects\Learn\Projects\4_Advanced\Anonymous_type_and_Tuples\obj\Debug\netcoreapp3.0\Anonymous_type_and_Tuples.pdb
