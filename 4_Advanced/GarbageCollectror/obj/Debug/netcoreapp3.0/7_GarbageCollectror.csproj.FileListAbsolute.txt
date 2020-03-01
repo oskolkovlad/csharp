@@ -1,0 +1,10 @@
+Q:\Projects\Learn\Projects\4_Advanced\GarbageCollectror\bin\Debug\netcoreapp3.0\GarbageCollectror.exe
+Q:\Projects\Learn\Projects\4_Advanced\GarbageCollectror\bin\Debug\netcoreapp3.0\GarbageCollectror.deps.json
+Q:\Projects\Learn\Projects\4_Advanced\GarbageCollectror\bin\Debug\netcoreapp3.0\GarbageCollectror.runtimeconfig.json
+Q:\Projects\Learn\Projects\4_Advanced\GarbageCollectror\bin\Debug\netcoreapp3.0\GarbageCollectror.runtimeconfig.dev.json
+Q:\Projects\Learn\Projects\4_Advanced\GarbageCollectror\bin\Debug\netcoreapp3.0\GarbageCollectror.dll
+Q:\Projects\Learn\Projects\4_Advanced\GarbageCollectror\bin\Debug\netcoreapp3.0\GarbageCollectror.pdb
+Q:\Projects\Learn\Projects\4_Advanced\GarbageCollectror\obj\Debug\netcoreapp3.0\7_GarbageCollectror.AssemblyInfoInputs.cache
+Q:\Projects\Learn\Projects\4_Advanced\GarbageCollectror\obj\Debug\netcoreapp3.0\7_GarbageCollectror.AssemblyInfo.cs
+Q:\Projects\Learn\Projects\4_Advanced\GarbageCollectror\obj\Debug\netcoreapp3.0\GarbageCollectror.dll
+Q:\Projects\Learn\Projects\4_Advanced\GarbageCollectror\obj\Debug\netcoreapp3.0\GarbageCollectror.pdb
