@@ -1,0 +1,10 @@
+Q:\Projects\Learn\Projects\5_Collections\DictionaryCollection\bin\Debug\netcoreapp3.0\DictionaryCollection.exe
+Q:\Projects\Learn\Projects\5_Collections\DictionaryCollection\bin\Debug\netcoreapp3.0\DictionaryCollection.deps.json
+Q:\Projects\Learn\Projects\5_Collections\DictionaryCollection\bin\Debug\netcoreapp3.0\DictionaryCollection.runtimeconfig.json
+Q:\Projects\Learn\Projects\5_Collections\DictionaryCollection\bin\Debug\netcoreapp3.0\DictionaryCollection.runtimeconfig.dev.json
+Q:\Projects\Learn\Projects\5_Collections\DictionaryCollection\bin\Debug\netcoreapp3.0\DictionaryCollection.dll
+Q:\Projects\Learn\Projects\5_Collections\DictionaryCollection\bin\Debug\netcoreapp3.0\DictionaryCollection.pdb
+Q:\Projects\Learn\Projects\5_Collections\DictionaryCollection\obj\Debug\netcoreapp3.0\DictionaryCollection.AssemblyInfoInputs.cache
+Q:\Projects\Learn\Projects\5_Collections\DictionaryCollection\obj\Debug\netcoreapp3.0\DictionaryCollection.AssemblyInfo.cs
+Q:\Projects\Learn\Projects\5_Collections\DictionaryCollection\obj\Debug\netcoreapp3.0\DictionaryCollection.dll
+Q:\Projects\Learn\Projects\5_Collections\DictionaryCollection\obj\Debug\netcoreapp3.0\DictionaryCollection.pdb

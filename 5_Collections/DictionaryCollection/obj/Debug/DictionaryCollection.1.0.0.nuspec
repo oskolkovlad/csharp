@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>DictionaryCollection</id>
+    <version>1.0.0</version>
+    <authors>DictionaryCollection</authors>
+    <owners>DictionaryCollection</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Package Description</description>
+    <dependencies>
+      <group targetFramework=".NETCoreApp3.0" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="Q:\Projects\Learn\Projects\5_Collections\DictionaryCollection\bin\Debug\netcoreapp3.0\DictionaryCollection.runtimeconfig.json" target="lib\netcoreapp3.0\DictionaryCollection.runtimeconfig.json" />
+    <file src="Q:\Projects\Learn\Projects\5_Collections\DictionaryCollection\bin\Debug\netcoreapp3.0\DictionaryCollection.dll" target="lib\netcoreapp3.0\DictionaryCollection.dll" />
+  </files>
+</package>

@@ -3,15 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29324.140
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "1_ArrayListCollection", "1_ArrayListCollection\1_ArrayListCollection.csproj", "{22360432-B1A1-4610-AE22-391244E3E6DB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "2_ListCollection", "ListCollecyion\2_ListCollection.csproj", "{00117ACD-4EC4-425F-8D13-535AD378666D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2_ListCollection", "ListCollecyion\2_ListCollection.csproj", "{00117ACD-4EC4-425F-8D13-535AD378666D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "3_LinkedListCollection", "LinkListCollection\3_LinkedListCollection.csproj", "{C2EBAC85-3D28-49F1-A19E-B85235E46573}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3_LinkedListCollection", "LinkListCollection\3_LinkedListCollection.csproj", "{C2EBAC85-3D28-49F1-A19E-B85235E46573}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "4_QueueCollection", "QueueCollection\4_QueueCollection.csproj", "{0AF164D5-5D32-4940-941B-73481C98AD52}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4_QueueCollection", "QueueCollection\4_QueueCollection.csproj", "{0AF164D5-5D32-4940-941B-73481C98AD52}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "5_StackCollection", "StackCollection\5_StackCollection.csproj", "{03BF4292-A930-425F-B4D9-A645B0845188}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "5_StackCollection", "StackCollection\5_StackCollection.csproj", "{03BF4292-A930-425F-B4D9-A645B0845188}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "1_ArrayListCollection", "ArrayListCollection\1_ArrayListCollection.csproj", "{E3BAE738-688C-41A0-B497-F1B974C0AA17}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "6_DictionaryCollection", "DictionaryCollection\6_DictionaryCollection.csproj", "{4D7C1EBA-0549-4D39-9D87-E17CDDD3EF55}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -19,10 +21,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{22360432-B1A1-4610-AE22-391244E3E6DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{22360432-B1A1-4610-AE22-391244E3E6DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{22360432-B1A1-4610-AE22-391244E3E6DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{22360432-B1A1-4610-AE22-391244E3E6DB}.Release|Any CPU.Build.0 = Release|Any CPU
 		{00117ACD-4EC4-425F-8D13-535AD378666D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{00117ACD-4EC4-425F-8D13-535AD378666D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{00117ACD-4EC4-425F-8D13-535AD378666D}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -39,6 +37,14 @@ Global
 		{03BF4292-A930-425F-B4D9-A645B0845188}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{03BF4292-A930-425F-B4D9-A645B0845188}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{03BF4292-A930-425F-B4D9-A645B0845188}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E3BAE738-688C-41A0-B497-F1B974C0AA17}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E3BAE738-688C-41A0-B497-F1B974C0AA17}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E3BAE738-688C-41A0-B497-F1B974C0AA17}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E3BAE738-688C-41A0-B497-F1B974C0AA17}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4D7C1EBA-0549-4D39-9D87-E17CDDD3EF55}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D7C1EBA-0549-4D39-9D87-E17CDDD3EF55}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D7C1EBA-0549-4D39-9D87-E17CDDD3EF55}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D7C1EBA-0549-4D39-9D87-E17CDDD3EF55}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

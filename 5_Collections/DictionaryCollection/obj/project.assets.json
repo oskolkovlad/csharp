@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "Q:\\Projects\\Learn\\Projects\\5_Collections\\1_ArrayListCollection\\1_ArrayListCollection.csproj",
-      "projectName": "ArrayListCollection",
-      "projectPath": "Q:\\Projects\\Learn\\Projects\\5_Collections\\1_ArrayListCollection\\1_ArrayListCollection.csproj",
+      "projectUniqueName": "Q:\\Projects\\Learn\\Projects\\5_Collections\\DictionaryCollection\\6_DictionaryCollection.csproj",
+      "projectName": "DictionaryCollection",
+      "projectPath": "Q:\\Projects\\Learn\\Projects\\5_Collections\\DictionaryCollection\\6_DictionaryCollection.csproj",
       "packagesPath": "C:\\Users\\osvla\\.nuget\\packages\\",
-      "outputPath": "Q:\\Projects\\Learn\\Projects\\5_Collections\\1_ArrayListCollection\\obj\\",
+      "outputPath": "Q:\\Projects\\Learn\\Projects\\5_Collections\\DictionaryCollection\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\osvla\\AppData\\Roaming\\NuGet\\NuGet.Config",
