@@ -5,7 +5,7 @@ VisualStudioVersion = 16.0.29324.140
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "1_ArrayListCollection", "1_ArrayListCollection\1_ArrayListCollection.csproj", "{22360432-B1A1-4610-AE22-391244E3E6DB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ListCollecyion", "ListCollecyion\ListCollecyion.csproj", "{00117ACD-4EC4-425F-8D13-535AD378666D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2_ListCollection", "ListCollecyion\2_ListCollection.csproj", "{00117ACD-4EC4-425F-8D13-535AD378666D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -1,0 +1,11 @@
+Q:\Projects\Learn\Projects\5_Collections\ListCollecyion\bin\Debug\netcoreapp3.0\ListCollection.exe
+Q:\Projects\Learn\Projects\5_Collections\ListCollecyion\bin\Debug\netcoreapp3.0\ListCollection.deps.json
+Q:\Projects\Learn\Projects\5_Collections\ListCollecyion\bin\Debug\netcoreapp3.0\ListCollection.runtimeconfig.json
+Q:\Projects\Learn\Projects\5_Collections\ListCollecyion\bin\Debug\netcoreapp3.0\ListCollection.runtimeconfig.dev.json
+Q:\Projects\Learn\Projects\5_Collections\ListCollecyion\bin\Debug\netcoreapp3.0\ListCollection.dll
+Q:\Projects\Learn\Projects\5_Collections\ListCollecyion\bin\Debug\netcoreapp3.0\ListCollection.pdb
+Q:\Projects\Learn\Projects\5_Collections\ListCollecyion\obj\Debug\netcoreapp3.0\2_ListCollection.AssemblyInfoInputs.cache
+Q:\Projects\Learn\Projects\5_Collections\ListCollecyion\obj\Debug\netcoreapp3.0\2_ListCollection.AssemblyInfo.cs
+Q:\Projects\Learn\Projects\5_Collections\ListCollecyion\obj\Debug\netcoreapp3.0\ListCollection.dll
+Q:\Projects\Learn\Projects\5_Collections\ListCollecyion\obj\Debug\netcoreapp3.0\ListCollection.pdb
+Q:\Projects\Learn\Projects\5_Collections\ListCollecyion\obj\Debug\netcoreapp3.0\2_ListCollection.csprojAssemblyReference.cache
