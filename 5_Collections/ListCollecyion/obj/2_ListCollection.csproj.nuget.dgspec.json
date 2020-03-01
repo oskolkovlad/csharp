@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "Q:\\Projects\\Learn\\Projects\\5_Collections\\Collections\\1_ArrayListCollection.csproj": {}
+    "Q:\\Projects\\Learn\\Projects\\5_Collections\\ListCollecyion\\2_ListCollection.csproj": {}
   },
   "projects": {
-    "Q:\\Projects\\Learn\\Projects\\5_Collections\\Collections\\1_ArrayListCollection.csproj": {
+    "Q:\\Projects\\Learn\\Projects\\5_Collections\\ListCollecyion\\2_ListCollection.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "Q:\\Projects\\Learn\\Projects\\5_Collections\\Collections\\1_ArrayListCollection.csproj",
-        "projectName": "ArrayListCollection",
-        "projectPath": "Q:\\Projects\\Learn\\Projects\\5_Collections\\Collections\\1_ArrayListCollection.csproj",
+        "projectUniqueName": "Q:\\Projects\\Learn\\Projects\\5_Collections\\ListCollecyion\\2_ListCollection.csproj",
+        "projectName": "ListCollection",
+        "projectPath": "Q:\\Projects\\Learn\\Projects\\5_Collections\\ListCollecyion\\2_ListCollection.csproj",
         "packagesPath": "C:\\Users\\osvla\\.nuget\\packages\\",
-        "outputPath": "Q:\\Projects\\Learn\\Projects\\5_Collections\\Collections\\obj\\",
+        "outputPath": "Q:\\Projects\\Learn\\Projects\\5_Collections\\ListCollecyion\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\osvla\\AppData\\Roaming\\NuGet\\NuGet.Config",

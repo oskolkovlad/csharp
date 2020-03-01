@@ -1,0 +1,11 @@
+Q:\Projects\Learn\Projects\5_Collections\1_ArrayListCollection\bin\Debug\netcoreapp3.0\ArrayListCollection.exe
+Q:\Projects\Learn\Projects\5_Collections\1_ArrayListCollection\bin\Debug\netcoreapp3.0\ArrayListCollection.deps.json
+Q:\Projects\Learn\Projects\5_Collections\1_ArrayListCollection\bin\Debug\netcoreapp3.0\ArrayListCollection.runtimeconfig.json
+Q:\Projects\Learn\Projects\5_Collections\1_ArrayListCollection\bin\Debug\netcoreapp3.0\ArrayListCollection.runtimeconfig.dev.json
+Q:\Projects\Learn\Projects\5_Collections\1_ArrayListCollection\bin\Debug\netcoreapp3.0\ArrayListCollection.dll
+Q:\Projects\Learn\Projects\5_Collections\1_ArrayListCollection\bin\Debug\netcoreapp3.0\ArrayListCollection.pdb
+Q:\Projects\Learn\Projects\5_Collections\1_ArrayListCollection\obj\Debug\netcoreapp3.0\1_ArrayListCollection.csprojAssemblyReference.cache
+Q:\Projects\Learn\Projects\5_Collections\1_ArrayListCollection\obj\Debug\netcoreapp3.0\1_ArrayListCollection.AssemblyInfoInputs.cache
+Q:\Projects\Learn\Projects\5_Collections\1_ArrayListCollection\obj\Debug\netcoreapp3.0\1_ArrayListCollection.AssemblyInfo.cs
+Q:\Projects\Learn\Projects\5_Collections\1_ArrayListCollection\obj\Debug\netcoreapp3.0\ArrayListCollection.dll
+Q:\Projects\Learn\Projects\5_Collections\1_ArrayListCollection\obj\Debug\netcoreapp3.0\ArrayListCollection.pdb
