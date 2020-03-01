@@ -1,0 +1,11 @@
+Q:\Projects\Learn\Projects\5_Collections\LinkListCollection\bin\Debug\netcoreapp3.0\LinkedListCollection.exe
+Q:\Projects\Learn\Projects\5_Collections\LinkListCollection\bin\Debug\netcoreapp3.0\LinkedListCollection.deps.json
+Q:\Projects\Learn\Projects\5_Collections\LinkListCollection\bin\Debug\netcoreapp3.0\LinkedListCollection.runtimeconfig.json
+Q:\Projects\Learn\Projects\5_Collections\LinkListCollection\bin\Debug\netcoreapp3.0\LinkedListCollection.runtimeconfig.dev.json
+Q:\Projects\Learn\Projects\5_Collections\LinkListCollection\bin\Debug\netcoreapp3.0\LinkedListCollection.dll
+Q:\Projects\Learn\Projects\5_Collections\LinkListCollection\bin\Debug\netcoreapp3.0\LinkedListCollection.pdb
+Q:\Projects\Learn\Projects\5_Collections\LinkListCollection\obj\Debug\netcoreapp3.0\3_LinkedListCollection.AssemblyInfoInputs.cache
+Q:\Projects\Learn\Projects\5_Collections\LinkListCollection\obj\Debug\netcoreapp3.0\3_LinkedListCollection.AssemblyInfo.cs
+Q:\Projects\Learn\Projects\5_Collections\LinkListCollection\obj\Debug\netcoreapp3.0\LinkedListCollection.dll
+Q:\Projects\Learn\Projects\5_Collections\LinkListCollection\obj\Debug\netcoreapp3.0\LinkedListCollection.pdb
+Q:\Projects\Learn\Projects\5_Collections\LinkListCollection\obj\Debug\netcoreapp3.0\3_LinkedListCollection.csprojAssemblyReference.cache
