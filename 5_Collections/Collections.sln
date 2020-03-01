@@ -13,7 +13,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "5_StackCollection", "StackC
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "1_ArrayListCollection", "ArrayListCollection\1_ArrayListCollection.csproj", "{E3BAE738-688C-41A0-B497-F1B974C0AA17}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "6_DictionaryCollection", "DictionaryCollection\6_DictionaryCollection.csproj", "{4D7C1EBA-0549-4D39-9D87-E17CDDD3EF55}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "6_DictionaryCollection", "DictionaryCollection\6_DictionaryCollection.csproj", "{4D7C1EBA-0549-4D39-9D87-E17CDDD3EF55}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "7_Observable_Collection", "Observable_Collection\7_Observable_Collection.csproj", "{071DCF3D-9001-42B0-A983-4D48CADE0F5D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,10 @@ Global
 		{4D7C1EBA-0549-4D39-9D87-E17CDDD3EF55}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4D7C1EBA-0549-4D39-9D87-E17CDDD3EF55}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4D7C1EBA-0549-4D39-9D87-E17CDDD3EF55}.Release|Any CPU.Build.0 = Release|Any CPU
+		{071DCF3D-9001-42B0-A983-4D48CADE0F5D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{071DCF3D-9001-42B0-A983-4D48CADE0F5D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{071DCF3D-9001-42B0-A983-4D48CADE0F5D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{071DCF3D-9001-42B0-A983-4D48CADE0F5D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

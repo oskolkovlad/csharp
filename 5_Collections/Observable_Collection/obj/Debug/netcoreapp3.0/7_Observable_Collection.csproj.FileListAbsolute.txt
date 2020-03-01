@@ -1,0 +1,11 @@
+Q:\Projects\Learn\Projects\5_Collections\Observable_Collection\bin\Debug\netcoreapp3.0\Observable_Collection.exe
+Q:\Projects\Learn\Projects\5_Collections\Observable_Collection\bin\Debug\netcoreapp3.0\Observable_Collection.deps.json
+Q:\Projects\Learn\Projects\5_Collections\Observable_Collection\bin\Debug\netcoreapp3.0\Observable_Collection.runtimeconfig.json
+Q:\Projects\Learn\Projects\5_Collections\Observable_Collection\bin\Debug\netcoreapp3.0\Observable_Collection.runtimeconfig.dev.json
+Q:\Projects\Learn\Projects\5_Collections\Observable_Collection\bin\Debug\netcoreapp3.0\Observable_Collection.dll
+Q:\Projects\Learn\Projects\5_Collections\Observable_Collection\bin\Debug\netcoreapp3.0\Observable_Collection.pdb
+Q:\Projects\Learn\Projects\5_Collections\Observable_Collection\obj\Debug\netcoreapp3.0\7_Observable_Collection.csprojAssemblyReference.cache
+Q:\Projects\Learn\Projects\5_Collections\Observable_Collection\obj\Debug\netcoreapp3.0\7_Observable_Collection.AssemblyInfoInputs.cache
+Q:\Projects\Learn\Projects\5_Collections\Observable_Collection\obj\Debug\netcoreapp3.0\7_Observable_Collection.AssemblyInfo.cs
+Q:\Projects\Learn\Projects\5_Collections\Observable_Collection\obj\Debug\netcoreapp3.0\Observable_Collection.dll
+Q:\Projects\Learn\Projects\5_Collections\Observable_Collection\obj\Debug\netcoreapp3.0\Observable_Collection.pdb
