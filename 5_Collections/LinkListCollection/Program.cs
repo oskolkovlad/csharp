@@ -31,6 +31,14 @@ namespace LinkedListCollection
 
             LinkedList<Person> persons = new LinkedList<Person>();
 
+
+
+            //Методы вставки(AddLast, AddFirst) при добавлении в список возвращают ссылку на добавленный
+            // элемент LinkedListNode<T>(в нашем случае LinkedListNode< Person >). Затем управляя свойствами Previous и Next,
+            // мы можем получить ссылки на предыдущий и следующий узлы в списке.
+
+
+            // Присваивается ссылка на добавляемый объект Person
             LinkedListNode<Person> per = persons.AddLast(new Person() { Name = "Tom" });
             persons.AddLast(new Person() { Name = "Bob" });
             persons.AddBefore(persons.Last, new Person() { Name = "Alex" });

@@ -1,0 +1,11 @@
+Q:\Projects\Learn\Projects\5_Collections\QueueCollection\bin\Debug\netcoreapp3.0\QueueCollection.exe
+Q:\Projects\Learn\Projects\5_Collections\QueueCollection\bin\Debug\netcoreapp3.0\QueueCollection.deps.json
+Q:\Projects\Learn\Projects\5_Collections\QueueCollection\bin\Debug\netcoreapp3.0\QueueCollection.runtimeconfig.json
+Q:\Projects\Learn\Projects\5_Collections\QueueCollection\bin\Debug\netcoreapp3.0\QueueCollection.runtimeconfig.dev.json
+Q:\Projects\Learn\Projects\5_Collections\QueueCollection\bin\Debug\netcoreapp3.0\QueueCollection.dll
+Q:\Projects\Learn\Projects\5_Collections\QueueCollection\bin\Debug\netcoreapp3.0\QueueCollection.pdb
+Q:\Projects\Learn\Projects\5_Collections\QueueCollection\obj\Debug\netcoreapp3.0\4_QueueCollection.csprojAssemblyReference.cache
+Q:\Projects\Learn\Projects\5_Collections\QueueCollection\obj\Debug\netcoreapp3.0\4_QueueCollection.AssemblyInfoInputs.cache
+Q:\Projects\Learn\Projects\5_Collections\QueueCollection\obj\Debug\netcoreapp3.0\4_QueueCollection.AssemblyInfo.cs
+Q:\Projects\Learn\Projects\5_Collections\QueueCollection\obj\Debug\netcoreapp3.0\QueueCollection.dll
+Q:\Projects\Learn\Projects\5_Collections\QueueCollection\obj\Debug\netcoreapp3.0\QueueCollection.pdb
