@@ -1,0 +1,10 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+    <AssemblyName>Patrial_LocalMethod_PatternMatching_Deconstrucor</AssemblyName>
+    <RootNamespace>Patrial_LocalMethod_PatternMatching_Deconstrucor</RootNamespace>
+  </PropertyGroup>
+
+</Project>

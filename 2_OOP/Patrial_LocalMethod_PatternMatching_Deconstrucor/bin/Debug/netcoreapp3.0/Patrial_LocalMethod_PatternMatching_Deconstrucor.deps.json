@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.0": {
+      "Patrial_LocalMethod_PatternMatching_Deconstrucor/1.0.0": {
+        "runtime": {
+          "Patrial_LocalMethod_PatternMatching_Deconstrucor.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Patrial_LocalMethod_PatternMatching_Deconstrucor/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
