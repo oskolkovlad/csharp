@@ -1,0 +1,11 @@
+Q:\Projects\Learn\Projects\5_Collections\StackCollection\bin\Debug\netcoreapp3.0\StackCollection.exe
+Q:\Projects\Learn\Projects\5_Collections\StackCollection\bin\Debug\netcoreapp3.0\StackCollection.deps.json
+Q:\Projects\Learn\Projects\5_Collections\StackCollection\bin\Debug\netcoreapp3.0\StackCollection.runtimeconfig.json
+Q:\Projects\Learn\Projects\5_Collections\StackCollection\bin\Debug\netcoreapp3.0\StackCollection.runtimeconfig.dev.json
+Q:\Projects\Learn\Projects\5_Collections\StackCollection\bin\Debug\netcoreapp3.0\StackCollection.dll
+Q:\Projects\Learn\Projects\5_Collections\StackCollection\bin\Debug\netcoreapp3.0\StackCollection.pdb
+Q:\Projects\Learn\Projects\5_Collections\StackCollection\obj\Debug\netcoreapp3.0\5_StackCollection.csprojAssemblyReference.cache
+Q:\Projects\Learn\Projects\5_Collections\StackCollection\obj\Debug\netcoreapp3.0\5_StackCollection.AssemblyInfoInputs.cache
+Q:\Projects\Learn\Projects\5_Collections\StackCollection\obj\Debug\netcoreapp3.0\5_StackCollection.AssemblyInfo.cs
+Q:\Projects\Learn\Projects\5_Collections\StackCollection\obj\Debug\netcoreapp3.0\StackCollection.dll
+Q:\Projects\Learn\Projects\5_Collections\StackCollection\obj\Debug\netcoreapp3.0\StackCollection.pdb
