@@ -23,7 +23,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "8_Virtual_Method_and_Proper
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "9_Abstract_Shadowing", "Abstract_Shadowing\9_Abstract_Shadowing.csproj", "{57714D01-886D-4E39-BC4E-9936CC940396}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "10_Patrial_LocalMethod_PatternMatching_Deconstrucor", "Patrial_LocalMethod_PatternMatching_Deconstrucor\10_Patrial_LocalMethod_PatternMatching_Deconstrucor.csproj", "{5B7A7BD1-3739-4BE8-9D15-EAEA981E9BBD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "10_Patrial_LocalMethod_PatternMatching_Deconstrucor", "Patrial_LocalMethod_PatternMatching_Deconstrucor\10_Patrial_LocalMethod_PatternMatching_Deconstrucor.csproj", "{5B7A7BD1-3739-4BE8-9D15-EAEA981E9BBD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "11_SwitchPattern_NullableType_VarRef", "SwitchPattern_NullableType_VarRef\11_SwitchPattern_NullableType_VarRef.csproj", "{0C1EAF35-0F13-4A36-A6F2-5FBDE10563E9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -75,6 +77,10 @@ Global
 		{5B7A7BD1-3739-4BE8-9D15-EAEA981E9BBD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5B7A7BD1-3739-4BE8-9D15-EAEA981E9BBD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5B7A7BD1-3739-4BE8-9D15-EAEA981E9BBD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0C1EAF35-0F13-4A36-A6F2-5FBDE10563E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C1EAF35-0F13-4A36-A6F2-5FBDE10563E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C1EAF35-0F13-4A36-A6F2-5FBDE10563E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C1EAF35-0F13-4A36-A6F2-5FBDE10563E9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,0 +1,11 @@
+Q:\Projects\Learn\Projects\2_OOP\SwitchPattern_NullableType_VarRef\bin\Debug\netcoreapp3.0\SwitchPattern_NullableType_VarRef.exe
+Q:\Projects\Learn\Projects\2_OOP\SwitchPattern_NullableType_VarRef\bin\Debug\netcoreapp3.0\SwitchPattern_NullableType_VarRef.deps.json
+Q:\Projects\Learn\Projects\2_OOP\SwitchPattern_NullableType_VarRef\bin\Debug\netcoreapp3.0\SwitchPattern_NullableType_VarRef.runtimeconfig.json
+Q:\Projects\Learn\Projects\2_OOP\SwitchPattern_NullableType_VarRef\bin\Debug\netcoreapp3.0\SwitchPattern_NullableType_VarRef.runtimeconfig.dev.json
+Q:\Projects\Learn\Projects\2_OOP\SwitchPattern_NullableType_VarRef\bin\Debug\netcoreapp3.0\SwitchPattern_NullableType_VarRef.dll
+Q:\Projects\Learn\Projects\2_OOP\SwitchPattern_NullableType_VarRef\bin\Debug\netcoreapp3.0\SwitchPattern_NullableType_VarRef.pdb
+Q:\Projects\Learn\Projects\2_OOP\SwitchPattern_NullableType_VarRef\obj\Debug\netcoreapp3.0\11_SwitchPattern_NullableType_VarRef.csprojAssemblyReference.cache
+Q:\Projects\Learn\Projects\2_OOP\SwitchPattern_NullableType_VarRef\obj\Debug\netcoreapp3.0\11_SwitchPattern_NullableType_VarRef.AssemblyInfoInputs.cache
+Q:\Projects\Learn\Projects\2_OOP\SwitchPattern_NullableType_VarRef\obj\Debug\netcoreapp3.0\11_SwitchPattern_NullableType_VarRef.AssemblyInfo.cs
+Q:\Projects\Learn\Projects\2_OOP\SwitchPattern_NullableType_VarRef\obj\Debug\netcoreapp3.0\SwitchPattern_NullableType_VarRef.dll
+Q:\Projects\Learn\Projects\2_OOP\SwitchPattern_NullableType_VarRef\obj\Debug\netcoreapp3.0\SwitchPattern_NullableType_VarRef.pdb
