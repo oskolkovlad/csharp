@@ -1,0 +1,11 @@
+Q:\Projects\Learn\Projects\5_Collections\IEnumerableIEnumerator\bin\Debug\netcoreapp3.0\IEnumerableIEnumerator.exe
+Q:\Projects\Learn\Projects\5_Collections\IEnumerableIEnumerator\bin\Debug\netcoreapp3.0\IEnumerableIEnumerator.deps.json
+Q:\Projects\Learn\Projects\5_Collections\IEnumerableIEnumerator\bin\Debug\netcoreapp3.0\IEnumerableIEnumerator.runtimeconfig.json
+Q:\Projects\Learn\Projects\5_Collections\IEnumerableIEnumerator\bin\Debug\netcoreapp3.0\IEnumerableIEnumerator.runtimeconfig.dev.json
+Q:\Projects\Learn\Projects\5_Collections\IEnumerableIEnumerator\bin\Debug\netcoreapp3.0\IEnumerableIEnumerator.dll
+Q:\Projects\Learn\Projects\5_Collections\IEnumerableIEnumerator\bin\Debug\netcoreapp3.0\IEnumerableIEnumerator.pdb
+Q:\Projects\Learn\Projects\5_Collections\IEnumerableIEnumerator\obj\Debug\netcoreapp3.0\8_IEnumerableIEnumerator.csprojAssemblyReference.cache
+Q:\Projects\Learn\Projects\5_Collections\IEnumerableIEnumerator\obj\Debug\netcoreapp3.0\8_IEnumerableIEnumerator.AssemblyInfoInputs.cache
+Q:\Projects\Learn\Projects\5_Collections\IEnumerableIEnumerator\obj\Debug\netcoreapp3.0\8_IEnumerableIEnumerator.AssemblyInfo.cs
+Q:\Projects\Learn\Projects\5_Collections\IEnumerableIEnumerator\obj\Debug\netcoreapp3.0\IEnumerableIEnumerator.dll
+Q:\Projects\Learn\Projects\5_Collections\IEnumerableIEnumerator\obj\Debug\netcoreapp3.0\IEnumerableIEnumerator.pdb
