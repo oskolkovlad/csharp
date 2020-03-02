@@ -1,0 +1,11 @@
+Q:\Projects\Learn\Projects\4_Advanced\TypeObject\obj\Debug\netcoreapp3.0\8_TypeObject.csprojAssemblyReference.cache
+Q:\Projects\Learn\Projects\4_Advanced\TypeObject\obj\Debug\netcoreapp3.0\8_TypeObject.AssemblyInfoInputs.cache
+Q:\Projects\Learn\Projects\4_Advanced\TypeObject\obj\Debug\netcoreapp3.0\8_TypeObject.AssemblyInfo.cs
+Q:\Projects\Learn\Projects\4_Advanced\TypeObject\bin\Debug\netcoreapp3.0\TypeObject.exe
+Q:\Projects\Learn\Projects\4_Advanced\TypeObject\bin\Debug\netcoreapp3.0\TypeObject.deps.json
+Q:\Projects\Learn\Projects\4_Advanced\TypeObject\bin\Debug\netcoreapp3.0\TypeObject.runtimeconfig.json
+Q:\Projects\Learn\Projects\4_Advanced\TypeObject\bin\Debug\netcoreapp3.0\TypeObject.runtimeconfig.dev.json
+Q:\Projects\Learn\Projects\4_Advanced\TypeObject\bin\Debug\netcoreapp3.0\TypeObject.dll
+Q:\Projects\Learn\Projects\4_Advanced\TypeObject\bin\Debug\netcoreapp3.0\TypeObject.pdb
+Q:\Projects\Learn\Projects\4_Advanced\TypeObject\obj\Debug\netcoreapp3.0\TypeObject.dll
+Q:\Projects\Learn\Projects\4_Advanced\TypeObject\obj\Debug\netcoreapp3.0\TypeObject.pdb
