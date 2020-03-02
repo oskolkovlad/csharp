@@ -1,0 +1,11 @@
+Q:\Projects\Learn\Projects\1_HelloWorld\WorkWithString\bin\Debug\netcoreapp3.0\WorkWithString.exe
+Q:\Projects\Learn\Projects\1_HelloWorld\WorkWithString\bin\Debug\netcoreapp3.0\WorkWithString.deps.json
+Q:\Projects\Learn\Projects\1_HelloWorld\WorkWithString\bin\Debug\netcoreapp3.0\WorkWithString.runtimeconfig.json
+Q:\Projects\Learn\Projects\1_HelloWorld\WorkWithString\bin\Debug\netcoreapp3.0\WorkWithString.runtimeconfig.dev.json
+Q:\Projects\Learn\Projects\1_HelloWorld\WorkWithString\bin\Debug\netcoreapp3.0\WorkWithString.dll
+Q:\Projects\Learn\Projects\1_HelloWorld\WorkWithString\bin\Debug\netcoreapp3.0\WorkWithString.pdb
+Q:\Projects\Learn\Projects\1_HelloWorld\WorkWithString\obj\Debug\netcoreapp3.0\7_WorkWithString.csprojAssemblyReference.cache
+Q:\Projects\Learn\Projects\1_HelloWorld\WorkWithString\obj\Debug\netcoreapp3.0\7_WorkWithString.AssemblyInfoInputs.cache
+Q:\Projects\Learn\Projects\1_HelloWorld\WorkWithString\obj\Debug\netcoreapp3.0\7_WorkWithString.AssemblyInfo.cs
+Q:\Projects\Learn\Projects\1_HelloWorld\WorkWithString\obj\Debug\netcoreapp3.0\WorkWithString.dll
+Q:\Projects\Learn\Projects\1_HelloWorld\WorkWithString\obj\Debug\netcoreapp3.0\WorkWithString.pdb

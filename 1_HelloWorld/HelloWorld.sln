@@ -19,6 +19,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "6_Tuples_and_Struct", "Tupl
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1_Variables", "Variables\1_Variables.csproj", "{AEF7D81B-25B6-43F9-9511-01BEA989294C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "7_WorkWithString", "WorkWithString\7_WorkWithString.csproj", "{1786A7DE-551F-4C3B-BFB4-987AA2CBFB2C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -57,6 +59,10 @@ Global
 		{AEF7D81B-25B6-43F9-9511-01BEA989294C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AEF7D81B-25B6-43F9-9511-01BEA989294C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AEF7D81B-25B6-43F9-9511-01BEA989294C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1786A7DE-551F-4C3B-BFB4-987AA2CBFB2C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1786A7DE-551F-4C3B-BFB4-987AA2CBFB2C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1786A7DE-551F-4C3B-BFB4-987AA2CBFB2C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1786A7DE-551F-4C3B-BFB4-987AA2CBFB2C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
