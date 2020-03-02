@@ -1,0 +1,11 @@
+Q:\Projects\Learn\Projects\5_Collections\Yield\bin\Debug\netcoreapp3.0\9_Yield.exe
+Q:\Projects\Learn\Projects\5_Collections\Yield\bin\Debug\netcoreapp3.0\9_Yield.deps.json
+Q:\Projects\Learn\Projects\5_Collections\Yield\bin\Debug\netcoreapp3.0\9_Yield.runtimeconfig.json
+Q:\Projects\Learn\Projects\5_Collections\Yield\bin\Debug\netcoreapp3.0\9_Yield.runtimeconfig.dev.json
+Q:\Projects\Learn\Projects\5_Collections\Yield\bin\Debug\netcoreapp3.0\9_Yield.dll
+Q:\Projects\Learn\Projects\5_Collections\Yield\bin\Debug\netcoreapp3.0\9_Yield.pdb
+Q:\Projects\Learn\Projects\5_Collections\Yield\obj\Debug\netcoreapp3.0\9_Yield.AssemblyInfoInputs.cache
+Q:\Projects\Learn\Projects\5_Collections\Yield\obj\Debug\netcoreapp3.0\9_Yield.AssemblyInfo.cs
+Q:\Projects\Learn\Projects\5_Collections\Yield\obj\Debug\netcoreapp3.0\9_Yield.dll
+Q:\Projects\Learn\Projects\5_Collections\Yield\obj\Debug\netcoreapp3.0\9_Yield.pdb
+Q:\Projects\Learn\Projects\5_Collections\Yield\obj\Debug\netcoreapp3.0\9_Yield.csprojAssemblyReference.cache
