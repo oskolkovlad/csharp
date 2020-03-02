@@ -74,7 +74,7 @@ namespace Fitness.BL.Controller
             var formatter = new BinaryFormatter();
             using (var fs = new FileStream("users.dat", FileMode.OpenOrCreate))
             {
-                if (formatter.Deserialize(fs) is List<User> users)
+                if (fs.Length > 0 && formatter.Deserialize(fs) is List<User> users)
                 {
                     return users;
                 }
@@ -96,7 +96,7 @@ namespace Fitness.BL.Controller
         {
             if (string.IsNullOrWhiteSpace(genderName))
             {
-                throw new ArgumentNullException(nameof(genderName), "Имя пользователя не может быть пустым или null.");
+                throw new ArgumentNullException(nameof(genderName), "Имя пользователя не может быть пустым или Null.");
             }
 
             CurrentUser.Gender = new Gender(genderName);
