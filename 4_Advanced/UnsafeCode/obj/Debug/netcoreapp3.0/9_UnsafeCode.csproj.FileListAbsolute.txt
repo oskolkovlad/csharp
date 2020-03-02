@@ -1,0 +1,11 @@
+Q:\Projects\Learn\Projects\4_Advanced\UnsafeCode\bin\Debug\netcoreapp3.0\UnsafeCode.exe
+Q:\Projects\Learn\Projects\4_Advanced\UnsafeCode\bin\Debug\netcoreapp3.0\UnsafeCode.deps.json
+Q:\Projects\Learn\Projects\4_Advanced\UnsafeCode\bin\Debug\netcoreapp3.0\UnsafeCode.runtimeconfig.json
+Q:\Projects\Learn\Projects\4_Advanced\UnsafeCode\bin\Debug\netcoreapp3.0\UnsafeCode.runtimeconfig.dev.json
+Q:\Projects\Learn\Projects\4_Advanced\UnsafeCode\bin\Debug\netcoreapp3.0\UnsafeCode.dll
+Q:\Projects\Learn\Projects\4_Advanced\UnsafeCode\bin\Debug\netcoreapp3.0\UnsafeCode.pdb
+Q:\Projects\Learn\Projects\4_Advanced\UnsafeCode\obj\Debug\netcoreapp3.0\9_UnsafeCode.csprojAssemblyReference.cache
+Q:\Projects\Learn\Projects\4_Advanced\UnsafeCode\obj\Debug\netcoreapp3.0\9_UnsafeCode.AssemblyInfoInputs.cache
+Q:\Projects\Learn\Projects\4_Advanced\UnsafeCode\obj\Debug\netcoreapp3.0\9_UnsafeCode.AssemblyInfo.cs
+Q:\Projects\Learn\Projects\4_Advanced\UnsafeCode\obj\Debug\netcoreapp3.0\UnsafeCode.dll
+Q:\Projects\Learn\Projects\4_Advanced\UnsafeCode\obj\Debug\netcoreapp3.0\UnsafeCode.pdb
