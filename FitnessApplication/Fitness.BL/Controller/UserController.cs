@@ -1,60 +1,110 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.IO;
+using System.Linq;
 using System.Runtime.Serialization.Formatters.Binary;
 using Fitness.BL.Model;
+
 
 namespace Fitness.BL.Controller
 {
     /// <summary>
-    /// Контроллер пользователя.
+    /// Контроллер пользователей.
     /// </summary>
     public class UserController
     {
+
         /// <summary>
-        /// Конструктор получения данных пользователя.
+        /// Конструктор создания нового контроллера пользователей.
         /// </summary>
-        /// <returns> Пользователь. </returns>
-        public UserController()
+        /// <param name="userName"> Имя пользователя. </param>
+        public UserController(string userName)
         {
-            var formatter = new BinaryFormatter();
-            using (var fs = new FileStream("users.dat", FileMode.OpenOrCreate))
+            if (string.IsNullOrWhiteSpace(userName))
             {
-                if(formatter.Deserialize(fs) is User user)
-                {
-                    User = user;
-                }
-                
-                // TODO: Пользователь null
+                throw new ArgumentNullException(nameof(userName), "Имя пользователя не может быть пустым или Null.");
+            }
+
+            Users = GetUsersData();
+
+            CurrentUser = Users.SingleOrDefault(u => u.Name == userName);
+
+            if(CurrentUser is null)
+            {
+                CurrentUser = new User(userName);
+                Users.Add(CurrentUser);
+                IsNewUser = true;
+
+                Save();
             }
         }
 
         /// <summary>
-        /// Конструктор создания нового контроллера пользователя.
+        /// Список пользователей.
         /// </summary>
-        /// <param name="user"> Пользователь. </param>
-        public UserController(string userName, string genderName, DateTime birthDay, double weight, double height)
-        {
-            // TODO: Проверка
-
-            var gender = new Gender(genderName);
-            User = new User(userName, gender, birthDay, weight, height);
-        }
+        public List<User> Users { get; } // использование списка небезопасно
 
         /// <summary>
-        /// Пользователь.
+        /// Текущий пользователь.
         /// </summary>
-        public User User { get; }
+        public User CurrentUser { get; }
+
+        public bool IsNewUser { get; } = false;
+
+
 
         /// <summary>
-        /// Сохранение данных пользователя.
+        /// Сохранение данных пользователей.
         /// </summary>
-        public void Save()
+        private void Save()
         {
             var formatter = new BinaryFormatter();
             using(var fs = new FileStream("users.dat", FileMode.OpenOrCreate))
             {
-                formatter.Serialize(fs, User);
+                formatter.Serialize(fs, Users);
             }
+        }
+
+        /// <summary>
+        /// Получение списка данных пользователей.
+        /// </summary>
+        /// <returns> Список пользователей. </returns>
+        private List<User> GetUsersData()
+        {
+            var formatter = new BinaryFormatter();
+            using (var fs = new FileStream("users.dat", FileMode.OpenOrCreate))
+            {
+                if (formatter.Deserialize(fs) is List<User> users)
+                {
+                    return users;
+                }
+                else
+                {
+                    return new List<User>();
+                }
+            }
+        }
+
+        /// <summary>
+        /// Установление данных новому пользователю.
+        /// </summary>
+        /// <param name="genderName"> Пол. </param>
+        /// <param name="birthDay"> Дата рождения. </param>
+        /// <param name="weight"> Вес. </param>
+        /// <param name="height"> Рост. </param>
+        public void SetNewUserData(string genderName, DateTime birthDay, double weight = 1, double height = 1)
+        {
+            if (string.IsNullOrWhiteSpace(genderName))
+            {
+                throw new ArgumentNullException(nameof(genderName), "Имя пользователя не может быть пустым или null.");
+            }
+
+            CurrentUser.Gender = new Gender(genderName);
+            CurrentUser.BirthDay = birthDay;
+            CurrentUser.Weight = weight;
+            CurrentUser.Height = height;
+
+            Save();
         }
     }
 }

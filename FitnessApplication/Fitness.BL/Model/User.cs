@@ -12,6 +12,15 @@ namespace Fitness.BL.Model
         /// Конструктор создания нового пользователя.
         /// </summary>
         /// <param name="name"> Имя пользователя. </param>
+        public User(string name)
+        {
+            Name = name;
+        }
+
+        /// <summary>
+        /// Конструктор создания нового пользователя.
+        /// </summary>
+        /// <param name="name"> Имя пользователя. </param>
         /// <param name="gender"> Пол. </param>
         /// <param name="birthDay"> Дата рождения. </param>
         /// <param name="weight"> Вес. </param>
@@ -57,12 +66,12 @@ namespace Fitness.BL.Model
         /// <summary>
         /// Пол.
         /// </summary>
-        public Gender Gender { get; }
+        public Gender Gender { get; set; }
 
         /// <summary>
         /// Дата рождения.
         /// </summary>
-        public DateTime BirthDay { get; }
+        public DateTime BirthDay { get; set; }
 
         /// <summary>
         /// Вес.
@@ -73,11 +82,19 @@ namespace Fitness.BL.Model
         /// Рост.
         /// </summary>
         public double Height { get; set; }
+
+        /// <summary>
+        /// Возраст пользователя.
+        /// </summary>
+        public int Age { get => DateTime.Now.Year - BirthDay.Year; }
+        //DateTime nowDate = DateTime.Today;
+        //int age = nowDate.Year - BirthDay.Year;
+        //if(BirthDay > nowDate.AddYears(-age)) age--;
         #endregion
 
         public override string ToString()
         {
-            return Name;
+            return Name + " " + Age;
         }
     }
 }

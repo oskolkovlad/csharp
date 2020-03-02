@@ -7,29 +7,61 @@ namespace Fitness.CMD
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Доброго времени суток! Вас приветствует FitnessApplication.");
+            Console.WriteLine("Доброго времени суток! Вас приветствует FitnessApplication.\n");
             
             Console.WriteLine("Введите имя пользователя:");
             var name = Console.ReadLine();
 
-            Console.WriteLine("Введите пол:");
-            var gender = Console.ReadLine();
+            UserController userController = new UserController(name);
+            if (userController.IsNewUser)
+            {
+                Console.Write("Введите пол: ");
+                var genderName = Console.ReadLine();
 
-            Console.WriteLine("Введите дату рождения:");
-            var birthDay = DateTime.Parse(Console.ReadLine()); // TODO: переписать в TryParse
+                ParseDataTime("дату рождения", out DateTime birthDay);
+                ParseDouble("вес", out double weight);
+                ParseDouble("рост", out double height);
 
-            Console.WriteLine("Введите вес:");
-            var weight = double.Parse(Console.ReadLine());
+                userController.SetNewUserData(genderName, birthDay, weight, height);
+            }
 
-            Console.WriteLine("Введите рост:");
-            var height = double.Parse(Console.ReadLine());
-
-
-            UserController userController = new UserController(name, gender, birthDay, weight, height);
-            userController.Save();
+            Console.WriteLine(userController.CurrentUser);
 
 
             Console.ReadKey();
+        }
+
+        private static void ParseDouble(string name, out double result)
+        {
+            Console.Write($"Введите {name}: ");;
+
+            while (true)
+            {
+                if (double.TryParse(Console.ReadLine(), out result))
+                {
+                    break;
+                }
+                else
+                {
+                    Console.WriteLine($"Неверный формат. Попробуйте еще раз.");
+                }
+            }
+        }
+
+        private static void ParseDataTime(string name, out DateTime result)
+        {
+            Console.Write($"Введите {name} (ДД.ММ.ГГГГ): ");
+            while (true)
+            {
+                if (DateTime.TryParse(Console.ReadLine(), out result))
+                {
+                    break;
+                }
+                else
+                {
+                    Console.WriteLine("Неверный формат. Попробуйте еще раз.");
+                }
+            }
         }
     }
 }
