@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace Fitness.BL.Model
 {
@@ -9,9 +10,9 @@ namespace Fitness.BL.Model
     public class Gender
     {
         /// <summary>
-        /// Название пола.
+        /// Конструктор по умолчанию (требование Entity Framework).
         /// </summary>
-        public string Name { get; }
+        public Gender() { }
 
         /// <summary>
         /// Конструктор создания пола.
@@ -26,6 +27,17 @@ namespace Fitness.BL.Model
 
             Name = name;
         }
+
+        public int Id { get; set; }
+
+        public virtual ICollection<User> Users { get; set; }
+
+
+        /// <summary>
+        /// Название пола.
+        /// </summary>
+        public string Name { get; set; }
+
 
         public override string ToString()
         {

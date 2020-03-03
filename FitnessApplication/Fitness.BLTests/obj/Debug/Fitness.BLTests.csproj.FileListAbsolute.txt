@@ -16,3 +16,9 @@ Q:\Projects\Learn\Projects\FitnessApplication\Fitness.BLTests\obj\Debug\Fitness.
 Q:\Projects\Learn\Projects\FitnessApplication\Fitness.BLTests\obj\Debug\Fitness.BLTests.csproj.CopyComplete
 Q:\Projects\Learn\Projects\FitnessApplication\Fitness.BLTests\obj\Debug\Fitness.BLTests.dll
 Q:\Projects\Learn\Projects\FitnessApplication\Fitness.BLTests\obj\Debug\Fitness.BLTests.pdb
+Q:\Projects\Learn\Projects\FitnessApplication\Fitness.BLTests\bin\Debug\Fitness.BLTests.dll.config
+Q:\Projects\Learn\Projects\FitnessApplication\Fitness.BLTests\bin\Debug\EntityFramework.dll
+Q:\Projects\Learn\Projects\FitnessApplication\Fitness.BLTests\bin\Debug\EntityFramework.SqlServer.dll
+Q:\Projects\Learn\Projects\FitnessApplication\Fitness.BLTests\bin\Debug\Fitness.BL.dll.config
+Q:\Projects\Learn\Projects\FitnessApplication\Fitness.BLTests\bin\Debug\EntityFramework.xml
+Q:\Projects\Learn\Projects\FitnessApplication\Fitness.BLTests\bin\Debug\EntityFramework.SqlServer.xml

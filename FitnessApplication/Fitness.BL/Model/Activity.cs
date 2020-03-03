@@ -13,6 +13,11 @@ namespace Fitness.BL.Model
     public class Activity
     {
         /// <summary>
+        /// Конструктор по умолчанию (требование Entity Framework).
+        /// </summary>
+        public Activity() { }
+
+        /// <summary>
         /// Конструктор создания вида активности.
         /// </summary>
         /// <param name="name"> Название вида активности. </param>
@@ -25,6 +30,18 @@ namespace Fitness.BL.Model
             CaloriesPerMinute = caloriesPerMinute;
         }
 
+
+        /// <summary>
+        /// Идентификатор вида активности для БД
+        /// </summary>
+        public int Id { get; set; }
+
+        /// <summary>
+        /// Связь с таблицей упражнений (навигационное свойство).
+        /// </summary>
+        public virtual ICollection<Exercise> Exercises { get; set; }
+
+
         /// <summary>
         /// Название вида активности.
         /// </summary>
@@ -33,11 +50,12 @@ namespace Fitness.BL.Model
         /// <summary>
         /// Калории, сжигаемые за минуту.
         /// </summary>
-        public double CaloriesPerMinute { get; }
+        public double CaloriesPerMinute { get; set;  }
 
-        public override string ToString()
-        {
-            return Name;
-        }
+        /// <summary>
+        /// Вывод названия вида активности.
+        /// </summary>
+        /// <returns> Название вида активности. </returns>
+        public override string ToString() => Name;
     }
 }

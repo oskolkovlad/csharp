@@ -10,18 +10,17 @@ namespace Fitness.BL.Controller
     /// <typeparam name="T"> Тип списка данных. </typeparam>
     public abstract class BaseController
     {
+        //private readonly IDataSaver manger = new DatabaseDataSaver();
+        private IDataSaver manger = new SerializeDataSaver();
+
         /// <summary>
         /// Сохранение данных.
         /// </summary>
         /// <param name="fileName"> Имя файла для сохранения данных. </param>
         /// <param name="list"> Список данных. </param>
-        protected internal virtual void Save<T>(string fileName, T list)
+        protected void Save<T>(List<T> items) where T: class
         {
-            var formatter = new BinaryFormatter();
-            using (var fs = new FileStream(fileName, FileMode.OpenOrCreate))
-            {
-                formatter.Serialize(fs, list);
-            }
+            manger.Save(items);
         }
 
         /// <summary>
@@ -29,20 +28,9 @@ namespace Fitness.BL.Controller
         /// </summary>
         /// <param name="fileName"> Имя файла для загрузки данных. </param>
         /// <returns> Список данных. </returns>
-        protected internal virtual T Load<T>(string fileName)
+        protected List<T> Load<T>() where T : class
         {
-            var formatter = new BinaryFormatter();
-            using (var fs = new FileStream(fileName, FileMode.OpenOrCreate))
-            {
-                if (fs.Length > 0 && formatter.Deserialize(fs) is T list)
-                {
-                    return list;
-                }
-                else
-                {
-                    return default(T);
-                }
-            }
+            return manger.Load<T>();
         }
     }
 }

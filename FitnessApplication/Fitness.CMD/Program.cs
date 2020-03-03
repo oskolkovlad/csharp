@@ -74,8 +74,6 @@ namespace Fitness.CMD
                         return; // Environment.Exit(0);
                 }
             }
-            
-            Console.ReadKey();
         }
 
         private static (Activity Activity, DateTime Start, DateTime Finish) EnterExercise()

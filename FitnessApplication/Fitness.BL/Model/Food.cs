@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace Fitness.BL.Model
 {
@@ -8,6 +9,11 @@ namespace Fitness.BL.Model
     [Serializable]
     public class Food
     {
+        /// <summary>
+        /// Конструктор по умолчанию (требование Entity Framework).
+        /// </summary>
+        public Food() { }
+
         /// <summary>
         /// Конструктор создания нового продукта.
         /// </summary>
@@ -58,33 +64,46 @@ namespace Fitness.BL.Model
             Calories = calories / 100.0;
         }
 
+
         #region Свойство
+
+        public int Id { get; set; }
+
+        public virtual ICollection<Eating> Eatings { get; set; }
+
+
         /// <summary>
         /// Название продукта.
         /// </summary>
-        public string Name { get; }
+        public string Name { get; set; }
 
         /// <summary>
         /// Белки.
         /// </summary>
-        public double Proteins { get; }
+        public double Proteins { get; set; }
 
         /// <summary>
         /// Жиры.
         /// </summary>
-        public double Fats { get; }
+        public double Fats { get; set; }
 
         /// <summary>
         /// Углеводы.
         /// </summary>
-        public double Carbohydrates { get; }
+        public double Carbohydrates { get; set; }
 
         /// <summary>
         /// Калории за 100 грамм продукта.
         /// </summary>
-        public double Calories { get; }
+        public double Calories { get; set; }
+
         #endregion
 
+
+        /// <summary>
+        /// Вывод названия продукта.
+        /// </summary>
+        /// <returns> Название продукта.</returns>
         public override string ToString()
         {
             return Name;

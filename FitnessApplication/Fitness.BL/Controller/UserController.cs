@@ -34,7 +34,7 @@ namespace Fitness.BL.Controller
                 Users.Add(CurrentUser);
                 IsNewUser = true;
 
-                Save();
+                //Save();
             }
         }
 
@@ -55,10 +55,6 @@ namespace Fitness.BL.Controller
         /// </summary>
         public bool IsNewUser { get; } = false;
 
-        /// <summary>
-        /// Названия файла с пользователями.
-        /// </summary>
-        private const string USER_FILE_NAME = "users.dat";
         #endregion
 
 
@@ -89,13 +85,13 @@ namespace Fitness.BL.Controller
         /// </summary>
         private void Save()
         {
-            Save(USER_FILE_NAME, Users);
+            Save(Users);
         }
 
         /// <summary>
         /// Получение данных пользователей.
         /// </summary>
         /// <returns> Список пользователей. </returns>
-        private List<User> GetUsersData() => Load<List<User>>(USER_FILE_NAME) ?? new List<User>();
+        private List<User> GetUsersData() => Load<User>() ?? new List<User>();
     }
 }

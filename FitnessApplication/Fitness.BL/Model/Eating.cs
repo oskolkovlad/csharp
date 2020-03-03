@@ -11,6 +11,11 @@ namespace Fitness.BL.Model
     public class Eating
     {
         /// <summary>
+        /// Конструктор по умолчанию (требование Entity Framework).
+        /// </summary>
+        public Eating() { }
+
+        /// <summary>
         /// Конструктор создания приема пищи.
         /// </summary>
         /// <param name="user"> Пользователь. </param>
@@ -21,20 +26,34 @@ namespace Fitness.BL.Model
             Foods = new Dictionary<Food, double>();
         }
 
+
+        /// <summary>
+        /// Идентификатор таблицы приемов пищи.
+        /// </summary>
+        public int Id { get; set; }
+
+        /// <summary>
+        /// Идентификатор таблицы пользователей (FK).
+        /// </summary>
+        public int UserId { get; set; }
+
+
         /// <summary>
         /// Пользователь.
         /// </summary>
-        public User User { get; }
+        public virtual User User { get; set; }
 
         /// <summary>
         /// Список продуктов.
         /// </summary>
-        public Dictionary<Food, double> Foods { get; }
+        public Dictionary<Food, double> Foods { get; set; }
+
 
         /// <summary>
         /// Время приема пищи.
         /// </summary>
-        public DateTime Moment { get; }
+        public DateTime Moment { get; set; }
+
 
         /// <summary>
         /// Добавление продуктов и их веса в список.

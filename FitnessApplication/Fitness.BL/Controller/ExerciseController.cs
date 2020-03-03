@@ -38,20 +38,14 @@ namespace Fitness.BL.Controller
         /// </summary>
         public List<Activity> Activities { get; }
 
-        /// <summary>
-        /// Название файла для данных упражнений.
-        /// </summary>
-        private const string EXERCISES_FILE_NAME = "exercises.dat";
-        private const string ACTIVITIES_FILE_NAME = "activities.dat";
-
 
         /// <summary>
         /// Сохранение данных об упражнениях.
         /// </summary>
         private void Save()
         {
-            Save(EXERCISES_FILE_NAME, Exercises);
-            Save(ACTIVITIES_FILE_NAME, Activities);
+            Save(Exercises);
+            Save(Activities);
         }
 
         /// <summary>
@@ -60,7 +54,7 @@ namespace Fitness.BL.Controller
         /// <returns> Список упражнений. </returns>
         private List<Exercise> GetExercisesData()
         {
-            return Load<List<Exercise>>(EXERCISES_FILE_NAME) ?? new List<Exercise>();
+            return Load<Exercise>() ?? new List<Exercise>();
         }
 
         /// <summary>
@@ -69,7 +63,7 @@ namespace Fitness.BL.Controller
         /// <returns> Список видов активности. </returns>
         private List<Activity> GetActivitiesData()
         {
-            return Load<List<Activity>>(ACTIVITIES_FILE_NAME) ?? new List<Activity>();
+            return Load<Activity>() ?? new List<Activity>();
         }
 
         /// <summary>

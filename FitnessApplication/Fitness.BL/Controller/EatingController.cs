@@ -32,16 +32,6 @@ namespace Fitness.BL.Controller
         private readonly User user;
 
         /// <summary>
-        /// Названия файла с продуктами.
-        /// </summary>
-        private const string FOODS_FILE_NAME = "foods.dat";
-
-        /// <summary>
-        /// Название файла с приемами пищи.
-        /// </summary>
-        private const string EATING_FILE_NAME = "eatings.dat";
-
-        /// <summary>
         /// Список продуктов.
         /// </summary>
         public List<Food> Foods { get; }
@@ -57,21 +47,21 @@ namespace Fitness.BL.Controller
         /// </summary>
         private void Save()
         {
-            Save(FOODS_FILE_NAME, Foods);
-            Save(EATING_FILE_NAME, Eating);
+            Save(Foods);
+            Save(new List<Eating>() { Eating });
         }
 
         /// <summary>
         /// Получение данных о продуктах.
         /// </summary>
         /// <returns> Список продуктов. </returns>
-        private List<Food> GetFoodsData() => Load<List<Food>>(FOODS_FILE_NAME) ?? new List<Food>();
+        private List<Food> GetFoodsData() => Load<Food>() ?? new List<Food>();
 
         /// <summary>
         /// Получение данных о приеме пищи.
         /// </summary>
         /// <returns> Данные приема пищи. </returns>
-        private Eating GetEatingData() => Load<Eating>(EATING_FILE_NAME) ?? new Eating(user);
+        private Eating GetEatingData() => Load<Eating>().LastOrDefault() ?? new Eating(user);
 
         /// <summary>
         /// Добавление продукта.
@@ -85,15 +75,10 @@ namespace Fitness.BL.Controller
             if(product is null)
             {
                 Foods.Add(food);
-                Eating.Add(food, weight);
+            }
 
-                Save();
-            }
-            else
-            {
-                Eating.Add(food, weight);
-                Save();
-            }
+            Eating.Add(food, weight);
+            Save();
         }
     }
 }

@@ -9,6 +9,11 @@ namespace Fitness.BL.Model
     public class Exercise
     {
         /// <summary>
+        /// Конструктор по умолчанию (требование Entity Framework).
+        /// </summary>
+        public Exercise() { }
+
+        /// <summary>
         /// Конструктор создания упражнений.
         /// </summary>
         /// <param name="activity"> Вид активности. </param>
@@ -25,24 +30,41 @@ namespace Fitness.BL.Model
             Finish = finish;
         }
 
+
+        /// <summary>
+        /// Идентификатор таблицы упражнений.
+        /// </summary>
+        public int Id { get; set; }
+
+        /// <summary>
+        /// Идентификатор таблицы пользователей.
+        /// </summary>
+        public int UserId { get; set; }
+
+        /// <summary>
+        /// Идентификатор таблицы видов активностей.
+        /// </summary>
+        public int ActivityId { get; set; }
+        
         /// <summary>
         /// Вид активности.
         /// </summary>
-        public Activity Activity { get; }
+        public virtual Activity Activity { get; set; }
 
         /// <summary>
         /// Пользователь.
         /// </summary>
-        public User User { get; }
+        public virtual User User { get; set; }
+
 
         /// <summary>
         /// Время начала упражнения.
         /// </summary>
-        public DateTime Start { get; }
+        public DateTime Start { get; set; }
 
         /// <summary>
         /// Время завершения упражнения.
         /// </summary>
-        public DateTime Finish { get; }
+        public DateTime Finish { get; set; }
     }
 }

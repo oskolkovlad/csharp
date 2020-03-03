@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace Fitness.BL.Model
 {
@@ -9,12 +10,23 @@ namespace Fitness.BL.Model
     public class User
     {
         /// <summary>
+        /// Конструктор по умолчанию (требование Entity Framework).
+        /// </summary>
+        public User() { }
+
+        /// <summary>
         /// Конструктор создания нового пользователя.
         /// </summary>
         /// <param name="name"> Имя пользователя. </param>
         public User(string name)
         {
+            if (string.IsNullOrWhiteSpace(name))
+            {
+                throw new ArgumentNullException(nameof(name), "Имя пользователя не может быть пустым или null.");
+            }
+
             Name = name;
+            //BirthDay = DateTime.Now;
         }
 
         /// <summary>
@@ -57,16 +69,24 @@ namespace Fitness.BL.Model
             Height = height;
         }
 
+
         #region Свойства
+
+        public int Id { get; set; }
+
+        public virtual ICollection<Eating> Eatings { get; set; }
+        public virtual ICollection<Exercise> Exercises { get; set; }
+
+
         /// <summary>
         /// Имя пользователя.
         /// </summary>
-        public string Name { get; }
+        public string Name { get; set; }
 
         /// <summary>
         /// Пол.
         /// </summary>
-        public Gender Gender { get; set; }
+        public virtual Gender Gender { get; set; }
 
         /// <summary>
         /// Дата рождения.
@@ -90,7 +110,9 @@ namespace Fitness.BL.Model
         //DateTime nowDate = DateTime.Today;
         //int age = nowDate.Year - BirthDay.Year;
         //if(BirthDay > nowDate.AddYears(-age)) age--;
+
         #endregion
+
 
         public override string ToString()
         {
