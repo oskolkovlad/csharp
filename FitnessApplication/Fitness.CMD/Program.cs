@@ -2,6 +2,7 @@
 using Fitness.BL.Model;
 using System;
 using System.Globalization;
+using System.Linq;
 using System.Resources;
 
 namespace Fitness.CMD
@@ -19,6 +20,7 @@ namespace Fitness.CMD
 
             UserController userController = new UserController(name);
             var eatingController = new EatingController(userController.CurrentUser);
+            var exerciseController = new ExerciseController(userController.CurrentUser);
 
             if (userController.IsNewUser)
             {
@@ -34,24 +36,59 @@ namespace Fitness.CMD
 
             Console.WriteLine(userController.CurrentUser);
 
+            while (true)
+            {
+
             Console.WriteLine(resourceManager.GetString("DoAction", culture));
             Console.WriteLine(resourceManager.GetString("KeyE", culture));
+            Console.WriteLine("A - ввести упражнение");
+            Console.WriteLine("Q - выйти из приложения");
+
             var key = Console.ReadKey();
-            Console.WriteLine();
-
-            if (key.Key == ConsoleKey.E)
-            {
-                var enterEating = EnterEating();
-                eatingController.Add(enterEating.Food, enterEating.Weight);
-
-                foreach(var f in eatingController.Eating.Foods)
+                switch (key.Key)
                 {
-                    Console.WriteLine($"\t{f.Key}: {f.Value}");
+                    case ConsoleKey.E:
+                        Console.WriteLine();
+                        var enterEating = EnterEating();
+                        eatingController.Add(enterEating.Food, enterEating.Weight);
+
+                        foreach (var f in eatingController.Eating.Foods)
+                        {
+                            Console.WriteLine($"\t{f.Key}: {f.Value}");
+                        }
+                        Console.WriteLine();
+                        break;
+
+                    case ConsoleKey.A:
+                        Console.WriteLine();
+                        var enterExercise = EnterExercise();
+                        exerciseController.Add(enterExercise.Activity, enterExercise.Start, enterExercise.Finish);
+
+                        foreach (var exe in exerciseController.Exercises)
+                        {
+                            Console.WriteLine($"\t{exe.Activity}: {exe.Start.ToShortTimeString()} - {exe.Finish.ToShortTimeString()}");
+                        }
+                        Console.WriteLine();
+                        break;
+                    case ConsoleKey.Q:
+                        return; // Environment.Exit(0);
                 }
             }
-
-
+            
             Console.ReadKey();
+        }
+
+        private static (Activity Activity, DateTime Start, DateTime Finish) EnterExercise()
+        {
+            Console.Write("Введите название активности: ");
+            var activityName = Console.ReadLine();
+            ParseDouble("расход калорий в минуту", out double calories);
+            var activity = new Activity(activityName, calories);
+
+            ParseDataTime("время начала упражнения", out DateTime start);
+            ParseDataTime("время завершения упражнения", out DateTime finish);
+
+            return (activity, start, finish);
         }
 
         /// <summary>
@@ -103,7 +140,7 @@ namespace Fitness.CMD
         /// <param name="result"> Дата. </param>
         private static void ParseDataTime(string name, out DateTime result)
         {
-            Console.Write($"Введите {name} (ДД.ММ.ГГГГ): ");
+            Console.Write($"Введите {name}: ");
             while (true)
             {
                 if (DateTime.TryParse(Console.ReadLine(), out result))

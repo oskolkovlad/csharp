@@ -61,7 +61,7 @@ namespace Fitness.CMD.Languages {
         }
         
         /// <summary>
-        ///   Ищет локализованную строку, похожую на дату рождения.
+        ///   Ищет локализованную строку, похожую на дату рождения (ДД.ММ.ГГГГ).
         /// </summary>
         internal static string Birthday {
             get {

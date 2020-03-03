@@ -118,7 +118,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="Birthday" xml:space="preserve">
-    <value>birthday</value>
+    <value>birthday (DD.MM.YYYY)</value>
   </data>
   <data name="Calories" xml:space="preserve">
     <value>amount of calories</value>
