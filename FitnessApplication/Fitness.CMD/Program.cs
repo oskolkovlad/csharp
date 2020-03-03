@@ -1,6 +1,8 @@
 ﻿using Fitness.BL.Controller;
 using Fitness.BL.Model;
 using System;
+using System.Globalization;
+using System.Resources;
 
 namespace Fitness.CMD
 {
@@ -8,9 +10,11 @@ namespace Fitness.CMD
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Доброго времени суток! Вас приветствует FitnessApplication.\n");
-            
-            Console.WriteLine("Введите имя пользователя:");
+            var culture = CultureInfo.CreateSpecificCulture("ru-ru");
+            var resourceManager = new ResourceManager("Fitness.CMD.Languages.Messages", typeof(Program).Assembly);
+
+            Console.WriteLine(resourceManager.GetString("Hello", culture));
+            Console.WriteLine(resourceManager.GetString("InputUserName", culture));
             var name = Console.ReadLine();
 
             UserController userController = new UserController(name);
@@ -18,20 +22,20 @@ namespace Fitness.CMD
 
             if (userController.IsNewUser)
             {
-                Console.Write("Введите пол: ");
+                Console.Write(resourceManager.GetString("InputGender", culture));
                 var genderName = Console.ReadLine();
 
-                ParseDataTime("дату рождения", out DateTime birthDay);
-                ParseDouble("вес", out double weight);
-                ParseDouble("рост", out double height);
+                ParseDataTime(resourceManager.GetString("Birthday", culture), out DateTime birthDay);
+                ParseDouble(resourceManager.GetString("UserWeight", culture), out double weight);
+                ParseDouble(resourceManager.GetString("Height", culture), out double height);
 
                 userController.SetNewUserData(genderName, birthDay, weight, height);
             }
 
             Console.WriteLine(userController.CurrentUser);
 
-            Console.WriteLine("Что вы хотите сделать? Нажмите нужную клавишу.");
-            Console.WriteLine("Е - ввести прием пищи.");
+            Console.WriteLine(resourceManager.GetString("DoAction", culture));
+            Console.WriteLine(resourceManager.GetString("KeyE", culture));
             var key = Console.ReadKey();
             Console.WriteLine();
 
@@ -50,6 +54,10 @@ namespace Fitness.CMD
             Console.ReadKey();
         }
 
+        /// <summary>
+        /// Ввод данных о продукте.
+        /// </summary>
+        /// <returns> Продукт, вес продукта. </returns>
         private static (Food Food, double Weight) EnterEating()
         {
             Console.Write("Введите имя продукта: ");
@@ -66,6 +74,11 @@ namespace Fitness.CMD
             return (food, weight);
         }
 
+        /// <summary>
+        /// Парсер строки в число с плавающей точкой.
+        /// </summary>
+        /// <param name="name"> Название поля. </param>
+        /// <param name="result"> Число с плавающей точкой. </param>
         private static void ParseDouble(string name, out double result)
         {
             Console.Write($"Введите {name}: ");;
@@ -83,6 +96,11 @@ namespace Fitness.CMD
             }
         }
 
+        /// <summary>
+        /// Парсер строки в дату.
+        /// </summary>
+        /// <param name="name"> Название поля. </param>
+        /// <param name="result"> Дата. </param>
         private static void ParseDataTime(string name, out DateTime result)
         {
             Console.Write($"Введите {name} (ДД.ММ.ГГГГ): ");

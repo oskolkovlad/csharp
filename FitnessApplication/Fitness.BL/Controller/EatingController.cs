@@ -73,6 +73,11 @@ namespace Fitness.BL.Controller
         /// <returns> Данные приема пищи. </returns>
         private Eating GetEatingData() => Load<Eating>(EATING_FILE_NAME) ?? new Eating(user);
 
+        /// <summary>
+        /// Добавление продукта.
+        /// </summary>
+        /// <param name="food"> Продукт. </param>
+        /// <param name="weight"> Вес. </param>
         public void Add(Food food, double weight)
         {
             var product = Foods.SingleOrDefault(f => f.Name == food.Name);

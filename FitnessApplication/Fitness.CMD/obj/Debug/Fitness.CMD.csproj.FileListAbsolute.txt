@@ -7,3 +7,11 @@ Q:\Projects\Learn\Projects\FitnessApplication\Fitness.CMD\obj\Debug\Fitness.CMD.
 Q:\Projects\Learn\Projects\FitnessApplication\Fitness.CMD\obj\Debug\Fitness.CMD.csproj.CopyComplete
 Q:\Projects\Learn\Projects\FitnessApplication\Fitness.CMD\obj\Debug\Fitness.CMD.exe
 Q:\Projects\Learn\Projects\FitnessApplication\Fitness.CMD\obj\Debug\Fitness.CMD.pdb
+Q:\Projects\Learn\Projects\FitnessApplication\Fitness.CMD\obj\Debug\Fitness.CMD.csproj.GenerateResource.cache
+Q:\Projects\Learn\Projects\FitnessApplication\Fitness.CMD\obj\Debug\Fitness.CMD.Languages.Messages.resources
+Q:\Projects\Learn\Projects\FitnessApplication\Fitness.CMD\bin\Debug\en-us\Fitness.CMD.resources.dll
+Q:\Projects\Learn\Projects\FitnessApplication\Fitness.CMD\bin\Debug\ru-ru\Fitness.CMD.resources.dll
+Q:\Projects\Learn\Projects\FitnessApplication\Fitness.CMD\obj\Debug\Fitness.CMD.Languages.Messages.en-us.resources
+Q:\Projects\Learn\Projects\FitnessApplication\Fitness.CMD\obj\Debug\Fitness.CMD.Languages.Messages.ru-ru.resources
+Q:\Projects\Learn\Projects\FitnessApplication\Fitness.CMD\obj\Debug\en-us\Fitness.CMD.resources.dll
+Q:\Projects\Learn\Projects\FitnessApplication\Fitness.CMD\obj\Debug\ru-ru\Fitness.CMD.resources.dll
