@@ -11,9 +11,8 @@ namespace Fitness.BL.Controller
     /// <summary>
     /// Контроллер пользователей.
     /// </summary>
-    public class UserController
+    public class UserController : BaseController
     {
-
         /// <summary>
         /// Конструктор создания нового контроллера пользователей.
         /// </summary>
@@ -39,6 +38,8 @@ namespace Fitness.BL.Controller
             }
         }
 
+
+        #region Поля и свойства
         /// <summary>
         /// Список пользователей.
         /// </summary>
@@ -49,41 +50,17 @@ namespace Fitness.BL.Controller
         /// </summary>
         public User CurrentUser { get; }
 
+        /// <summary>
+        /// Флаг нового пользователя.
+        /// </summary>
         public bool IsNewUser { get; } = false;
 
-
-
         /// <summary>
-        /// Сохранение данных пользователей.
+        /// Названия файла с пользователями.
         /// </summary>
-        private void Save()
-        {
-            var formatter = new BinaryFormatter();
-            using(var fs = new FileStream("users.dat", FileMode.OpenOrCreate))
-            {
-                formatter.Serialize(fs, Users);
-            }
-        }
+        private const string USER_FILE_NAME = "users.dat";
+        #endregion
 
-        /// <summary>
-        /// Получение списка данных пользователей.
-        /// </summary>
-        /// <returns> Список пользователей. </returns>
-        private List<User> GetUsersData()
-        {
-            var formatter = new BinaryFormatter();
-            using (var fs = new FileStream("users.dat", FileMode.OpenOrCreate))
-            {
-                if (fs.Length > 0 && formatter.Deserialize(fs) is List<User> users)
-                {
-                    return users;
-                }
-                else
-                {
-                    return new List<User>();
-                }
-            }
-        }
 
         /// <summary>
         /// Установление данных новому пользователю.
@@ -106,5 +83,19 @@ namespace Fitness.BL.Controller
 
             Save();
         }
+
+        /// <summary>
+        /// Сохранение данных пользователей.
+        /// </summary>
+        private void Save()
+        {
+            Save(USER_FILE_NAME, Users);
+        }
+
+        /// <summary>
+        /// Получение данных пользователей.
+        /// </summary>
+        /// <returns> Список пользователей. </returns>
+        private List<User> GetUsersData() => Load<List<User>>(USER_FILE_NAME) ?? new List<User>();
     }
 }
