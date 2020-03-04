@@ -1,7 +1,8 @@
 1_HelloWorld/.vs/*
 2_OOP/.vs/*
-2_OOP/BankApplication/.vs/*
 3_Opportunities_Of_Language/.vs/*
 4_Advanced/.vs/*
 5_Collections/.vs/*
-FitnessApplication/.vs/*
+6_DataStructures/.vs/*
+Practice/BankApplication/.vs/*
+Practice/FitnessApplication/.vs/*
