@@ -1,0 +1,11 @@
+Q:\Projects\Learn\Projects\6_DataStructures\Stack\bin\Debug\netcoreapp3.1\Stack.exe
+Q:\Projects\Learn\Projects\6_DataStructures\Stack\bin\Debug\netcoreapp3.1\Stack.deps.json
+Q:\Projects\Learn\Projects\6_DataStructures\Stack\bin\Debug\netcoreapp3.1\Stack.runtimeconfig.json
+Q:\Projects\Learn\Projects\6_DataStructures\Stack\bin\Debug\netcoreapp3.1\Stack.runtimeconfig.dev.json
+Q:\Projects\Learn\Projects\6_DataStructures\Stack\bin\Debug\netcoreapp3.1\Stack.dll
+Q:\Projects\Learn\Projects\6_DataStructures\Stack\bin\Debug\netcoreapp3.1\Stack.pdb
+Q:\Projects\Learn\Projects\6_DataStructures\Stack\obj\Debug\netcoreapp3.1\2_Stack.csprojAssemblyReference.cache
+Q:\Projects\Learn\Projects\6_DataStructures\Stack\obj\Debug\netcoreapp3.1\2_Stack.AssemblyInfoInputs.cache
+Q:\Projects\Learn\Projects\6_DataStructures\Stack\obj\Debug\netcoreapp3.1\2_Stack.AssemblyInfo.cs
+Q:\Projects\Learn\Projects\6_DataStructures\Stack\obj\Debug\netcoreapp3.1\Stack.dll
+Q:\Projects\Learn\Projects\6_DataStructures\Stack\obj\Debug\netcoreapp3.1\Stack.pdb
