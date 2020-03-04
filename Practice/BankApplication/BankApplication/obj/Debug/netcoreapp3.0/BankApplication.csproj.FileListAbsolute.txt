@@ -1,0 +1,14 @@
+Q:\Projects\Learn\Projects\2_OOP\BankApplication\BankApplication\bin\Debug\netcoreapp3.0\BankApplication.exe
+Q:\Projects\Learn\Projects\2_OOP\BankApplication\BankApplication\bin\Debug\netcoreapp3.0\BankApplication.deps.json
+Q:\Projects\Learn\Projects\2_OOP\BankApplication\BankApplication\bin\Debug\netcoreapp3.0\BankApplication.runtimeconfig.json
+Q:\Projects\Learn\Projects\2_OOP\BankApplication\BankApplication\bin\Debug\netcoreapp3.0\BankApplication.runtimeconfig.dev.json
+Q:\Projects\Learn\Projects\2_OOP\BankApplication\BankApplication\bin\Debug\netcoreapp3.0\BankApplication.dll
+Q:\Projects\Learn\Projects\2_OOP\BankApplication\BankApplication\bin\Debug\netcoreapp3.0\BankApplication.pdb
+Q:\Projects\Learn\Projects\2_OOP\BankApplication\BankApplication\bin\Debug\netcoreapp3.0\BankLibrary.dll
+Q:\Projects\Learn\Projects\2_OOP\BankApplication\BankApplication\bin\Debug\netcoreapp3.0\BankLibrary.pdb
+Q:\Projects\Learn\Projects\2_OOP\BankApplication\BankApplication\obj\Debug\netcoreapp3.0\BankApplication.csprojAssemblyReference.cache
+Q:\Projects\Learn\Projects\2_OOP\BankApplication\BankApplication\obj\Debug\netcoreapp3.0\BankApplication.AssemblyInfoInputs.cache
+Q:\Projects\Learn\Projects\2_OOP\BankApplication\BankApplication\obj\Debug\netcoreapp3.0\BankApplication.AssemblyInfo.cs
+Q:\Projects\Learn\Projects\2_OOP\BankApplication\BankApplication\obj\Debug\netcoreapp3.0\BankApplication.csproj.CopyComplete
+Q:\Projects\Learn\Projects\2_OOP\BankApplication\BankApplication\obj\Debug\netcoreapp3.0\BankApplication.dll
+Q:\Projects\Learn\Projects\2_OOP\BankApplication\BankApplication\obj\Debug\netcoreapp3.0\BankApplication.pdb

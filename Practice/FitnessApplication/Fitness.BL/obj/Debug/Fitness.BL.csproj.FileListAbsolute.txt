@@ -1,0 +1,11 @@
+Q:\Projects\Learn\Projects\FitnessApplication\Fitness.BL\bin\Debug\Fitness.BL.dll
+Q:\Projects\Learn\Projects\FitnessApplication\Fitness.BL\bin\Debug\Fitness.BL.pdb
+Q:\Projects\Learn\Projects\FitnessApplication\Fitness.BL\obj\Debug\Fitness.BL.csprojAssemblyReference.cache
+Q:\Projects\Learn\Projects\FitnessApplication\Fitness.BL\obj\Debug\Fitness.BL.dll
+Q:\Projects\Learn\Projects\FitnessApplication\Fitness.BL\obj\Debug\Fitness.BL.pdb
+Q:\Projects\Learn\Projects\FitnessApplication\Fitness.BL\bin\Debug\Fitness.BL.dll.config
+Q:\Projects\Learn\Projects\FitnessApplication\Fitness.BL\bin\Debug\EntityFramework.dll
+Q:\Projects\Learn\Projects\FitnessApplication\Fitness.BL\bin\Debug\EntityFramework.SqlServer.dll
+Q:\Projects\Learn\Projects\FitnessApplication\Fitness.BL\bin\Debug\EntityFramework.xml
+Q:\Projects\Learn\Projects\FitnessApplication\Fitness.BL\bin\Debug\EntityFramework.SqlServer.xml
+Q:\Projects\Learn\Projects\FitnessApplication\Fitness.BL\obj\Debug\Fitness.BL.csproj.CopyComplete

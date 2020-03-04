@@ -1,8 +1,0 @@
-Q:\Projects\Learn\Projects\2_OOP\BankApplication\BankLibrary\bin\Debug\netcoreapp3.0\BankLibrary.deps.json
-Q:\Projects\Learn\Projects\2_OOP\BankApplication\BankLibrary\bin\Debug\netcoreapp3.0\BankLibrary.dll
-Q:\Projects\Learn\Projects\2_OOP\BankApplication\BankLibrary\bin\Debug\netcoreapp3.0\BankLibrary.pdb
-Q:\Projects\Learn\Projects\2_OOP\BankApplication\BankLibrary\obj\Debug\netcoreapp3.0\BankLibrary.csprojAssemblyReference.cache
-Q:\Projects\Learn\Projects\2_OOP\BankApplication\BankLibrary\obj\Debug\netcoreapp3.0\BankLibrary.AssemblyInfoInputs.cache
-Q:\Projects\Learn\Projects\2_OOP\BankApplication\BankLibrary\obj\Debug\netcoreapp3.0\BankLibrary.AssemblyInfo.cs
-Q:\Projects\Learn\Projects\2_OOP\BankApplication\BankLibrary\obj\Debug\netcoreapp3.0\BankLibrary.dll
-Q:\Projects\Learn\Projects\2_OOP\BankApplication\BankLibrary\obj\Debug\netcoreapp3.0\BankLibrary.pdb

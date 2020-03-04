@@ -1,0 +1,11 @@
+Q:\Projects\Learn\Projects\6_DataStructures\Linked_List\bin\Debug\netcoreapp3.1\Linked_List_1.exe
+Q:\Projects\Learn\Projects\6_DataStructures\Linked_List\bin\Debug\netcoreapp3.1\Linked_List_1.deps.json
+Q:\Projects\Learn\Projects\6_DataStructures\Linked_List\bin\Debug\netcoreapp3.1\Linked_List_1.runtimeconfig.json
+Q:\Projects\Learn\Projects\6_DataStructures\Linked_List\bin\Debug\netcoreapp3.1\Linked_List_1.runtimeconfig.dev.json
+Q:\Projects\Learn\Projects\6_DataStructures\Linked_List\bin\Debug\netcoreapp3.1\Linked_List_1.dll
+Q:\Projects\Learn\Projects\6_DataStructures\Linked_List\bin\Debug\netcoreapp3.1\Linked_List_1.pdb
+Q:\Projects\Learn\Projects\6_DataStructures\Linked_List\obj\Debug\netcoreapp3.1\1_Linked_List_1.csprojAssemblyReference.cache
+Q:\Projects\Learn\Projects\6_DataStructures\Linked_List\obj\Debug\netcoreapp3.1\1_Linked_List_1.AssemblyInfoInputs.cache
+Q:\Projects\Learn\Projects\6_DataStructures\Linked_List\obj\Debug\netcoreapp3.1\1_Linked_List_1.AssemblyInfo.cs
+Q:\Projects\Learn\Projects\6_DataStructures\Linked_List\obj\Debug\netcoreapp3.1\Linked_List_1.dll
+Q:\Projects\Learn\Projects\6_DataStructures\Linked_List\obj\Debug\netcoreapp3.1\Linked_List_1.pdb
