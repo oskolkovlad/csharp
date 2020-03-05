@@ -1,0 +1,11 @@
+Q:\Projects\Learn\Projects\5_Collections\LazyCollection\bin\Debug\netcoreapp3.1\LazyCollection.exe
+Q:\Projects\Learn\Projects\5_Collections\LazyCollection\bin\Debug\netcoreapp3.1\LazyCollection.deps.json
+Q:\Projects\Learn\Projects\5_Collections\LazyCollection\bin\Debug\netcoreapp3.1\LazyCollection.runtimeconfig.json
+Q:\Projects\Learn\Projects\5_Collections\LazyCollection\bin\Debug\netcoreapp3.1\LazyCollection.runtimeconfig.dev.json
+Q:\Projects\Learn\Projects\5_Collections\LazyCollection\bin\Debug\netcoreapp3.1\LazyCollection.dll
+Q:\Projects\Learn\Projects\5_Collections\LazyCollection\bin\Debug\netcoreapp3.1\LazyCollection.pdb
+Q:\Projects\Learn\Projects\5_Collections\LazyCollection\obj\Debug\netcoreapp3.1\10_LazyCollection.csprojAssemblyReference.cache
+Q:\Projects\Learn\Projects\5_Collections\LazyCollection\obj\Debug\netcoreapp3.1\10_LazyCollection.AssemblyInfoInputs.cache
+Q:\Projects\Learn\Projects\5_Collections\LazyCollection\obj\Debug\netcoreapp3.1\10_LazyCollection.AssemblyInfo.cs
+Q:\Projects\Learn\Projects\5_Collections\LazyCollection\obj\Debug\netcoreapp3.1\LazyCollection.dll
+Q:\Projects\Learn\Projects\5_Collections\LazyCollection\obj\Debug\netcoreapp3.1\LazyCollection.pdb

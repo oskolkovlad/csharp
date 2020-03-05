@@ -1,0 +1,10 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>Ring_List_1</RootNamespace>
+    <AssemblyName>Ring_List_1</AssemblyName>
+  </PropertyGroup>
+
+</Project>

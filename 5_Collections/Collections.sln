@@ -17,9 +17,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "6_DictionaryCollection", "D
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "7_Observable_Collection", "Observable_Collection\7_Observable_Collection.csproj", "{071DCF3D-9001-42B0-A983-4D48CADE0F5D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "8_IEnumerableIEnumerator", "IEnumerableIEnumerator\8_IEnumerableIEnumerator.csproj", "{1CA6363B-6BFB-43FD-BD2D-DFEAE1A1BDFA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "8_IEnumerableIEnumerator", "IEnumerableIEnumerator\8_IEnumerableIEnumerator.csproj", "{1CA6363B-6BFB-43FD-BD2D-DFEAE1A1BDFA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "9_Yield", "Yield\9_Yield.csproj", "{68D29931-F3BC-4307-A6F8-E4A3B2D1D248}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "9_Yield", "Yield\9_Yield.csproj", "{68D29931-F3BC-4307-A6F8-E4A3B2D1D248}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "10_LazyCollection", "LazyCollection\10_LazyCollection.csproj", "{F116F8FB-3F08-4319-82B1-8FEFAB148D33}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -63,6 +65,10 @@ Global
 		{68D29931-F3BC-4307-A6F8-E4A3B2D1D248}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{68D29931-F3BC-4307-A6F8-E4A3B2D1D248}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{68D29931-F3BC-4307-A6F8-E4A3B2D1D248}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F116F8FB-3F08-4319-82B1-8FEFAB148D33}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F116F8FB-3F08-4319-82B1-8FEFAB148D33}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F116F8FB-3F08-4319-82B1-8FEFAB148D33}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F116F8FB-3F08-4319-82B1-8FEFAB148D33}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
