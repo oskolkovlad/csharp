@@ -1,4 +1,6 @@
 ﻿using System;
+using System.Text;
+using System.Text.RegularExpressions;
 
 namespace WorkWithString
 {
@@ -86,6 +88,7 @@ namespace WorkWithString
 
             #endregion
 
+
             #region Интерполяция и форматирование строк
 
             // Форматирование строк
@@ -147,6 +150,103 @@ namespace WorkWithString
 
             #endregion
 
+
+            #region StringBuilder
+
+
+            // Кроме метода Append класс StringBuilder предлагает еще ряд методов для операций над строками:
+
+            // - Insert: вставляет подстроку в объект StringBuilder, начиная с определенного индекса
+            // - Remove: удаляет определенное количество символов, начиная с определенного индекса
+            // - Replace: заменяет все вхождения определенного символа или подстроки на другой символ или подстроку
+            // - AppendFormat: добавляет подстроку в конец объекта StringBuilder
+
+            StringBuilder sb = new StringBuilder(20);
+            sb.Append("hello world you oh");
+            Console.WriteLine(sb);
+            sb.Append(" my God!");
+            Console.WriteLine(sb);
+            sb.Insert(11, "!");
+            Console.WriteLine(sb);
+            sb.Replace("you", "yeah");
+            Console.WriteLine(sb);
+            sb.Remove(12, sb.Length - 12);
+            Console.WriteLine(sb);
+
+            Console.WriteLine(new string('-', 50));
+
+            #endregion
+
+
+            #region Регулярные выражения
+
+
+
+            string reg1 = "шла саша по шоссе и сосала сушку саша вот такая саша молодец";
+
+            // Параметр RegexOptions:
+
+            // - Compiled: при установке этого значения регулярное выражение компилируется в сборку, что
+            // обеспечивает более быстрое выполнение
+            // - CultureInvariant: при установке этого значения будут игнорироваться региональные различия
+            // - IgnoreCase: при установке этого значения будет игнорироваться регистр
+            // - IgnorePatternWhitespace: удаляет из строки пробелы и разрешает комментарии, начинающиеся со знака #
+            // - Multiline: указывает, что текст надо рассматривать в многострочном режиме.
+            // При таком режиме символы "^" и "$" совпадают, соответственно, с началом и концом любой строки,
+            // а не с началом и концом всего текста
+            // - RightToLeft: приписывает читать строку справа налево
+            // - Singleline: устанавливает однострочный режим, а весь текст рассматривается как одна строка
+
+            Regex regex1 = new Regex(@"\w*са\w*", RegexOptions.IgnoreCase);
+            MatchCollection matches1 = regex1.Matches(reg1);
+
+            foreach(var m in matches1)
+            {
+                Console.WriteLine(m);
+            }
+            Console.WriteLine(new string('-', 50));
+
+
+            // Синтаксис регулярных выражений:
+
+            //   ^: соответствие должно начинаться в начале строки(например, выражение @"^пр\w*" соответствует
+            // слову "привет" в строке "привет мир")
+            //  $: конец строки(например, выражение @"\w*ир$" соответствует слову "мир" в строке
+            // "привет мир", так как часть "ир" находится в самом конце)
+            //  .: знак точки определяет любой одиночный символ(например, выражение "м.р" соответствует слову "мир" или "мор")
+            //  *: предыдущий символ повторяется 0 и более раз
+            //  +: предыдущий символ повторяется 1 и более раз
+            //  ?: предыдущий символ повторяется 0 или 1 раз
+            //  \s: соответствует любому пробельному символу
+            //  \S: соответствует любому символу, не являющемуся пробелом
+            //  \w: соответствует любому алфавитно - цифровому символу
+            //  \W: соответствует любому не алфавитно-цифровому символу
+            //  \d: соответствует любой десятичной цифре
+            //  \D: соответствует любому символу, не являющемуся десятичной цифрой
+
+
+            string reg2 = "+7 (989) 143-23-34";
+            string reg3 = "456-435-2318";
+
+            var pattern1 = (@"\S[0-9]\s\([0-9]{3}\)\s[0-9]{3}-[0-9]{2}-[0-9]{2}");
+            var pattern2 = (@"[0-9]{3}-[0-9]{3}-[0-9]{4}");
+            
+            if (Regex.IsMatch(reg3, pattern2, RegexOptions.IgnoreCase))
+            {
+                Console.WriteLine(reg3);
+            }
+            if (Regex.IsMatch(reg2, pattern1, RegexOptions.IgnoreCase))
+            {
+                Console.WriteLine(reg2);
+            }
+
+            Console.WriteLine(new string('-', 50));
+
+            Regex regex3 = new Regex(@"\w*са\w*");
+            var ress = regex3.Replace(reg1, "па");
+            Console.WriteLine(ress);
+
+            #endregion
 
 
             Console.ReadKey();
