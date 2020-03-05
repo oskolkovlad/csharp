@@ -1,0 +1,10 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>WorkWith_DateTime</RootNamespace>
+    <AssemblyName>WorkWith_DateTime</AssemblyName>
+  </PropertyGroup>
+
+</Project>

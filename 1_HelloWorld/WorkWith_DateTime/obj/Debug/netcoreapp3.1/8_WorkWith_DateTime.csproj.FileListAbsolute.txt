@@ -1,0 +1,11 @@
+Q:\Projects\Learn\Projects\1_HelloWorld\WorkWith_DateTime\bin\Debug\netcoreapp3.1\WorkWith_DateTime.exe
+Q:\Projects\Learn\Projects\1_HelloWorld\WorkWith_DateTime\bin\Debug\netcoreapp3.1\WorkWith_DateTime.deps.json
+Q:\Projects\Learn\Projects\1_HelloWorld\WorkWith_DateTime\bin\Debug\netcoreapp3.1\WorkWith_DateTime.runtimeconfig.json
+Q:\Projects\Learn\Projects\1_HelloWorld\WorkWith_DateTime\bin\Debug\netcoreapp3.1\WorkWith_DateTime.runtimeconfig.dev.json
+Q:\Projects\Learn\Projects\1_HelloWorld\WorkWith_DateTime\bin\Debug\netcoreapp3.1\WorkWith_DateTime.dll
+Q:\Projects\Learn\Projects\1_HelloWorld\WorkWith_DateTime\bin\Debug\netcoreapp3.1\WorkWith_DateTime.pdb
+Q:\Projects\Learn\Projects\1_HelloWorld\WorkWith_DateTime\obj\Debug\netcoreapp3.1\8_WorkWith_DateTime.csprojAssemblyReference.cache
+Q:\Projects\Learn\Projects\1_HelloWorld\WorkWith_DateTime\obj\Debug\netcoreapp3.1\8_WorkWith_DateTime.AssemblyInfoInputs.cache
+Q:\Projects\Learn\Projects\1_HelloWorld\WorkWith_DateTime\obj\Debug\netcoreapp3.1\8_WorkWith_DateTime.AssemblyInfo.cs
+Q:\Projects\Learn\Projects\1_HelloWorld\WorkWith_DateTime\obj\Debug\netcoreapp3.1\WorkWith_DateTime.dll
+Q:\Projects\Learn\Projects\1_HelloWorld\WorkWith_DateTime\obj\Debug\netcoreapp3.1\WorkWith_DateTime.pdb

@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "WorkWith_DateTime/1.0.0": {
+        "runtime": {
+          "WorkWith_DateTime.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "WorkWith_DateTime/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
