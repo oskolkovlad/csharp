@@ -132,7 +132,7 @@ namespace Circular_Linked_List
 
         public override string ToString()
         {
-            return $"В двухсвязном кольцевом списке кол-во элементов равно {Count}";
+            return $"В односвязном кольцевом списке кол-во элементов равно {Count}";
         }
 
         public IEnumerator<T> GetEnumerator()

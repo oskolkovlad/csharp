@@ -54,7 +54,7 @@ namespace Circular_Linked_List
             list2.Add(3);
             list2.Add(354);
             list2.Add(23);
-            list2.AddFirst(777);
+            list2.Add(777);
 
             Console.WriteLine(list2);
             foreach (var l in list2)
@@ -68,8 +68,32 @@ namespace Circular_Linked_List
             Console.WriteLine();
 
             Console.WriteLine(list2.Remove(354));
-            Console.WriteLine(list2.Remove(23));
+            Console.WriteLine();
+
+            foreach (var l in list2)
+            {
+                Console.WriteLine(l);
+            }
+            Console.WriteLine();
+
+            Console.WriteLine(list2.Remove(34));
+            Console.WriteLine();
+
+            foreach (var l in list2)
+            {
+                Console.WriteLine(l);
+            }
+            Console.WriteLine();
+
             Console.WriteLine(list2.Remove(777));
+            Console.WriteLine();
+
+            foreach (var l in list2)
+            {
+                Console.WriteLine(l);
+            }
+            Console.WriteLine();
+
             Console.WriteLine(list2.Remove(777));
             Console.WriteLine();
 
@@ -80,7 +104,7 @@ namespace Circular_Linked_List
             }
             Console.WriteLine();
 
-            foreach (var l in list2.BackGetEnumerate())
+            foreach (var l in list2.BackGetEnumerator())
             {
                 Console.WriteLine(l);
             }
