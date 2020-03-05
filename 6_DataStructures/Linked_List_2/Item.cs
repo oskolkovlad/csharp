@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace Linked_List_2
+﻿namespace Linked_List_2
 {
     public class Item<T>
     {
