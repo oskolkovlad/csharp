@@ -55,9 +55,9 @@
     - ReceiveFrom и SendTo.
 - `9_SQL_Entity_Framework` - простенька ораганизация БД с помощью Entity Framework (DB First):
     - DbContext;
-    - <connectionStrings>
-        <add name="DBConnectionString" connectionString="data source=(localdb)\MSSQLLocalDB;Initial Catalog=Musics;Integrated Security=True;" providerName="System.Data.SqlClient"/>
-    </connectionStrings>
+    - `<connectionStrings>`
+        `<add name="DBConnectionString" connectionString="data source=(localdb)\MSSQLLocalDB;Initial Catalog=Musics;Integrated Security=True;" providerName="System.Data.SqlClient"/>`
+    `</connectionStrings>`
 - `10_LINQ` - стандартная форма записи (как запрос SQL), методы расширений.
 
 #### 4_Advanced:
@@ -86,6 +86,7 @@
 - `8_IEnumerableIEnumerator` - итератор.
 - `9_Yield` - итератор. Оператор yield для перебора набора значений.
 - `10_LazyCollection` - Lazy<T> гарантирует нам, что объект будет создан только тогда, когда в нем есть необходимость.
+- `11_Span_IndexRange` - Span позволяет избежать дополнительных выделений памяти при операции с наборами данных. Также рассмотрены индексы и диапозоны (^1 и 1..5).
 
 #### 6_DataStructures:
 - `1_Linked_List_1` - реализация односвязного списка с помощью узлов.

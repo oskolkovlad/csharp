@@ -1,0 +1,11 @@
+Q:\Projects\Learn\Projects\5_Collections\Span_IndexRange\obj\Debug\netcoreapp3.1\Span_IndexRange.csprojAssemblyReference.cache
+Q:\Projects\Learn\Projects\5_Collections\Span_IndexRange\obj\Debug\netcoreapp3.1\Span_IndexRange.AssemblyInfoInputs.cache
+Q:\Projects\Learn\Projects\5_Collections\Span_IndexRange\obj\Debug\netcoreapp3.1\Span_IndexRange.AssemblyInfo.cs
+Q:\Projects\Learn\Projects\5_Collections\Span_IndexRange\bin\Debug\netcoreapp3.1\Span_IndexRange.exe
+Q:\Projects\Learn\Projects\5_Collections\Span_IndexRange\bin\Debug\netcoreapp3.1\Span_IndexRange.deps.json
+Q:\Projects\Learn\Projects\5_Collections\Span_IndexRange\bin\Debug\netcoreapp3.1\Span_IndexRange.runtimeconfig.json
+Q:\Projects\Learn\Projects\5_Collections\Span_IndexRange\bin\Debug\netcoreapp3.1\Span_IndexRange.runtimeconfig.dev.json
+Q:\Projects\Learn\Projects\5_Collections\Span_IndexRange\bin\Debug\netcoreapp3.1\Span_IndexRange.dll
+Q:\Projects\Learn\Projects\5_Collections\Span_IndexRange\bin\Debug\netcoreapp3.1\Span_IndexRange.pdb
+Q:\Projects\Learn\Projects\5_Collections\Span_IndexRange\obj\Debug\netcoreapp3.1\Span_IndexRange.dll
+Q:\Projects\Learn\Projects\5_Collections\Span_IndexRange\obj\Debug\netcoreapp3.1\Span_IndexRange.pdb
