@@ -18,7 +18,7 @@
 - `2_Class_Property_Constructor` - поля, свойства и автосвойства классов и конструкторы.
 - `3_Method` - методы в классах.
 - `4_CreateLibrary` и `MyLib` - создание библиотеки, в которую помещаем класс из проекта `2_Class_Property_Constructor`. Подключаем ее и используем в проекте `4_CreateLibrary`.
-- `5_OperatorOverload_Const_ReadOnly` - переопределение операторов {...static TYPE operator OPERATOR ()}, константы (const) и поля только для чтения (readonly).
+- `5_OperatorOverload_Const_ReadOnly` - перегрузка операторов (...static TYPE operator OPERATOR ()), константы (const) и поля только для чтения (readonly).
 - `6_Indexer_Null` - Индексаторы (...this[...]{ get; set; }) и операторы ?/?? для опеределения null и в случае null значения совершения альтернативного действия соотвественно.
 - `7_OperationCastOverload` - переопределение операций приведения типов (...static explicit/implicit operator OUT_TYPE (IN_TYPE)).
 - `8_Virtual_Method_and_Property` - виртуальные методы и свойства, переопределение виртуальных методов в классах насследниках (override) и запрет наследования и переопределения методов родителей (sealed).
@@ -27,7 +27,38 @@
 - `11_SwitchPattern_NullableType_VarRef` - шаблоны в конструкции switch...case (свйоств в объекте, позиционный и кортежей), Nullable тип (int?) и Переменные-ссылки (ref).
 
 #### 3_Opportunities_Of_Language:
-
+- `1_Operator_Overload` - перегрузка операторов (...static TYPE operator OPERATOR ()).
+- `2_Generics` - рассмотрение универсальных типов для классов (class NAME<T> | class NAME1 : NAME2<int> | class NAME1<T> : NAME2<int> | class NAME1<T> : NAME2<T> where T : class| class NAME1<T, TT> : NAME2<T> where T : struct) и для методов (если в обобщенном классе - ... T NAME (T ARG1, T ARG2); если не в обобщенном кассе - ... T NAME<T> (T ARG1, T ARG2)).
+- `3_Interfaces` - реализация интерфейсов (неявная и явная(void IObject.Create() - при этом для того чтобы воспользоваться данном методом, необходимо привести объект к тому интерфейсу, которым хотим воспользоваться), последовательное наследование, итерфейсы IComparable (CompareTo - return this.Name.CompareTo(p.Name)) и IComparer (public int Compare(Person p1, Person p2) {реализация сравнения}). IComparer имеет приоритет над IComparable.
+- `4_Exception` - обработка исключений с  помощью конструкции try...catch...final, фильтр исключений с помощью when (catch (DivideByZeroException ex) when (a == 5)), выброс исключений с помощью throw new и создание своих исключений.
+- `5_Delegate_Event` - рассмотрение делегатов и событий.
+- `6_Stream_Files` - запись в файл и чтение из него:
+    - using (var sw = new StreamWriter("./out.txt", false, encoding))
+    - using (var sr = new StreamReader("./out.txt", encoding))
+    - для чтения еще раз: sr.DiscardBufferedData(); sr.BaseStream.Seek(0, SeekOrigin.Begin);
+- `7_Async_Await_Thread` - рассмотрение многопоточности и ассинхронности:
+    - Thread thread1 = new Thread(new ThreadStart(NAME_of_FUNCTION)); thread1.Start(int.MaxValue - параметр функции);
+    - для ассинхронности надо создать обертку для функции:
+        static async Task<bool> SaveFileAsync(string path)
+            var result = await Task.Run(() => SaveFile(path));
+    - public static object locker = new object(); lock (locker) {}
+- `8_1_Server_TCP` и `8_2_Client_TCP` - создание TCP клиент-сервера:
+    - IPEndPoint(IPAddress.Parse(IP), PORT);
+    - Socket(AddressFamily.InterNetwork, SocketType.Stream, ProtocolType.Tcp);
+    - tspSocket.Bind(tcpEndPoint);
+    - listner = tcpSocket.Accept().
+- `8_3_Server_UDP` и `8_4_Client_UDP` -  создание UDP клиент-сервера:
+    - IPEndPoint(IPAddress.Parse(IP), PORT);
+    - Socket(AddressFamily.InterNetwork, SocketType.Dgram, ProtocolType.Udp);
+    - udpSocket.Bind(udpEndPoint);
+    - EndPoint senderEndPoint = new IPEndPoint(IPAddress.Any, 0);
+    - ReceiveFrom и SendTo.
+- `9_SQL_Entity_Framework` - простенька ораганизация БД с помощью Entity Framework (DB First):
+    - DbContext;
+    - <connectionStrings>
+        <add name="DBConnectionString" connectionString="data source=(localdb)\MSSQLLocalDB;Initial Catalog=Musics;Integrated Security=True;" providerName="System.Data.SqlClient"/>
+    </connectionStrings>
+- `10_LINQ` - стандартная форма записи (как запрос SQL), методы расширений.
 
 #### 4_Advanced:
 - `1_Extension_Method` - методы расширения (... static OUT_TYPE NAME(this TYPE PARAM ...)).
@@ -61,6 +92,8 @@
 - `2_Stack` - реализация стека на основе списка (List), массива и односвязного списка. 
 - `3_Linked_List_2` - реализация двусвязного списка.
 - `4_Circular_Linked_List` - реализация кольцевых списков, односвязного и двухсвязного.
+- `5_Queue` - реализация очереди на основе списка (List), массива и односвязного списка. 
+- `6_Deque` - реализация двусторонней очереди на основе двусвязного списка.
 
 ### Полезные ресурсы:
 

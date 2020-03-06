@@ -1,0 +1,11 @@
+Q:\Projects\Learn\Projects\6_DataStructures\Deque\bin\Debug\netcoreapp3.1\Deque.exe
+Q:\Projects\Learn\Projects\6_DataStructures\Deque\bin\Debug\netcoreapp3.1\Deque.deps.json
+Q:\Projects\Learn\Projects\6_DataStructures\Deque\bin\Debug\netcoreapp3.1\Deque.runtimeconfig.json
+Q:\Projects\Learn\Projects\6_DataStructures\Deque\bin\Debug\netcoreapp3.1\Deque.runtimeconfig.dev.json
+Q:\Projects\Learn\Projects\6_DataStructures\Deque\bin\Debug\netcoreapp3.1\Deque.dll
+Q:\Projects\Learn\Projects\6_DataStructures\Deque\bin\Debug\netcoreapp3.1\Deque.pdb
+Q:\Projects\Learn\Projects\6_DataStructures\Deque\obj\Debug\netcoreapp3.1\6_Deque.AssemblyInfoInputs.cache
+Q:\Projects\Learn\Projects\6_DataStructures\Deque\obj\Debug\netcoreapp3.1\6_Deque.AssemblyInfo.cs
+Q:\Projects\Learn\Projects\6_DataStructures\Deque\obj\Debug\netcoreapp3.1\Deque.dll
+Q:\Projects\Learn\Projects\6_DataStructures\Deque\obj\Debug\netcoreapp3.1\Deque.pdb
+Q:\Projects\Learn\Projects\6_DataStructures\Deque\obj\Debug\netcoreapp3.1\6_Deque.csprojAssemblyReference.cache
