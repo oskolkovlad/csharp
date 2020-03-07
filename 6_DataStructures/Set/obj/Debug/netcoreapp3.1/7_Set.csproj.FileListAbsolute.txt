@@ -8,3 +8,4 @@ Q:\Projects\Learn\Projects\6_DataStructures\Set\obj\Debug\netcoreapp3.1\7_Set.As
 Q:\Projects\Learn\Projects\6_DataStructures\Set\obj\Debug\netcoreapp3.1\7_Set.AssemblyInfo.cs
 Q:\Projects\Learn\Projects\6_DataStructures\Set\obj\Debug\netcoreapp3.1\Set.dll
 Q:\Projects\Learn\Projects\6_DataStructures\Set\obj\Debug\netcoreapp3.1\Set.pdb
+Q:\Projects\Learn\Projects\6_DataStructures\Set\obj\Debug\netcoreapp3.1\7_Set.csprojAssemblyReference.cache

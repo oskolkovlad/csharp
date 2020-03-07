@@ -28,7 +28,7 @@ namespace Set
             set1.Add(5);
             set1.Add(3);
             set1.Add(777);
-            //set1.Add(777);
+            set1.Add(777); // не выдаст ошибку, но в множество не добавит
 
             set2.Add(1);
             set2.Add(45);
