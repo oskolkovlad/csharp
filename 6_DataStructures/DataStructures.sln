@@ -13,7 +13,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "4_Circular_Linked_List", "C
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "5_Queue", "Queue\5_Queue.csproj", "{8340EBD1-9388-47F7-9553-B5A6FF30B25A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "6_Deque", "Deque\6_Deque.csproj", "{BB2B87EB-36D4-4FFC-9FDA-2B933B717599}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "6_Deque", "Deque\6_Deque.csproj", "{BB2B87EB-36D4-4FFC-9FDA-2B933B717599}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "7_Set", "Set\7_Set.csproj", "{263DF67C-AE64-4D9F-8C87-0B0128146A55}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,10 @@ Global
 		{BB2B87EB-36D4-4FFC-9FDA-2B933B717599}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BB2B87EB-36D4-4FFC-9FDA-2B933B717599}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BB2B87EB-36D4-4FFC-9FDA-2B933B717599}.Release|Any CPU.Build.0 = Release|Any CPU
+		{263DF67C-AE64-4D9F-8C87-0B0128146A55}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{263DF67C-AE64-4D9F-8C87-0B0128146A55}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{263DF67C-AE64-4D9F-8C87-0B0128146A55}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{263DF67C-AE64-4D9F-8C87-0B0128146A55}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

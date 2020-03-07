@@ -1,0 +1,10 @@
+Q:\Projects\Learn\Projects\6_DataStructures\Set\bin\Debug\netcoreapp3.1\Set.exe
+Q:\Projects\Learn\Projects\6_DataStructures\Set\bin\Debug\netcoreapp3.1\Set.deps.json
+Q:\Projects\Learn\Projects\6_DataStructures\Set\bin\Debug\netcoreapp3.1\Set.runtimeconfig.json
+Q:\Projects\Learn\Projects\6_DataStructures\Set\bin\Debug\netcoreapp3.1\Set.runtimeconfig.dev.json
+Q:\Projects\Learn\Projects\6_DataStructures\Set\bin\Debug\netcoreapp3.1\Set.dll
+Q:\Projects\Learn\Projects\6_DataStructures\Set\bin\Debug\netcoreapp3.1\Set.pdb
+Q:\Projects\Learn\Projects\6_DataStructures\Set\obj\Debug\netcoreapp3.1\7_Set.AssemblyInfoInputs.cache
+Q:\Projects\Learn\Projects\6_DataStructures\Set\obj\Debug\netcoreapp3.1\7_Set.AssemblyInfo.cs
+Q:\Projects\Learn\Projects\6_DataStructures\Set\obj\Debug\netcoreapp3.1\Set.dll
+Q:\Projects\Learn\Projects\6_DataStructures\Set\obj\Debug\netcoreapp3.1\Set.pdb
