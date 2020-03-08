@@ -9,3 +9,14 @@ Q:\Projects\Learn\Projects\7_Threads_Parallel_Async\Threads_Parallel_Async\obj\D
 Q:\Projects\Learn\Projects\7_Threads_Parallel_Async\Threads_Parallel_Async\obj\Debug\netcoreapp3.1\Thread_Start_Lock.dll
 Q:\Projects\Learn\Projects\7_Threads_Parallel_Async\Threads_Parallel_Async\obj\Debug\netcoreapp3.1\Thread_Start_Lock.pdb
 Q:\Projects\Learn\Projects\7_Threads_Parallel_Async\Threads_Parallel_Async\obj\Debug\netcoreapp3.1\1_Thread_Start_Lock.csprojAssemblyReference.cache
+Q:\Projects\Learn\Projects\7_Threads_Parallel_Async\1_Thread_Start_Lock\bin\Debug\netcoreapp3.1\Thread_Start_Lock.exe
+Q:\Projects\Learn\Projects\7_Threads_Parallel_Async\1_Thread_Start_Lock\bin\Debug\netcoreapp3.1\Thread_Start_Lock.deps.json
+Q:\Projects\Learn\Projects\7_Threads_Parallel_Async\1_Thread_Start_Lock\bin\Debug\netcoreapp3.1\Thread_Start_Lock.runtimeconfig.json
+Q:\Projects\Learn\Projects\7_Threads_Parallel_Async\1_Thread_Start_Lock\bin\Debug\netcoreapp3.1\Thread_Start_Lock.runtimeconfig.dev.json
+Q:\Projects\Learn\Projects\7_Threads_Parallel_Async\1_Thread_Start_Lock\bin\Debug\netcoreapp3.1\Thread_Start_Lock.dll
+Q:\Projects\Learn\Projects\7_Threads_Parallel_Async\1_Thread_Start_Lock\bin\Debug\netcoreapp3.1\Thread_Start_Lock.pdb
+Q:\Projects\Learn\Projects\7_Threads_Parallel_Async\1_Thread_Start_Lock\obj\Debug\netcoreapp3.1\1_Thread_Start_Lock.csprojAssemblyReference.cache
+Q:\Projects\Learn\Projects\7_Threads_Parallel_Async\1_Thread_Start_Lock\obj\Debug\netcoreapp3.1\1_Thread_Start_Lock.AssemblyInfoInputs.cache
+Q:\Projects\Learn\Projects\7_Threads_Parallel_Async\1_Thread_Start_Lock\obj\Debug\netcoreapp3.1\1_Thread_Start_Lock.AssemblyInfo.cs
+Q:\Projects\Learn\Projects\7_Threads_Parallel_Async\1_Thread_Start_Lock\obj\Debug\netcoreapp3.1\Thread_Start_Lock.dll
+Q:\Projects\Learn\Projects\7_Threads_Parallel_Async\1_Thread_Start_Lock\obj\Debug\netcoreapp3.1\Thread_Start_Lock.pdb

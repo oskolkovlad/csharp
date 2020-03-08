@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "Q:\\Projects\\Learn\\Projects\\7_Threads_Parallel_Async\\Threads_Parallel_Async\\1_Thread_Start_Lock.csproj": {}
+    "Q:\\Projects\\Learn\\Projects\\6_DataStructures\\Dictionary\\9_Dictionary.csproj": {}
   },
   "projects": {
-    "Q:\\Projects\\Learn\\Projects\\7_Threads_Parallel_Async\\Threads_Parallel_Async\\1_Thread_Start_Lock.csproj": {
+    "Q:\\Projects\\Learn\\Projects\\6_DataStructures\\Dictionary\\9_Dictionary.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "Q:\\Projects\\Learn\\Projects\\7_Threads_Parallel_Async\\Threads_Parallel_Async\\1_Thread_Start_Lock.csproj",
-        "projectName": "Thread_Start_Lock",
-        "projectPath": "Q:\\Projects\\Learn\\Projects\\7_Threads_Parallel_Async\\Threads_Parallel_Async\\1_Thread_Start_Lock.csproj",
+        "projectUniqueName": "Q:\\Projects\\Learn\\Projects\\6_DataStructures\\Dictionary\\9_Dictionary.csproj",
+        "projectName": "Dictionary",
+        "projectPath": "Q:\\Projects\\Learn\\Projects\\6_DataStructures\\Dictionary\\9_Dictionary.csproj",
         "packagesPath": "C:\\Users\\osvla\\.nuget\\packages\\",
-        "outputPath": "Q:\\Projects\\Learn\\Projects\\7_Threads_Parallel_Async\\Threads_Parallel_Async\\obj\\",
+        "outputPath": "Q:\\Projects\\Learn\\Projects\\6_DataStructures\\Dictionary\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\osvla\\AppData\\Roaming\\NuGet\\NuGet.Config",
