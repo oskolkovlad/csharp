@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "Q:\\Projects\\Learn\\Projects\\7_Threads_Parallel_Async\\1_Thread_Start_Lock\\1_Thread_Start_Lock.csproj",
+      "projectUniqueName": "Q:\\Projects\\Learn\\Projects\\7_Threads_Parallel_Async\\Thread_Start_Lock\\1_Thread_Start_Lock.csproj",
       "projectName": "Thread_Start_Lock",
-      "projectPath": "Q:\\Projects\\Learn\\Projects\\7_Threads_Parallel_Async\\1_Thread_Start_Lock\\1_Thread_Start_Lock.csproj",
+      "projectPath": "Q:\\Projects\\Learn\\Projects\\7_Threads_Parallel_Async\\Thread_Start_Lock\\1_Thread_Start_Lock.csproj",
       "packagesPath": "C:\\Users\\osvla\\.nuget\\packages\\",
-      "outputPath": "Q:\\Projects\\Learn\\Projects\\7_Threads_Parallel_Async\\1_Thread_Start_Lock\\obj\\",
+      "outputPath": "Q:\\Projects\\Learn\\Projects\\7_Threads_Parallel_Async\\Thread_Start_Lock\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\osvla\\AppData\\Roaming\\NuGet\\NuGet.Config",

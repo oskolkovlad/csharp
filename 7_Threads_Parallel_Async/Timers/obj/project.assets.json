@@ -13,9 +13,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "Q:\\Projects\\Learn\\Projects\\7_Threads_Parallel_Async\\Timers\\Timers.csproj",
+      "projectUniqueName": "Q:\\Projects\\Learn\\Projects\\7_Threads_Parallel_Async\\Timers\\3_Timers.csproj",
       "projectName": "Timers",
-      "projectPath": "Q:\\Projects\\Learn\\Projects\\7_Threads_Parallel_Async\\Timers\\Timers.csproj",
+      "projectPath": "Q:\\Projects\\Learn\\Projects\\7_Threads_Parallel_Async\\Timers\\3_Timers.csproj",
       "packagesPath": "C:\\Users\\osvla\\.nuget\\packages\\",
       "outputPath": "Q:\\Projects\\Learn\\Projects\\7_Threads_Parallel_Async\\Timers\\obj\\",
       "projectStyle": "PackageReference",

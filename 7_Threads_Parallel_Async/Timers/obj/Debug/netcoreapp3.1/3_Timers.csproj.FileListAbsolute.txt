@@ -1,0 +1,11 @@
+Q:\Projects\Learn\Projects\7_Threads_Parallel_Async\Timers\bin\Debug\netcoreapp3.1\Timers.exe
+Q:\Projects\Learn\Projects\7_Threads_Parallel_Async\Timers\bin\Debug\netcoreapp3.1\Timers.deps.json
+Q:\Projects\Learn\Projects\7_Threads_Parallel_Async\Timers\bin\Debug\netcoreapp3.1\Timers.runtimeconfig.json
+Q:\Projects\Learn\Projects\7_Threads_Parallel_Async\Timers\bin\Debug\netcoreapp3.1\Timers.runtimeconfig.dev.json
+Q:\Projects\Learn\Projects\7_Threads_Parallel_Async\Timers\bin\Debug\netcoreapp3.1\Timers.dll
+Q:\Projects\Learn\Projects\7_Threads_Parallel_Async\Timers\bin\Debug\netcoreapp3.1\Timers.pdb
+Q:\Projects\Learn\Projects\7_Threads_Parallel_Async\Timers\obj\Debug\netcoreapp3.1\3_Timers.csprojAssemblyReference.cache
+Q:\Projects\Learn\Projects\7_Threads_Parallel_Async\Timers\obj\Debug\netcoreapp3.1\3_Timers.AssemblyInfoInputs.cache
+Q:\Projects\Learn\Projects\7_Threads_Parallel_Async\Timers\obj\Debug\netcoreapp3.1\3_Timers.AssemblyInfo.cs
+Q:\Projects\Learn\Projects\7_Threads_Parallel_Async\Timers\obj\Debug\netcoreapp3.1\Timers.dll
+Q:\Projects\Learn\Projects\7_Threads_Parallel_Async\Timers\obj\Debug\netcoreapp3.1\Timers.pdb
