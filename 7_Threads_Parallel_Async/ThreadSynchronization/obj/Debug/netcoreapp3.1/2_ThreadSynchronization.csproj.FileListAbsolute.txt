@@ -1,0 +1,11 @@
+Q:\Projects\Learn\Projects\7_Threads_Parallel_Async\ThreadSynchronization\bin\Debug\netcoreapp3.1\ThreadSynchronization.exe
+Q:\Projects\Learn\Projects\7_Threads_Parallel_Async\ThreadSynchronization\bin\Debug\netcoreapp3.1\ThreadSynchronization.deps.json
+Q:\Projects\Learn\Projects\7_Threads_Parallel_Async\ThreadSynchronization\bin\Debug\netcoreapp3.1\ThreadSynchronization.runtimeconfig.json
+Q:\Projects\Learn\Projects\7_Threads_Parallel_Async\ThreadSynchronization\bin\Debug\netcoreapp3.1\ThreadSynchronization.runtimeconfig.dev.json
+Q:\Projects\Learn\Projects\7_Threads_Parallel_Async\ThreadSynchronization\bin\Debug\netcoreapp3.1\ThreadSynchronization.dll
+Q:\Projects\Learn\Projects\7_Threads_Parallel_Async\ThreadSynchronization\bin\Debug\netcoreapp3.1\ThreadSynchronization.pdb
+Q:\Projects\Learn\Projects\7_Threads_Parallel_Async\ThreadSynchronization\obj\Debug\netcoreapp3.1\2_ThreadSynchronization.csprojAssemblyReference.cache
+Q:\Projects\Learn\Projects\7_Threads_Parallel_Async\ThreadSynchronization\obj\Debug\netcoreapp3.1\2_ThreadSynchronization.AssemblyInfoInputs.cache
+Q:\Projects\Learn\Projects\7_Threads_Parallel_Async\ThreadSynchronization\obj\Debug\netcoreapp3.1\2_ThreadSynchronization.AssemblyInfo.cs
+Q:\Projects\Learn\Projects\7_Threads_Parallel_Async\ThreadSynchronization\obj\Debug\netcoreapp3.1\ThreadSynchronization.dll
+Q:\Projects\Learn\Projects\7_Threads_Parallel_Async\ThreadSynchronization\obj\Debug\netcoreapp3.1\ThreadSynchronization.pdb
