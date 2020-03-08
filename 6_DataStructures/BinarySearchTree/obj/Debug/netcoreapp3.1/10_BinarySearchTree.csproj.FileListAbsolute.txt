@@ -1,0 +1,11 @@
+Q:\Projects\Learn\Projects\6_DataStructures\BinarySearchTree\bin\Debug\netcoreapp3.1\BinarySearchTree.exe
+Q:\Projects\Learn\Projects\6_DataStructures\BinarySearchTree\bin\Debug\netcoreapp3.1\BinarySearchTree.deps.json
+Q:\Projects\Learn\Projects\6_DataStructures\BinarySearchTree\bin\Debug\netcoreapp3.1\BinarySearchTree.runtimeconfig.json
+Q:\Projects\Learn\Projects\6_DataStructures\BinarySearchTree\bin\Debug\netcoreapp3.1\BinarySearchTree.runtimeconfig.dev.json
+Q:\Projects\Learn\Projects\6_DataStructures\BinarySearchTree\bin\Debug\netcoreapp3.1\BinarySearchTree.dll
+Q:\Projects\Learn\Projects\6_DataStructures\BinarySearchTree\bin\Debug\netcoreapp3.1\BinarySearchTree.pdb
+Q:\Projects\Learn\Projects\6_DataStructures\BinarySearchTree\obj\Debug\netcoreapp3.1\10_BinarySearchTree.csprojAssemblyReference.cache
+Q:\Projects\Learn\Projects\6_DataStructures\BinarySearchTree\obj\Debug\netcoreapp3.1\10_BinarySearchTree.AssemblyInfoInputs.cache
+Q:\Projects\Learn\Projects\6_DataStructures\BinarySearchTree\obj\Debug\netcoreapp3.1\10_BinarySearchTree.AssemblyInfo.cs
+Q:\Projects\Learn\Projects\6_DataStructures\BinarySearchTree\obj\Debug\netcoreapp3.1\BinarySearchTree.dll
+Q:\Projects\Learn\Projects\6_DataStructures\BinarySearchTree\obj\Debug\netcoreapp3.1\BinarySearchTree.pdb
