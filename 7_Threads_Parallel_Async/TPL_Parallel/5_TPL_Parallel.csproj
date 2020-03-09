@@ -1,0 +1,10 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>TPL_Parallel</RootNamespace>
+    <AssemblyName>TPL_Parallel</AssemblyName>
+  </PropertyGroup>
+
+</Project>
