@@ -1,0 +1,10 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>TPL_CancellationToken</RootNamespace>
+    <AssemblyName>TPL_CancellationToken</AssemblyName>
+  </PropertyGroup>
+
+</Project>

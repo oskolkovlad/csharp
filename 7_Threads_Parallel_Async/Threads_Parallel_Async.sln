@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4_TPL_Task", "TPL_Task\4_TP
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "5_TPL_Parallel", "TPL_Parallel\5_TPL_Parallel.csproj", "{6F97A0D1-9772-4D6E-9BF4-FEBCDD3F73A4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "6_TPL_CancellationToken", "TPL_CancellationToken\6_TPL_CancellationToken.csproj", "{13599C57-14B8-4EC4-9CF4-EFC52787D066}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{6F97A0D1-9772-4D6E-9BF4-FEBCDD3F73A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6F97A0D1-9772-4D6E-9BF4-FEBCDD3F73A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6F97A0D1-9772-4D6E-9BF4-FEBCDD3F73A4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{13599C57-14B8-4EC4-9CF4-EFC52787D066}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13599C57-14B8-4EC4-9CF4-EFC52787D066}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13599C57-14B8-4EC4-9CF4-EFC52787D066}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13599C57-14B8-4EC4-9CF4-EFC52787D066}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
