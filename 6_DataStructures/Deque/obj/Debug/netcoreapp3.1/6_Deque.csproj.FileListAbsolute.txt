@@ -8,4 +8,3 @@ Q:\Projects\Learn\Projects\6_DataStructures\Deque\obj\Debug\netcoreapp3.1\6_Dequ
 Q:\Projects\Learn\Projects\6_DataStructures\Deque\obj\Debug\netcoreapp3.1\6_Deque.AssemblyInfo.cs
 Q:\Projects\Learn\Projects\6_DataStructures\Deque\obj\Debug\netcoreapp3.1\Deque.dll
 Q:\Projects\Learn\Projects\6_DataStructures\Deque\obj\Debug\netcoreapp3.1\Deque.pdb
-Q:\Projects\Learn\Projects\6_DataStructures\Deque\obj\Debug\netcoreapp3.1\6_Deque.csprojAssemblyReference.cache

@@ -4,7 +4,6 @@ Q:\Projects\Learn\Projects\6_DataStructures\Dictionary\bin\Debug\netcoreapp3.1\D
 Q:\Projects\Learn\Projects\6_DataStructures\Dictionary\bin\Debug\netcoreapp3.1\Dictionary.runtimeconfig.dev.json
 Q:\Projects\Learn\Projects\6_DataStructures\Dictionary\bin\Debug\netcoreapp3.1\Dictionary.dll
 Q:\Projects\Learn\Projects\6_DataStructures\Dictionary\bin\Debug\netcoreapp3.1\Dictionary.pdb
-Q:\Projects\Learn\Projects\6_DataStructures\Dictionary\obj\Debug\netcoreapp3.1\9_Dictionary.csprojAssemblyReference.cache
 Q:\Projects\Learn\Projects\6_DataStructures\Dictionary\obj\Debug\netcoreapp3.1\9_Dictionary.AssemblyInfoInputs.cache
 Q:\Projects\Learn\Projects\6_DataStructures\Dictionary\obj\Debug\netcoreapp3.1\9_Dictionary.AssemblyInfo.cs
 Q:\Projects\Learn\Projects\6_DataStructures\Dictionary\obj\Debug\netcoreapp3.1\Dictionary.dll

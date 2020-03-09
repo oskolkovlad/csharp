@@ -4,7 +4,6 @@ Q:\Projects\Learn\Projects\6_DataStructures\HashTable\bin\Debug\netcoreapp3.1\Ha
 Q:\Projects\Learn\Projects\6_DataStructures\HashTable\bin\Debug\netcoreapp3.1\HashTable.runtimeconfig.dev.json
 Q:\Projects\Learn\Projects\6_DataStructures\HashTable\bin\Debug\netcoreapp3.1\HashTable.dll
 Q:\Projects\Learn\Projects\6_DataStructures\HashTable\bin\Debug\netcoreapp3.1\HashTable.pdb
-Q:\Projects\Learn\Projects\6_DataStructures\HashTable\obj\Debug\netcoreapp3.1\8_HashTable.csprojAssemblyReference.cache
 Q:\Projects\Learn\Projects\6_DataStructures\HashTable\obj\Debug\netcoreapp3.1\8_HashTable.AssemblyInfoInputs.cache
 Q:\Projects\Learn\Projects\6_DataStructures\HashTable\obj\Debug\netcoreapp3.1\8_HashTable.AssemblyInfo.cs
 Q:\Projects\Learn\Projects\6_DataStructures\HashTable\obj\Debug\netcoreapp3.1\HashTable.dll

@@ -4,7 +4,6 @@ Q:\Projects\Learn\Projects\6_DataStructures\Queue\bin\Debug\netcoreapp3.1\Queue.
 Q:\Projects\Learn\Projects\6_DataStructures\Queue\bin\Debug\netcoreapp3.1\Queue.runtimeconfig.dev.json
 Q:\Projects\Learn\Projects\6_DataStructures\Queue\bin\Debug\netcoreapp3.1\Queue.dll
 Q:\Projects\Learn\Projects\6_DataStructures\Queue\bin\Debug\netcoreapp3.1\Queue.pdb
-Q:\Projects\Learn\Projects\6_DataStructures\Queue\obj\Debug\netcoreapp3.1\5_Queue.csprojAssemblyReference.cache
 Q:\Projects\Learn\Projects\6_DataStructures\Queue\obj\Debug\netcoreapp3.1\5_Queue.AssemblyInfoInputs.cache
 Q:\Projects\Learn\Projects\6_DataStructures\Queue\obj\Debug\netcoreapp3.1\5_Queue.AssemblyInfo.cs
 Q:\Projects\Learn\Projects\6_DataStructures\Queue\obj\Debug\netcoreapp3.1\Queue.dll

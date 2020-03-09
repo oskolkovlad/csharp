@@ -1,0 +1,11 @@
+Q:\Projects\Learn\Projects\6_DataStructures\PrefixTree\bin\Debug\netcoreapp3.1\PrefixTree.exe
+Q:\Projects\Learn\Projects\6_DataStructures\PrefixTree\bin\Debug\netcoreapp3.1\PrefixTree.deps.json
+Q:\Projects\Learn\Projects\6_DataStructures\PrefixTree\bin\Debug\netcoreapp3.1\PrefixTree.runtimeconfig.json
+Q:\Projects\Learn\Projects\6_DataStructures\PrefixTree\bin\Debug\netcoreapp3.1\PrefixTree.runtimeconfig.dev.json
+Q:\Projects\Learn\Projects\6_DataStructures\PrefixTree\bin\Debug\netcoreapp3.1\PrefixTree.dll
+Q:\Projects\Learn\Projects\6_DataStructures\PrefixTree\bin\Debug\netcoreapp3.1\PrefixTree.pdb
+Q:\Projects\Learn\Projects\6_DataStructures\PrefixTree\obj\Debug\netcoreapp3.1\11_PrefixTree.csprojAssemblyReference.cache
+Q:\Projects\Learn\Projects\6_DataStructures\PrefixTree\obj\Debug\netcoreapp3.1\11_PrefixTree.AssemblyInfoInputs.cache
+Q:\Projects\Learn\Projects\6_DataStructures\PrefixTree\obj\Debug\netcoreapp3.1\11_PrefixTree.AssemblyInfo.cs
+Q:\Projects\Learn\Projects\6_DataStructures\PrefixTree\obj\Debug\netcoreapp3.1\PrefixTree.dll
+Q:\Projects\Learn\Projects\6_DataStructures\PrefixTree\obj\Debug\netcoreapp3.1\PrefixTree.pdb
