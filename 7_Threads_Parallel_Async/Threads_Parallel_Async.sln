@@ -9,6 +9,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "3_Timers", "Timers\3_Timers
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "1_Thread_Start_Lock", "Thread_Start_Lock\1_Thread_Start_Lock.csproj", "{C80B59A0-00A5-4ADE-B06F-1028208343DF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4_TPL_Task", "TPL_Task\4_TPL_Task.csproj", "{6407E007-DAA3-4CE6-91AA-F22D5B797F99}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{C80B59A0-00A5-4ADE-B06F-1028208343DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C80B59A0-00A5-4ADE-B06F-1028208343DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C80B59A0-00A5-4ADE-B06F-1028208343DF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6407E007-DAA3-4CE6-91AA-F22D5B797F99}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6407E007-DAA3-4CE6-91AA-F22D5B797F99}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6407E007-DAA3-4CE6-91AA-F22D5B797F99}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6407E007-DAA3-4CE6-91AA-F22D5B797F99}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
