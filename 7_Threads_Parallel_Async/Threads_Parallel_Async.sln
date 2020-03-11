@@ -17,6 +17,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "6_TPL_CancellationToken", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "7_Async_SeqParallel", "Async_SeqParallel\7_Async_SeqParallel.csproj", "{DA22294C-3A17-40B4-BD81-66FFDF81F554}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "8_Async_Error_CancellationToken", "Async_Error_CancellationToken\8_Async_Error_CancellationToken.csproj", "{A5B679AB-90C8-4D3A-BAC7-CB1511BCB90B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{DA22294C-3A17-40B4-BD81-66FFDF81F554}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DA22294C-3A17-40B4-BD81-66FFDF81F554}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DA22294C-3A17-40B4-BD81-66FFDF81F554}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A5B679AB-90C8-4D3A-BAC7-CB1511BCB90B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A5B679AB-90C8-4D3A-BAC7-CB1511BCB90B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A5B679AB-90C8-4D3A-BAC7-CB1511BCB90B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A5B679AB-90C8-4D3A-BAC7-CB1511BCB90B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
