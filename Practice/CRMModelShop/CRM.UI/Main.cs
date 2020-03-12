@@ -42,16 +42,40 @@ namespace CRM.UI
             catalogCheck.Show();
         }
 
-        #endregion
+
+        private void AddProductToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            var productForm = new ProductForm();
+            if (productForm.ShowDialog() == DialogResult.OK)
+            {
+                db.Products.Add(productForm.Product);
+                db.SaveChanges();
+            }
+        }
 
         private void AddCustomerToolStripMenuItem2_Click(object sender, EventArgs e)
         {
             var customerForm = new CustomerForm();
-            if(customerForm.ShowDialog() == DialogResult.OK)
+            if (customerForm.ShowDialog() == DialogResult.OK)
             {
                 db.Customers.Add(customerForm.Customer);
                 db.SaveChanges();
             }
         }
+
+        private void AddSellerToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            var sellerForm = new SellerForm();
+            if (sellerForm.ShowDialog() == DialogResult.OK)
+            {
+                db.Sellers.Add(sellerForm.Seller);
+                db.SaveChanges();
+            }
+        }
+
+        #endregion
+
+
+
     }
 }
