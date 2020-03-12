@@ -11,14 +11,23 @@ namespace CRM.UI
         public SellerForm()
         {
             InitializeComponent();
+
+            addSellerButton.Text = "Добавить";
+        }
+
+        public SellerForm(Seller seller)
+            : this()
+        {
+            Seller = seller;
+            nameSellerTextBox.Text = Seller.Name;
+
+            addSellerButton.Text = "Изменить";
         }
 
         private void addSellerButton_Click(object sender, EventArgs e)
         {
-            Seller = new Seller()
-            {
-                Name = nameSellerTextBox.Text
-            };
+            Seller = Seller ?? new Seller();
+            Seller.Name = nameSellerTextBox.Text;
 
             Close();
         }

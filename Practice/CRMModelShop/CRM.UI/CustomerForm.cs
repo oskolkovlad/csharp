@@ -11,14 +11,23 @@ namespace CRM.UI
         public CustomerForm()
         {
             InitializeComponent();
+
+            addCustomerButton.Text = "Добавить";
+        }
+
+        public CustomerForm(Customer customer)
+            : this()
+        {
+            Customer = customer;
+            nameCustomerTextBox.Text = Customer.Name;
+
+            addCustomerButton.Text = "Изменить";
         }
 
         private void addCustomerButton_Click(object sender, EventArgs e)
         {
-            Customer = new Customer()
-            {
-                Name = nameCustomerTextBox.Text
-            };
+            Customer = Customer ?? new Customer();
+            Customer.Name = nameCustomerTextBox.Text;
 
             Close();
         }
