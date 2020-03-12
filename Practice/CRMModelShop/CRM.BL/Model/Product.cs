@@ -22,5 +22,17 @@ namespace CRM.BL.Model
 
 
         public override string ToString() => Name;
+
+        public override int GetHashCode() => ProductId;
+
+        public override bool Equals(object obj)
+        {
+            if (obj is Product product)
+            {
+                return ProductId.Equals(product.ProductId);
+            }
+
+            return false;
+        }
     }
 }

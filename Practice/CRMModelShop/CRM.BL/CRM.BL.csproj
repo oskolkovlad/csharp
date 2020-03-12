@@ -52,6 +52,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Migrations\Configuration.cs" />
+    <Compile Include="Model\Cart.cs" />
     <Compile Include="Model\CRMContext.cs" />
     <Compile Include="Model\Check.cs" />
     <Compile Include="Model\Customer.cs" />
