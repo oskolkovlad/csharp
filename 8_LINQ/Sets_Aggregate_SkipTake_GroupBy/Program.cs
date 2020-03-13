@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.Linq;
 
 namespace Sets_Aggregate_SkipTake_GroupBy
@@ -98,13 +99,70 @@ namespace Sets_Aggregate_SkipTake_GroupBy
 
             //*****************************************************************************//
 
+            int[] numb = { -3, -2, -1, 0, 1, 2, 3 };
 
+            var take_skip = numb.Skip(3).Take(5);
+            foreach(var t in take_skip)
+            {
+                Console.WriteLine(t);
+            }
+            Console.WriteLine();
+
+
+            string[] teams = { "Бавария", "Боруссия", "Реал Мадрид", "Манчестер Сити", "ПСЖ", "Барселона" };
+            var takeWhile = teams.TakeWhile(t => t.ToLower().StartsWith("б"));
+            foreach (var t in takeWhile)
+            {
+                Console.WriteLine(t);
+            }
+            Console.WriteLine();
+
+            var skipWhile = teams.SkipWhile(t => t.ToLower().StartsWith("б"));
+            foreach (var s in skipWhile)
+            {
+                Console.WriteLine(s);
+            }
 
 
             Console.WriteLine(new string('=', 50));
 
+
             //*****************************************************************************//
 
+            List<Phone> phones = new List<Phone>
+            {
+                new Phone {Name="Lumia 430", Company="Microsoft" },
+                new Phone {Name="Mi 5"     , Company="Xiaomi" },
+                new Phone {Name="LG G 3"   , Company="LG" },
+                new Phone {Name="iPhone 5" , Company="Apple" },
+                new Phone {Name="Lumia 930", Company="Microsoft" },
+                new Phone {Name="iPhone 6" , Company="Apple" },
+                new Phone {Name="Lumia 630", Company="Microsoft" },
+                new Phone {Name="LG G 4"   , Company="LG" }
+            };
+
+            // Если в выражении LINQ последним оператором, выполняющим операции над выборкой, является group, то оператор select не применяется.
+            var groups = from p in phones
+                         group p by p.Company;
+
+            foreach(var group in groups)
+            {
+                Console.WriteLine(group.Key);
+                foreach(var phone in group)
+                {
+                    Console.WriteLine("\t{0}", phone.Name);
+                }
+            }
+            Console.WriteLine();
+
+            var countGroups = from p in phones
+                              group p by p.Company into g
+                              select new { Name = g.Key, Count = g.Count() };
+
+            foreach(var g in countGroups)
+            {
+                Console.WriteLine($"{g.Name} - {g.Count}");
+            }
 
 
             Console.WriteLine(new string('=', 50));
@@ -116,5 +174,11 @@ namespace Sets_Aggregate_SkipTake_GroupBy
 
             Console.ReadKey();
         }
+    }
+
+    public class Phone
+    {
+        public string Name { get; set; }
+        public string Company { get; set; }
     }
 }
