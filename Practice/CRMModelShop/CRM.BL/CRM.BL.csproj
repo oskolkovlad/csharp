@@ -54,13 +54,15 @@
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Model\Cart.cs" />
     <Compile Include="Model\CashDesk.cs" />
-    <Compile Include="Model\CRMContext.cs" />
-    <Compile Include="Model\Check.cs" />
-    <Compile Include="Model\Customer.cs" />
-    <Compile Include="Model\Product.cs" />
+    <Compile Include="Model\DB\CRMContext.cs" />
+    <Compile Include="Model\DB\Check.cs" />
+    <Compile Include="Model\DB\Customer.cs" />
+    <Compile Include="Model\Generator.cs" />
+    <Compile Include="Model\DB\Product.cs" />
+    <Compile Include="Model\ShopComputerModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Model\Sell.cs" />
-    <Compile Include="Model\Seller.cs" />
+    <Compile Include="Model\DB\Sell.cs" />
+    <Compile Include="Model\DB\Seller.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

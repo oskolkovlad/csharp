@@ -23,6 +23,7 @@ namespace CRM.BL.Model
         public int MaxQueueLength { get; private set; }
         public int ExitCustomers { get; private set; }
         public bool IsModel { get; set; }
+        public int Count => QueueCarts.Count;
 
 
         public void Enqueue(Cart cart)
@@ -39,6 +40,11 @@ namespace CRM.BL.Model
 
         public decimal Dequeue()
         {
+            if (QueueCarts.Count == 0)
+            {
+                return 0;
+            }
+
             var cart = QueueCarts.Dequeue();
             decimal cash = 0;
 
