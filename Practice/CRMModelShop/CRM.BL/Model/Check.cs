@@ -7,8 +7,16 @@ namespace CRM.BL.Model
     {
         public Check() { }
 
+        public Check(int sellerId, Seller seller, int customerId, Customer customer)
+        {
+            SellerId = sellerId;
+            Seller = seller;
+            CustomerId = customerId;
+            Customer = customer;
+        }
+
         public int CheckId { get; set; }
-        public DateTime Created { get; set; }
+        public DateTime Created { get; } = DateTime.Now;
 
 
         public int SellerId { get; set; }

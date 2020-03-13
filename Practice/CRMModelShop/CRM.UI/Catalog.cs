@@ -114,7 +114,36 @@ namespace CRM.UI
         {
             var id = dataGridView.SelectedRows[0].Cells[0].Value;
 
-            
+            if (typeof(TEntity) == typeof(Product))
+            {
+                var product = dbSet.Find(id) as Product;
+
+                if (product != null)
+                {
+                    db.Products.Remove(product);
+                    db.SaveChanges();
+                }
+            }
+            else if (typeof(TEntity) == typeof(Seller))
+            {
+                var seller = dbSet.Find(id) as Seller;
+
+                if (seller != null)
+                {
+                    db.Sellers.Remove(seller);
+                    db.SaveChanges();
+                }
+            }
+            else if (typeof(TEntity) == typeof(Customer))
+            {
+                var customer = dbSet.Find(id) as Customer;
+
+                if (customer != null)
+                {
+                    db.Customers.Remove(customer);
+                    db.SaveChanges();
+                }
+            }
 
             dataGridView.Update();
         }

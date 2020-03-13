@@ -4,6 +4,13 @@
     {
         public Sell() { }
 
+        public Sell(int checkId, Check check, int productId, Product product)
+        {
+            CheckId = checkId;
+            Check = check;
+            ProductId = productId;
+            Product = product;
+        }
 
         public int SellId { get; set; }
 

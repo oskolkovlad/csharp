@@ -1,9 +1,5 @@
-﻿using System;
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace CRM.BL.Model
 {
@@ -15,8 +11,8 @@ namespace CRM.BL.Model
             Products = new Dictionary<Product, int>();
         }
 
-        public Customer Customer { get; set; }
-        public Dictionary<Product, int> Products { get; set; }
+        public Customer Customer { get; private set; }
+        public Dictionary<Product, int> Products { get; private set; }
 
 
         public void Add(Product product)
