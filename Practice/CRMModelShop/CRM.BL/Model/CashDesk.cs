@@ -1,9 +1,12 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 
 namespace CRM.BL.Model
 {
     public class CashDesk
     {
+        public event EventHandler<Check> CheckClosed;
+
         CRMContext db;
 
         public CashDesk(int number, Seller seller)
@@ -13,7 +16,7 @@ namespace CRM.BL.Model
             QueueCarts = new Queue<Cart>();
             IsModel = true;
             db = new CRMContext();
-            MaxQueueLength = 100;
+            MaxQueueLength = 30;
         }
 
         public int Number { get; private set; }
@@ -84,6 +87,9 @@ namespace CRM.BL.Model
                         break;
                     }
                 }
+
+                check.Price = cash;
+                CheckClosed?.Invoke(this, check);
 
                 if (!IsModel)
                 {

@@ -73,9 +73,14 @@ namespace CRM.UI
             }
         }
 
+
+
         #endregion
 
-
-
+        private void modelToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            ModelForm modelForm = new ModelForm();
+            modelForm.Show();
+        }
     }
 }

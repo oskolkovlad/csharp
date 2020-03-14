@@ -17,6 +17,7 @@ namespace CRM.BL.Model
 
         public int CheckId { get; set; }
         public DateTime Created { get; } = DateTime.Now;
+        public decimal Price { get; set; }
 
 
         public int SellerId { get; set; }
