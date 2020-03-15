@@ -18,7 +18,7 @@ namespace CRM.UI
         public SellerForm(Seller seller)
             : this()
         {
-            Seller = seller;
+            Seller = seller ?? new Seller();
             nameSellerTextBox.Text = Seller.Name;
 
             addSellerButton.Text = "Изменить";

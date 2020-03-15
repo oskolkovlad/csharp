@@ -56,7 +56,7 @@ namespace CRM.UI
 
         private void CashDesk_CheckClosed(object sender, Check e)
         {
-            NumericUpDown.Invoke((Action)delegate
+            NumericUpDown?.Invoke((Action)delegate
             {
                 NumericUpDown.Value += e.Price;
                 ProgressBar.Value = CashDesk.Count;
@@ -64,5 +64,4 @@ namespace CRM.UI
             });
         }
     }
-
 }

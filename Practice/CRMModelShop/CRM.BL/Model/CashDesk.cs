@@ -9,13 +9,13 @@ namespace CRM.BL.Model
 
         CRMContext db;
 
-        public CashDesk(int number, Seller seller)
+        public CashDesk(int number, Seller seller, CRMContext db)
         {
             Number = number;
             Seller = seller;
             QueueCarts = new Queue<Cart>();
             IsModel = true;
-            db = new CRMContext();
+            this.db = db;
             MaxQueueLength = 30;
         }
 

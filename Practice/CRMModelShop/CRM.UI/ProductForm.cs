@@ -17,7 +17,7 @@ namespace CRM.UI
         public ProductForm(Product product)
                         : this()
         {
-            Product = product;
+            Product = product ?? new Product();
 
             nameProductTextBox.Text = Product.Name;
             priceNumericUpDown.Value = Product.Price;

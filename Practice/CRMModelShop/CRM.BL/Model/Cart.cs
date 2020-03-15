@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
 
 namespace CRM.BL.Model
 {
@@ -11,8 +12,10 @@ namespace CRM.BL.Model
             Products = new Dictionary<Product, int>();
         }
 
-        public Customer Customer { get; private set; }
+        public Customer Customer { get; set; }
         public Dictionary<Product, int> Products { get; private set; }
+
+        public decimal Price => GetAllProducts().Sum(p => p.Price);
 
 
         public void Add(Product product)

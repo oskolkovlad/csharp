@@ -41,7 +41,7 @@ namespace CRM.BL.Model.Tests
             Check check1 = new Check(seller.SellerId, seller, customer1.CustomerId, customer1);
             Check check2 = new Check(seller.SellerId, seller, customer2.CustomerId, customer2);
 
-            CashDesk cashDesk = new CashDesk(1, seller);
+            CashDesk cashDesk = new CashDesk(1, seller, null);
 
 
             // Act
