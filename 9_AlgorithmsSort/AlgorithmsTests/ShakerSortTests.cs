@@ -1,18 +1,17 @@
-﻿using Algorithms;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
+﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System;
 using System.Collections.Generic;
 
 namespace Algorithms.Tests
 {
     [TestClass()]
-    public class BubbleSortTests
+    public class ShakerSortTests
     {
         [TestMethod()]
         public void SortTest()
         {
             // Arrange
-            var bubble = new BubbleSort<int>();
+            var shaker = new ShakerSort<int>();
             var rnd = new Random();
             var golden = new List<int>();
 
@@ -20,16 +19,16 @@ namespace Algorithms.Tests
             {
                 golden.Add(rnd.Next(0, 100));
             }
-            bubble.Items.AddRange(golden);
+            shaker.Items.AddRange(golden);
 
             // Act
             golden.Sort();
-            bubble.Sort();
+            shaker.Sort();
 
             // Assert
-            for (var i = 0; i < bubble.Items.Count; i++)
+            for (var i = 0; i < shaker.Items.Count; i++)
             {
-                Assert.AreEqual(golden[i], bubble.Items[i]);
+                Assert.AreEqual(golden[i], shaker.Items[i]);
             }
         }
     }

@@ -27,11 +27,13 @@ namespace Algorithms
         /// <summary>
         /// Сортировка пузырьком (один прогон - минимальный в начале (и его не трогаем))
         /// </summary>
-        public override void Sort()
+        protected override void MakeSort()
         {
             var count = Items.Count;
             for (var i = 0; i < count - 1; i++)
             {
+                IsSwapped = false;
+
                 for (var j = i + 1; j < count; j++)
                 {
                     T a = Items[i];
@@ -41,7 +43,12 @@ namespace Algorithms
                     {
                         Swap(i, j);
                     }
+
+                    CompareCount++;
                 }
+
+                if (!IsSwapped)
+                    break;
             }
         }
 

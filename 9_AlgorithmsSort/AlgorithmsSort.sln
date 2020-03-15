@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29806.167
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1_BubbleSort", "BubbleSort\1_BubbleSort.csproj", "{D8E51A0F-B060-42DF-9F58-B0CA6056F570}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Algorithms", "Algorithms\Algorithms.csproj", "{19D23153-DC85-4F4A-BC09-18965EC2BAA0}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AlgorithmsTests", "AlgorithmsTests\AlgorithmsTests.csproj", "{8E6C7999-AABE-48B8-AC13-9C99AB77923D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SortAlgorithms", "SortAlgorithms\SortAlgorithms.csproj", "{DAD8F1B5-DFFF-46F1-B32D-F43876267689}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,10 +15,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{D8E51A0F-B060-42DF-9F58-B0CA6056F570}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{D8E51A0F-B060-42DF-9F58-B0CA6056F570}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{D8E51A0F-B060-42DF-9F58-B0CA6056F570}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{D8E51A0F-B060-42DF-9F58-B0CA6056F570}.Release|Any CPU.Build.0 = Release|Any CPU
 		{19D23153-DC85-4F4A-BC09-18965EC2BAA0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{19D23153-DC85-4F4A-BC09-18965EC2BAA0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{19D23153-DC85-4F4A-BC09-18965EC2BAA0}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -27,6 +23,10 @@ Global
 		{8E6C7999-AABE-48B8-AC13-9C99AB77923D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8E6C7999-AABE-48B8-AC13-9C99AB77923D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8E6C7999-AABE-48B8-AC13-9C99AB77923D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DAD8F1B5-DFFF-46F1-B32D-F43876267689}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DAD8F1B5-DFFF-46F1-B32D-F43876267689}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DAD8F1B5-DFFF-46F1-B32D-F43876267689}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DAD8F1B5-DFFF-46F1-B32D-F43876267689}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

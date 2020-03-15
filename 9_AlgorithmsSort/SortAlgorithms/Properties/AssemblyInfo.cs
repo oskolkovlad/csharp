@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // Общие сведения об этой сборке предоставляются следующим набором
 // набора атрибутов. Измените значения этих атрибутов для изменения сведений,
 // связанных со сборкой.
-[assembly: AssemblyTitle("BubbleSort")]
+[assembly: AssemblyTitle("ShakerSort")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("BubbleSort")]
+[assembly: AssemblyProduct("ShakerSort")]
 [assembly: AssemblyCopyright("Copyright ©  2020")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // Следующий GUID служит для идентификации библиотеки типов, если этот проект будет видимым для COM
-[assembly: Guid("d8e51a0f-b060-42df-9f58-b0ca6056f570")]
+[assembly: Guid("dad8f1b5-dfff-46f1-b32d-f43876267689")]
 
 // Сведения о версии сборки состоят из указанных ниже четырех значений:
 //
