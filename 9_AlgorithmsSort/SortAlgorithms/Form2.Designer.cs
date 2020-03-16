@@ -38,6 +38,8 @@
             this.randButton = new System.Windows.Forms.Button();
             this.barsPanel = new System.Windows.Forms.Panel();
             this.button1 = new System.Windows.Forms.Button();
+            this.clearButton = new System.Windows.Forms.Button();
+            this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.addPanel.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.addNumericUpDown)).BeginInit();
             this.randPanel.SuspendLayout();
@@ -122,6 +124,7 @@
             // 
             // barsPanel
             // 
+            this.barsPanel.BackColor = System.Drawing.SystemColors.ControlLight;
             this.barsPanel.Location = new System.Drawing.Point(472, 23);
             this.barsPanel.Name = "barsPanel";
             this.barsPanel.Size = new System.Drawing.Size(729, 204);
@@ -134,16 +137,42 @@
             this.button1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.button1.Location = new System.Drawing.Point(22, 107);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(417, 33);
+            this.button1.Size = new System.Drawing.Size(162, 33);
             this.button1.TabIndex = 2;
             this.button1.Text = "Сортировать";
             this.button1.UseVisualStyleBackColor = false;
+            // 
+            // clearButton
+            // 
+            this.clearButton.BackColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.clearButton.Font = new System.Drawing.Font("Microsoft YaHei", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.clearButton.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.clearButton.Location = new System.Drawing.Point(277, 107);
+            this.clearButton.Name = "clearButton";
+            this.clearButton.Size = new System.Drawing.Size(162, 33);
+            this.clearButton.TabIndex = 2;
+            this.clearButton.Text = "Очистить";
+            this.clearButton.UseVisualStyleBackColor = false;
+            this.clearButton.Click += new System.EventHandler(this.ClearButton_Click);
+            // 
+            // comboBox1
+            // 
+            this.comboBox1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.comboBox1.FormattingEnabled = true;
+            this.comboBox1.Location = new System.Drawing.Point(22, 250);
+            this.comboBox1.Name = "comboBox1";
+            this.comboBox1.Size = new System.Drawing.Size(417, 24);
+            this.comboBox1.TabIndex = 3;
+            this.comboBox1.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
             // 
             // Form2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1225, 255);
+            this.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
+            this.ClientSize = new System.Drawing.Size(1225, 286);
+            this.Controls.Add(this.comboBox1);
+            this.Controls.Add(this.clearButton);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.barsPanel);
             this.Controls.Add(this.randPanel);
@@ -172,5 +201,7 @@
         private System.Windows.Forms.Button randButton;
         private System.Windows.Forms.Panel barsPanel;
         private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button clearButton;
+        private System.Windows.Forms.ComboBox comboBox1;
     }
 }

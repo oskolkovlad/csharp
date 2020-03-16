@@ -43,7 +43,7 @@ namespace Algorithms
             while (IsSwapped);
         }
 
-        public void BubblePart(int left, int right, bool direction)
+        private void BubblePart(int left, int right, bool direction)
         {
             if (direction)
             {

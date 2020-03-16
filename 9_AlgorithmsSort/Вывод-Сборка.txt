@@ -1,3 +1,0 @@
-﻿1>------ Сборка начата: проект: 1_BubbleSort, Конфигурация: Debug Any CPU ------
-1>  1_BubbleSort -> Q:\Projects\Learn\Projects\9_AlgorithmsSort\BubbleSort\bin\Debug\BubbleSort.exe
-========== Сборка: успешно: 1, с ошибками: 0, без изменений: 1, пропущено: 0 ==========
