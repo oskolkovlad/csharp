@@ -37,7 +37,7 @@
             this.randLabel = new System.Windows.Forms.Label();
             this.randButton = new System.Windows.Forms.Button();
             this.barsPanel = new System.Windows.Forms.Panel();
-            this.button1 = new System.Windows.Forms.Button();
+            this.sortButton = new System.Windows.Forms.Button();
             this.clearButton = new System.Windows.Forms.Button();
             this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.addPanel.SuspendLayout();
@@ -130,17 +130,18 @@
             this.barsPanel.Size = new System.Drawing.Size(729, 204);
             this.barsPanel.TabIndex = 1;
             // 
-            // button1
+            // sortButton
             // 
-            this.button1.BackColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.button1.Font = new System.Drawing.Font("Microsoft YaHei", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.button1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.button1.Location = new System.Drawing.Point(22, 107);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(162, 33);
-            this.button1.TabIndex = 2;
-            this.button1.Text = "Сортировать";
-            this.button1.UseVisualStyleBackColor = false;
+            this.sortButton.BackColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.sortButton.Font = new System.Drawing.Font("Microsoft YaHei", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.sortButton.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.sortButton.Location = new System.Drawing.Point(22, 107);
+            this.sortButton.Name = "sortButton";
+            this.sortButton.Size = new System.Drawing.Size(162, 33);
+            this.sortButton.TabIndex = 2;
+            this.sortButton.Text = "Сортировать";
+            this.sortButton.UseVisualStyleBackColor = false;
+            this.sortButton.Click += new System.EventHandler(this.SortButton_Click);
             // 
             // clearButton
             // 
@@ -173,7 +174,7 @@
             this.ClientSize = new System.Drawing.Size(1225, 286);
             this.Controls.Add(this.comboBox1);
             this.Controls.Add(this.clearButton);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.sortButton);
             this.Controls.Add(this.barsPanel);
             this.Controls.Add(this.randPanel);
             this.Controls.Add(this.addPanel);
@@ -200,7 +201,7 @@
         private System.Windows.Forms.Label randLabel;
         private System.Windows.Forms.Button randButton;
         private System.Windows.Forms.Panel barsPanel;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button sortButton;
         private System.Windows.Forms.Button clearButton;
         private System.Windows.Forms.ComboBox comboBox1;
     }

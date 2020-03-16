@@ -1,6 +1,8 @@
 ﻿using Algorithms;
 using System;
 using System.Collections.Generic;
+using System.Drawing;
+using System.Threading;
 using System.Windows.Forms;
 
 namespace SortAlgorithms
@@ -21,13 +23,16 @@ namespace SortAlgorithms
             addNumericUpDown.Maximum = 100000;
             randNumericUpDown.Maximum = 100000;
 
+            addNumericUpDown.Value = 10;
+            randNumericUpDown.Value = 10;
+
             string[] cb = {
                 "Bubble Sort",
                 "Shaker Sort",
                 "Insertion Sort"
             };
-            comboBox1.Items.AddRange(cb);
-            comboBox1.SelectedIndex = 0;
+            //comboBox1.Items.AddRange(cb);
+            //comboBox1.SelectedIndex = 0;
         }
 
         private void AddButton_Click(object sender, EventArgs e)
@@ -58,6 +63,35 @@ namespace SortAlgorithms
             //randNumericUpDown.Value = 0;
         }
 
+        private void SortButton_Click(object sender, EventArgs e)
+        {
+            var algorithm = new BubbleSort<SortedItem>(verticalProgressBars);
+
+            algorithm.CompareEvent += Algorithm_CompareEvent;
+            algorithm.SwapEvent += Algorithm_SwapEvent;
+
+            algorithm.Sort();
+        }
+
+        private void Algorithm_CompareEvent(object sender, Tuple<SortedItem, SortedItem> e)
+        {
+            e.Item1.SetColor(Color.Red);
+            e.Item2.SetColor(Color.Green);
+
+            barsPanel.Refresh();
+            //Thread.Sleep(1000);
+        }
+
+        private void Algorithm_SwapEvent(object sender, Tuple<SortedItem, SortedItem> e)
+        {
+            var temp = e.Item1.Value;
+
+            e.Item1.SetNewValue(e.Item2.Value);
+            e.Item2.SetNewValue(temp);
+
+            barsPanel.Refresh();
+        }
+
         private void ClearButton_Click(object sender, EventArgs e)
         {
             barsPanel.Controls.Clear();
@@ -77,8 +111,6 @@ namespace SortAlgorithms
                 case 2:
                     algorithm = new InsertionSort<int>();
                     break;
-                /*case 3:
-                    break;*/
             }
         }
 
@@ -94,12 +126,5 @@ namespace SortAlgorithms
 
             return result;
         }
-
-        private void Swap(SortedItem itemA, SortedItem itemB)
-        {
-
-        }
-
-        
     }
 }

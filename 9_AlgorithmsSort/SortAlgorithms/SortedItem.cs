@@ -37,10 +37,22 @@ namespace SortAlgorithms
             Label.Text = Value.ToString();
         }
 
+        public void SetNewValue(int value)
+        {
+            Value = value;
+            ProgressBar.Value = Value;
+            Label.Text = Value.ToString();
+        }
+
+        public void SetColor(Color color)
+        {
+            ProgressBar.Color = color;
+        }
+
         public VerticalProgressBar.VerticalProgressBar ProgressBar { get; private set; }
         public Label Label { get; private set; }
 
-        public int Value { get; set; }
+        public int Value { get; private set; }
 
 
         public int CompareTo(object obj)

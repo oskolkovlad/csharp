@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 // Одна из самых простейших сортировок.
 // Не применяется для решения практических задач, ввиду низкой эффективности. (!!!!!)
@@ -24,6 +25,9 @@ namespace Algorithms
     public class BubbleSort<T> : Base<T>
         where T : IComparable
     {
+        public BubbleSort() : base() { }
+        public BubbleSort(IEnumerable<T> items) : base(items) { }
+
         /// <summary>
         /// Сортировка пузырьком (один прогон - минимальный в начале (и его не трогаем))
         /// </summary>
@@ -39,12 +43,10 @@ namespace Algorithms
                     T a = Items[i];
                     T b = Items[j];
 
-                    if (a.CompareTo(b) == 1)
+                    if (Compare(a, b) == 1)
                     {
                         Swap(i, j);
                     }
-
-                    CompareCount++;
                 }
 
                 if (!IsSwapped)
