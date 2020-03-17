@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace Algorithms
 {
@@ -21,6 +22,11 @@ namespace Algorithms
     public class ShakerSort<T> : Base<T>
         where T : IComparable
     {
+
+        public ShakerSort() : base() { }
+        public ShakerSort(IEnumerable<T> items) : base(items) { }
+
+
         protected override void MakeSort()
         {
             var left = 0;

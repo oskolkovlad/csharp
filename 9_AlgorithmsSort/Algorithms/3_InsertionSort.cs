@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace Algorithms
 {
@@ -25,6 +26,10 @@ namespace Algorithms
     public class InsertionSort<T> : Base<T>
         where T : IComparable
     {
+        public InsertionSort() : base() { }
+        public InsertionSort(IEnumerable<T> items) : base(items) { }
+
+
         protected override void MakeSort()
         {
             for (var i = 1; i < Items.Count; i++)

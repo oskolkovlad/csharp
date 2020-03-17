@@ -2,7 +2,6 @@
 using System;
 using System.Collections.Generic;
 using System.Drawing;
-using System.Threading;
 using System.Windows.Forms;
 
 namespace SortAlgorithms
@@ -31,7 +30,7 @@ namespace SortAlgorithms
                 "Shaker Sort",
                 "Insertion Sort"
             };
-            //comboBox1.Items.AddRange(cb);
+            comboBox1.Items.AddRange(cb);
             //comboBox1.SelectedIndex = 0;
         }
 
@@ -68,7 +67,7 @@ namespace SortAlgorithms
             var algorithm = new BubbleSort<SortedItem>(verticalProgressBars);
 
             algorithm.CompareEvent += Algorithm_CompareEvent;
-            algorithm.SwapEvent += Algorithm_SwapEvent;
+            algorithm.SwapEvent    += Algorithm_SwapEvent;
 
             algorithm.Sort();
         }
@@ -79,13 +78,11 @@ namespace SortAlgorithms
             e.Item2.SetColor(Color.Green);
 
             barsPanel.Refresh();
-            //Thread.Sleep(1000);
         }
 
         private void Algorithm_SwapEvent(object sender, Tuple<SortedItem, SortedItem> e)
         {
             var temp = e.Item1.Value;
-
             e.Item1.SetNewValue(e.Item2.Value);
             e.Item2.SetNewValue(temp);
 

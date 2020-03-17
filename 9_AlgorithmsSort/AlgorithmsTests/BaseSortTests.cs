@@ -16,7 +16,7 @@ namespace Algorithms.Tests
         {
             golden = new List<int>();
 
-            for (var i = 0; i < 1000; i++)
+            for (var i = 0; i < 10000; i++)
             {
                 golden.Add(rnd.Next(0, 100));
             }
@@ -63,6 +63,24 @@ namespace Algorithms.Tests
         {
             // Arrange
             algorithm = new InsertionSort<int>();
+            algorithm.Items.AddRange(golden);
+
+            // Act
+            golden.Sort();
+            algorithm.Sort();
+
+            // Assert
+            for (var i = 0; i < algorithm.Items.Count; i++)
+            {
+                Assert.AreEqual(golden[i], algorithm.Items[i]);
+            }
+        }
+
+        [TestMethod()]
+        public void ShellSortTest()
+        {
+            // Arrange
+            algorithm = new ShellSort<int>();
             algorithm.Items.AddRange(golden);
 
             // Act
