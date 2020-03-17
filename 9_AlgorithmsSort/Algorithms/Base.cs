@@ -37,8 +37,8 @@ namespace Algorithms
             }
 
             SwapEvent?.Invoke(this, new Tuple<T, T>(Items[indexA], Items[indexB]));
-
             SwapCount++;
+
             IsSwapped = true;
         }
 

@@ -36,7 +36,7 @@ namespace Algorithms
             var count = Items.Count;
             for (var i = 0; i < count - 1; i++)
             {
-                IsSwapped = false;
+                //IsSwapped = false;
 
                 for (var j = i + 1; j < count; j++)
                 {
@@ -49,10 +49,12 @@ namespace Algorithms
                     }
                 }
 
-                if (!IsSwapped)
-                    break;
+                //if (!IsSwapped)
+                //    break;
             }
         }
+
+
 
         /// <summary>
         /// Сортировка пузырьком (один прогон - максимальный в конце (и его не трогаем))

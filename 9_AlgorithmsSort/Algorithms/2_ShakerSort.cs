@@ -29,7 +29,7 @@ namespace Algorithms
 
         protected override void MakeSort()
         {
-            var left = 0;
+            var left  = 0;
             var right = Items.Count - 1;
 
             do
@@ -55,22 +55,20 @@ namespace Algorithms
             {
                 for (var i = left; i < right; i++)
                 {
-                    if (Items[i].CompareTo(Items[i + 1]) == 1)
+                    if (Compare(Items[i], Items[i + 1]) == 1)
                     {
                         Swap(i, i + 1);
                     }
-                    CompareCount++;
                 }
             }
             else
             {
                 for (var i = right; i > left; i--)
                 {
-                    if (Items[i].CompareTo(Items[i - 1]) == -1)
+                    if (Compare(Items[i], Items[i - 1]) == -1)
                     {
                         Swap(i, i - 1);
                     }
-                    CompareCount++;
                 }
             }
         }

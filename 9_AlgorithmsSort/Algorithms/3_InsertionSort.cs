@@ -38,13 +38,11 @@ namespace Algorithms
                 var buffer = Items[i];
                 var j = i;
                 
-                while (j > 0 && Items[j - 1].CompareTo(buffer) > 0)
+                while (j > 0 && Compare(Items[j - 1], buffer) > 0)
                 {
-                    Items[j] = Items[--j];
-                    SwapCount++;
-                    CompareCount++;
+                    //Items[j] = Items[--j]; // Так правильней, Swap используется только для события
+                    Swap(j, --j);
                 }
-                CompareCount++;
 
                 Items[j] = buffer;
             }

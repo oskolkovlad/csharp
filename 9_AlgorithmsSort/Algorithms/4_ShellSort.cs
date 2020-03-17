@@ -42,9 +42,10 @@ namespace Algorithms
                     var temp = Items[i];
                     var j = i;
 
-                    while (j >= step && Items[j - step].CompareTo(temp) > 0)
+                    while (j >= step && Compare(Items[j - step], temp) > 0)
                     {
-                        Items[j] = Items[j - step];
+                        //Items[j] = Items[j - step]; // Так правильней, Swap используется только для события
+                        Swap(j, j - step);
                         j = j - step;
                     }
 

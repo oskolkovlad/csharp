@@ -40,6 +40,12 @@
             this.sortButton = new System.Windows.Forms.Button();
             this.clearButton = new System.Windows.Forms.Button();
             this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.compareLabel = new System.Windows.Forms.Label();
+            this.compareTextBox = new System.Windows.Forms.TextBox();
+            this.swapLabel = new System.Windows.Forms.Label();
+            this.swapTextBox = new System.Windows.Forms.TextBox();
+            this.timeLabel = new System.Windows.Forms.Label();
+            this.timeTextBox = new System.Windows.Forms.TextBox();
             this.addPanel.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.addNumericUpDown)).BeginInit();
             this.randPanel.SuspendLayout();
@@ -127,7 +133,7 @@
             this.barsPanel.BackColor = System.Drawing.SystemColors.ControlLight;
             this.barsPanel.Location = new System.Drawing.Point(472, 23);
             this.barsPanel.Name = "barsPanel";
-            this.barsPanel.Size = new System.Drawing.Size(729, 204);
+            this.barsPanel.Size = new System.Drawing.Size(775, 204);
             this.barsPanel.TabIndex = 1;
             // 
             // sortButton
@@ -166,12 +172,66 @@
             this.comboBox1.TabIndex = 3;
             this.comboBox1.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
             // 
+            // compareLabel
+            // 
+            this.compareLabel.AutoSize = true;
+            this.compareLabel.Location = new System.Drawing.Point(469, 253);
+            this.compareLabel.Name = "compareLabel";
+            this.compareLabel.Size = new System.Drawing.Size(164, 17);
+            this.compareLabel.TabIndex = 4;
+            this.compareLabel.Text = "Количество сравнений:";
+            // 
+            // compareTextBox
+            // 
+            this.compareTextBox.Location = new System.Drawing.Point(639, 250);
+            this.compareTextBox.Name = "compareTextBox";
+            this.compareTextBox.Size = new System.Drawing.Size(63, 22);
+            this.compareTextBox.TabIndex = 5;
+            // 
+            // swapLabel
+            // 
+            this.swapLabel.AutoSize = true;
+            this.swapLabel.Location = new System.Drawing.Point(803, 253);
+            this.swapLabel.Name = "swapLabel";
+            this.swapLabel.Size = new System.Drawing.Size(150, 17);
+            this.swapLabel.TabIndex = 4;
+            this.swapLabel.Text = "Количество обменов:";
+            // 
+            // swapTextBox
+            // 
+            this.swapTextBox.Location = new System.Drawing.Point(959, 250);
+            this.swapTextBox.Name = "swapTextBox";
+            this.swapTextBox.Size = new System.Drawing.Size(63, 22);
+            this.swapTextBox.TabIndex = 5;
+            // 
+            // timeLabel
+            // 
+            this.timeLabel.AutoSize = true;
+            this.timeLabel.Location = new System.Drawing.Point(1113, 251);
+            this.timeLabel.Name = "timeLabel";
+            this.timeLabel.Size = new System.Drawing.Size(54, 17);
+            this.timeLabel.TabIndex = 4;
+            this.timeLabel.Text = "Время:";
+            // 
+            // timeTextBox
+            // 
+            this.timeTextBox.Location = new System.Drawing.Point(1184, 248);
+            this.timeTextBox.Name = "timeTextBox";
+            this.timeTextBox.Size = new System.Drawing.Size(63, 22);
+            this.timeTextBox.TabIndex = 5;
+            // 
             // Form2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
-            this.ClientSize = new System.Drawing.Size(1225, 286);
+            this.ClientSize = new System.Drawing.Size(1280, 286);
+            this.Controls.Add(this.timeTextBox);
+            this.Controls.Add(this.swapTextBox);
+            this.Controls.Add(this.compareTextBox);
+            this.Controls.Add(this.timeLabel);
+            this.Controls.Add(this.swapLabel);
+            this.Controls.Add(this.compareLabel);
             this.Controls.Add(this.comboBox1);
             this.Controls.Add(this.clearButton);
             this.Controls.Add(this.sortButton);
@@ -187,6 +247,7 @@
             this.randPanel.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.randNumericUpDown)).EndInit();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -204,5 +265,11 @@
         private System.Windows.Forms.Button sortButton;
         private System.Windows.Forms.Button clearButton;
         private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.Label compareLabel;
+        private System.Windows.Forms.TextBox compareTextBox;
+        private System.Windows.Forms.Label swapLabel;
+        private System.Windows.Forms.TextBox swapTextBox;
+        private System.Windows.Forms.Label timeLabel;
+        private System.Windows.Forms.TextBox timeTextBox;
     }
 }
