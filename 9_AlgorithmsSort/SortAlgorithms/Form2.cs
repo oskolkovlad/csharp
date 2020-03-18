@@ -2,6 +2,7 @@
 using System;
 using System.Collections.Generic;
 using System.Drawing;
+using System.Threading;
 using System.Windows.Forms;
 
 namespace SortAlgorithms
@@ -33,7 +34,9 @@ namespace SortAlgorithms
                 "Bubble Sort",
                 "Shaker Sort",
                 "Insertion Sort",
-                "Shell Sort"
+                "Shell Sort",
+                "Binary Tree Sort",
+                "Heap Sort"
             };
             comboBox1.Items.AddRange(cb);
             comboBox1.SelectedIndex = 0;    // Изначально будет выбрана Bubble Sort
@@ -70,26 +73,61 @@ namespace SortAlgorithms
 
         private void SortButton_Click(object sender, EventArgs e)
         {
-            RefreshVerBars();
+            switch (comboBox1.SelectedIndex)
+            {
+                case 0:
+                    algorithm = new BubbleSort<SortedItem>(verticalProgressBars);
+                    break;
+                case 1:
+                    algorithm = new ShakerSort<SortedItem>(verticalProgressBars);
+                    break;
+                case 2:
+                    algorithm = new InsertionSort<SortedItem>(verticalProgressBars);
+                    break;
+                case 3:
+                    algorithm = new ShellSort<SortedItem>(verticalProgressBars);
+                    break;
+                case 4:
+                    algorithm = new BinaryTreeSort<SortedItem>(verticalProgressBars);
+                    break;
+                case 5:
+                    algorithm = new HeapSort<SortedItem>(verticalProgressBars);
+                    break;
+            }
 
-            /*var tempBars = new List<SortedItem>();
-            tempBars.AddRange(verticalProgressBars);
-
-            algorithm.Items = tempBars;
-            algorithm.CompareEvent += Algorithm_CompareEvent;
-            algorithm.SwapEvent    += Algorithm_SwapEvent;*/
-
-            var bubbleSort = new BubbleSort<SortedItem>(verticalProgressBars);
-            bubbleSort.CompareEvent += Algorithm_CompareEvent;
-            bubbleSort.SwapEvent += Algorithm_SwapEvent;
-
-            var time = bubbleSort.Sort();
-
-            compareTextBox.Text = algorithm.CompareCount.ToString();
-            swapTextBox.Text = algorithm.SwapCount.ToString();
-            timeTextBox.Text = time.ToString();
+            Button_Click(algorithm);
         }
 
+        private void ClearButton_Click(object sender, EventArgs e)
+        {
+            barsPanel.Controls.Clear();
+            verticalProgressBars.Clear();
+
+            compareTextBox.Text = "";
+            swapTextBox.Text = "";
+            timeTextBox.Text = "";
+        }
+
+
+
+        private void Button_Click(Base<SortedItem> _algorithm)
+        {
+            RefreshVerBars();
+
+            compareTextBox.Text = "";
+            swapTextBox.Text    = "";
+            timeTextBox.Text    = "";
+
+            _algorithm = new BubbleSort<SortedItem>(verticalProgressBars);
+            _algorithm.CompareEvent += Algorithm_CompareEvent;
+            _algorithm.SwapEvent    += Algorithm_SwapEvent;
+
+            var time = _algorithm.Sort();
+
+            compareTextBox.Text = _algorithm.CompareCount.ToString();
+            swapTextBox.Text = _algorithm.SwapCount.ToString();
+            timeTextBox.Text = time.ToString();
+        }
 
         private void RefreshVerBars()
         {
@@ -122,6 +160,13 @@ namespace SortAlgorithms
             e.Item2.SetColor(Color.Green);
 
             barsPanel.Refresh();
+
+            Thread.Sleep(100);
+
+            e.Item1.SetColor(Color.Blue);
+            e.Item2.SetColor(Color.Blue);
+
+            barsPanel.Refresh();
         }
 
         private void Algorithm_SwapEvent(object sender, Tuple<SortedItem, SortedItem> e)
@@ -131,36 +176,6 @@ namespace SortAlgorithms
             e.Item2.SetPosition(temp); 
 
             barsPanel.Refresh();
-        }
-
-
-        private void ClearButton_Click(object sender, EventArgs e)
-        {
-            barsPanel.Controls.Clear();
-            verticalProgressBars.Clear();
-
-            compareTextBox.Text = "";
-            swapTextBox.Text = "";
-            timeTextBox.Text = "";
-        }
-
-        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
-        {
-            switch (comboBox1.SelectedIndex)
-            {
-                case 0:
-                    algorithm = new BubbleSort<SortedItem>(verticalProgressBars);
-                    break;
-                case 1:
-                    algorithm = new ShakerSort<SortedItem>(verticalProgressBars);
-                    break;
-                case 2:
-                    algorithm = new InsertionSort<SortedItem>(verticalProgressBars);
-                    break;
-                case 3:
-                    algorithm = new ShellSort<SortedItem>(verticalProgressBars);
-                    break;
-            }
         }
 
 
