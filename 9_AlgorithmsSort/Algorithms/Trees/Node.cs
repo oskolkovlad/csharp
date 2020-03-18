@@ -1,46 +1,27 @@
 ﻿using System;
 
-namespace Algorithms
+namespace Algorithms.Trees
 {
     public class Node<T>
          where T : IComparable
     {
         public Node() { }
-        public Node(T data)
+        public Node(T data/*, int index*/)
         {
             Data = data;
-            Left = null;
-            Right = null;
+            //Index = index;
         }
 
         public T Data { get; private set; }
-        public Node<T> Left { get; private set; }
-        public Node<T> Right { get; private set; }
+        public Node<T> Left { get; set; }
+        public Node<T> Right { get; set; }
 
-        public void Add(T data)
+        public int Index { get; set; }
+
+
+        public override string ToString()
         {
-            if(Data.CompareTo(data) > 0)
-            {
-                if(Left is null)
-                {
-                    Left = new Node<T>(data);
-                }
-                else
-                {
-                    Left.Add(data);
-                }
-            }
-            else
-            {
-                if (Right is null)
-                {
-                    Right = new Node<T>(data);
-                }
-                else
-                {
-                    Right.Add(data);
-                }
-            }
+            return Data.ToString();
         }
     }
 }

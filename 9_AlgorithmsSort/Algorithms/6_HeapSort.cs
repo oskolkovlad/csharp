@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Algorithms.Trees;
+using System;
 using System.Collections.Generic;
 
 namespace Algorithms
@@ -31,7 +32,9 @@ namespace Algorithms
 
         protected override void MakeSort()
         {
-
+            var heap = new Heap<T>(Items);
+            var sorted = heap.Order();
+            Items = sorted;
         }
     }
 }

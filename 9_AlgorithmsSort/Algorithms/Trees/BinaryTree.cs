@@ -1,28 +1,23 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace Algorithms
+namespace Algorithms.Trees
 {
     public class BinaryTree<T>
         where T : IComparable
     {
-        public BinaryTree()
-        {
-            Root = null;
-            Count = default;
-        }
+        public BinaryTree() { }
 
         public BinaryTree(IEnumerable<T> items)
-            : this()
         {
-            foreach(var i in items)
+            foreach(var item in items)
             {
-                Add(i);
+                Add(item);
             }
         }
 
         private Node<T> Root { get; set; }
-        public int Count { get; set; }
+        public int Count { get; private set; }
         public bool IsEmpty => Count == 0;
 
 
@@ -31,13 +26,40 @@ namespace Algorithms
             if (Root is null)
             {
                 Root = new Node<T>(data);
+                Count = 1;
+                return;
+            }
+
+            Add(Root, data);
+            Count++;
+        }
+
+        public void Add(Node<T> item, T data)
+        {
+            var node = new Node<T>(data);
+
+            if (node.Data.CompareTo(item.Data) == -1)
+            {
+                if (item.Left is null)
+                {
+                    item.Left = node;
+                }
+                else
+                {
+                    Add(item.Left, data);
+                }
             }
             else
             {
-               Root.Add(data);
+                if (item.Right is null)
+                {
+                    item.Right = node;
+                }
+                else
+                {
+                    Add(item.Right, data);
+                }
             }
-
-            Count++;
         }
 
 
@@ -45,7 +67,7 @@ namespace Algorithms
         {
             if (Root is null)
             {
-                return null;
+                return new List<T>();
             }
 
             return PreOrder(Root);
@@ -77,7 +99,7 @@ namespace Algorithms
         {
             if (Root is null)
             {
-                return null;
+                return new List<T>();
             }
 
             return PostOrder(Root);
@@ -109,7 +131,7 @@ namespace Algorithms
         {
             if (Root is null)
             {
-                return null;
+                return new List<T>();
             }
 
             return InOrder(Root);

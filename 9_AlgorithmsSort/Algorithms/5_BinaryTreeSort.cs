@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Algorithms.Trees;
+using System;
 using System.Collections.Generic;
 
 namespace Algorithms
@@ -29,7 +30,8 @@ namespace Algorithms
         protected override void MakeSort()
         {
             var tree = new BinaryTree<T>(Items);
-            Items = tree.InOrder();
+            var sorted = tree.InOrder();
+            Items = sorted;
         }
     }
 }

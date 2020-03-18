@@ -1,10 +1,9 @@
 ﻿using System;
-using System.Collections;
 using System.Collections.Generic;
 
 namespace Algorithms.Trees
 {
-    public class Heap<T> : IEnumerable<T>
+    public class Heap<T>
         where T : IComparable
     {
         private List<T> heap;
@@ -14,12 +13,12 @@ namespace Algorithms.Trees
             heap = new List<T>();
         }
 
-        public Heap(List<T> items)
+        public Heap(IEnumerable<T> items)
+            : this()
         {
-            heap = new List<T>();
             heap.AddRange(items);
 
-            for (var i = 0; i < Count; i++)
+            for (var i = Count; i >= 0; i--)
             {
                 Sort(i);
             }
@@ -37,8 +36,10 @@ namespace Algorithms.Trees
             {
                 return heap[0];
             }
-
-            return default;
+            else
+            {
+                throw new ArgumentNullException("Куча пуста.");
+            }
         }
 
         public void Add(T data)
@@ -48,7 +49,7 @@ namespace Algorithms.Trees
             var currentIndex = Count - 1;
             var parentIndex = GetParentIndex(currentIndex);
 
-            while (currentIndex > 0 && heap[parentIndex].CompareTo(heap[currentIndex]) == -1)
+            while (currentIndex > 0 && heap[parentIndex].CompareTo(heap[currentIndex]) == 1)
             {
                 Swap(currentIndex, parentIndex);
 
@@ -69,17 +70,12 @@ namespace Algorithms.Trees
 
         public T PopMaxNode()
         {
-            if (!IsEmpty)
-            {
-                var result = heap[0];
-                heap[0] = heap[Count - 1];
-                heap.RemoveAt(Count - 1);
-                Sort(0);
+            var result = heap[0];
+            heap[0] = heap[Count - 1];
+            heap.RemoveAt(Count - 1);
+            Sort(0);
 
-                return result;
-            }
-
-            return default;
+            return result;
         }
 
         private void Sort(int currentIndex)
@@ -92,12 +88,12 @@ namespace Algorithms.Trees
             {
                 IndexesForRootLeftRight(currentIndex, out maxIndex, out leftIndex, out rightIndex);
 
-                if (leftIndex < Count && heap[leftIndex].CompareTo(heap[maxIndex]) == 1)
+                if (leftIndex < Count && heap[leftIndex].CompareTo(heap[maxIndex]) == -1)
                 {
                     maxIndex = leftIndex;
                 }
 
-                if (rightIndex < Count && heap[rightIndex].CompareTo(heap[maxIndex]) == 1)
+                if (rightIndex < Count && heap[rightIndex].CompareTo(heap[maxIndex]) == -1)
                 {
                     maxIndex = rightIndex;
                 }
@@ -119,21 +115,16 @@ namespace Algorithms.Trees
             rightIndex = currentIndex * 2 + 2;
         }
 
-        public IEnumerator<T> GetEnumerator()
+        public List<T> Order()
         {
-            var current = new List<T>(heap);
+            var result = new List<T>();
 
             while (!IsEmpty)
             {
-                yield return PopMaxNode();
+                result.Add(PopMaxNode());
             }
 
-            heap = current;
-        }
-
-        IEnumerator IEnumerable.GetEnumerator()
-        {
-            return ((IEnumerable)this).GetEnumerator();
+            return result;
         }
     }
 }
