@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "Q:\\Projects\\Learn\\Projects\\6_DataStructures\\Linked_List_1\\1_Linked_List_1.csproj": {}
+    "Q:\\Projects\\Learn\\1_csharp\\6_DataStructures\\Linked_List_1\\1_Linked_List_1.csproj": {}
   },
   "projects": {
-    "Q:\\Projects\\Learn\\Projects\\6_DataStructures\\Linked_List_1\\1_Linked_List_1.csproj": {
+    "Q:\\Projects\\Learn\\1_csharp\\6_DataStructures\\Linked_List_1\\1_Linked_List_1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "Q:\\Projects\\Learn\\Projects\\6_DataStructures\\Linked_List_1\\1_Linked_List_1.csproj",
+        "projectUniqueName": "Q:\\Projects\\Learn\\1_csharp\\6_DataStructures\\Linked_List_1\\1_Linked_List_1.csproj",
         "projectName": "Linked_List_1",
-        "projectPath": "Q:\\Projects\\Learn\\Projects\\6_DataStructures\\Linked_List_1\\1_Linked_List_1.csproj",
+        "projectPath": "Q:\\Projects\\Learn\\1_csharp\\6_DataStructures\\Linked_List_1\\1_Linked_List_1.csproj",
         "packagesPath": "C:\\Users\\osvla\\.nuget\\packages\\",
-        "outputPath": "Q:\\Projects\\Learn\\Projects\\6_DataStructures\\Linked_List_1\\obj\\",
+        "outputPath": "Q:\\Projects\\Learn\\1_csharp\\6_DataStructures\\Linked_List_1\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\osvla\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "Q:\\Projects\\Learn\\Projects\\6_DataStructures\\Set\\7_Set.csproj": {}
+    "Q:\\Projects\\Learn\\1_csharp\\6_DataStructures\\Set\\7_Set.csproj": {}
   },
   "projects": {
-    "Q:\\Projects\\Learn\\Projects\\6_DataStructures\\Set\\7_Set.csproj": {
+    "Q:\\Projects\\Learn\\1_csharp\\6_DataStructures\\Set\\7_Set.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "Q:\\Projects\\Learn\\Projects\\6_DataStructures\\Set\\7_Set.csproj",
+        "projectUniqueName": "Q:\\Projects\\Learn\\1_csharp\\6_DataStructures\\Set\\7_Set.csproj",
         "projectName": "Set",
-        "projectPath": "Q:\\Projects\\Learn\\Projects\\6_DataStructures\\Set\\7_Set.csproj",
+        "projectPath": "Q:\\Projects\\Learn\\1_csharp\\6_DataStructures\\Set\\7_Set.csproj",
         "packagesPath": "C:\\Users\\osvla\\.nuget\\packages\\",
-        "outputPath": "Q:\\Projects\\Learn\\Projects\\6_DataStructures\\Set\\obj\\",
+        "outputPath": "Q:\\Projects\\Learn\\1_csharp\\6_DataStructures\\Set\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\osvla\\AppData\\Roaming\\NuGet\\NuGet.Config",

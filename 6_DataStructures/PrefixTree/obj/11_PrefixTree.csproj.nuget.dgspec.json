@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "Q:\\Projects\\Learn\\Projects\\6_DataStructures\\PrefixTree\\11_PrefixTree.csproj": {}
+    "Q:\\Projects\\Learn\\1_csharp\\6_DataStructures\\PrefixTree\\11_PrefixTree.csproj": {}
   },
   "projects": {
-    "Q:\\Projects\\Learn\\Projects\\6_DataStructures\\PrefixTree\\11_PrefixTree.csproj": {
+    "Q:\\Projects\\Learn\\1_csharp\\6_DataStructures\\PrefixTree\\11_PrefixTree.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "Q:\\Projects\\Learn\\Projects\\6_DataStructures\\PrefixTree\\11_PrefixTree.csproj",
+        "projectUniqueName": "Q:\\Projects\\Learn\\1_csharp\\6_DataStructures\\PrefixTree\\11_PrefixTree.csproj",
         "projectName": "PrefixTree",
-        "projectPath": "Q:\\Projects\\Learn\\Projects\\6_DataStructures\\PrefixTree\\11_PrefixTree.csproj",
+        "projectPath": "Q:\\Projects\\Learn\\1_csharp\\6_DataStructures\\PrefixTree\\11_PrefixTree.csproj",
         "packagesPath": "C:\\Users\\osvla\\.nuget\\packages\\",
-        "outputPath": "Q:\\Projects\\Learn\\Projects\\6_DataStructures\\PrefixTree\\obj\\",
+        "outputPath": "Q:\\Projects\\Learn\\1_csharp\\6_DataStructures\\PrefixTree\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\osvla\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "Q:\\Projects\\Learn\\Projects\\6_DataStructures\\Stack\\2_Stack.csproj": {}
+    "Q:\\Projects\\Learn\\1_csharp\\6_DataStructures\\Stack\\2_Stack.csproj": {}
   },
   "projects": {
-    "Q:\\Projects\\Learn\\Projects\\6_DataStructures\\Stack\\2_Stack.csproj": {
+    "Q:\\Projects\\Learn\\1_csharp\\6_DataStructures\\Stack\\2_Stack.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "Q:\\Projects\\Learn\\Projects\\6_DataStructures\\Stack\\2_Stack.csproj",
+        "projectUniqueName": "Q:\\Projects\\Learn\\1_csharp\\6_DataStructures\\Stack\\2_Stack.csproj",
         "projectName": "Stack",
-        "projectPath": "Q:\\Projects\\Learn\\Projects\\6_DataStructures\\Stack\\2_Stack.csproj",
+        "projectPath": "Q:\\Projects\\Learn\\1_csharp\\6_DataStructures\\Stack\\2_Stack.csproj",
         "packagesPath": "C:\\Users\\osvla\\.nuget\\packages\\",
-        "outputPath": "Q:\\Projects\\Learn\\Projects\\6_DataStructures\\Stack\\obj\\",
+        "outputPath": "Q:\\Projects\\Learn\\1_csharp\\6_DataStructures\\Stack\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\osvla\\AppData\\Roaming\\NuGet\\NuGet.Config",

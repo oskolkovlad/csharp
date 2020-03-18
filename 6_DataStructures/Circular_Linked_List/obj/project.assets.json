@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "Q:\\Projects\\Learn\\Projects\\6_DataStructures\\Circular_Linked_List\\4_Circular_Linked_List.csproj",
+      "projectUniqueName": "Q:\\Projects\\Learn\\1_csharp\\6_DataStructures\\Circular_Linked_List\\4_Circular_Linked_List.csproj",
       "projectName": "Circular_Linked_List",
-      "projectPath": "Q:\\Projects\\Learn\\Projects\\6_DataStructures\\Circular_Linked_List\\4_Circular_Linked_List.csproj",
+      "projectPath": "Q:\\Projects\\Learn\\1_csharp\\6_DataStructures\\Circular_Linked_List\\4_Circular_Linked_List.csproj",
       "packagesPath": "C:\\Users\\osvla\\.nuget\\packages\\",
-      "outputPath": "Q:\\Projects\\Learn\\Projects\\6_DataStructures\\Circular_Linked_List\\obj\\",
+      "outputPath": "Q:\\Projects\\Learn\\1_csharp\\6_DataStructures\\Circular_Linked_List\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\osvla\\AppData\\Roaming\\NuGet\\NuGet.Config",

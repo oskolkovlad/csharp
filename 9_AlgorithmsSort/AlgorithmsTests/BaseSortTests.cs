@@ -93,5 +93,41 @@ namespace Algorithms.Tests
                 Assert.AreEqual(golden[i], algorithm.Items[i]);
             }
         }
+
+        [TestMethod()]
+        public void BinaryTreeSortTest()
+        {
+            // Arrange
+            algorithm = new BinaryTreeSort<int>();
+            algorithm.Items.AddRange(golden);
+
+            // Act
+            golden.Sort();
+            algorithm.Sort();
+
+            // Assert
+            for (var i = 0; i < algorithm.Items.Count; i++)
+            {
+                Assert.AreEqual(golden[i], algorithm.Items[i]);
+            }
+        }
+
+        [TestMethod()]
+        public void HeapSortTest()
+        {
+            // Arrange
+            algorithm = new HeapSort<int>();
+            algorithm.Items.AddRange(golden);
+
+            // Act
+            golden.Sort();
+            algorithm.Sort();
+
+            // Assert
+            for (var i = 0; i < algorithm.Items.Count; i++)
+            {
+                Assert.AreEqual(golden[i], algorithm.Items[i]);
+            }
+        }
     }
 }

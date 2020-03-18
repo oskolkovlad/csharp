@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "Q:\\Projects\\Learn\\Projects\\6_DataStructures\\BinarySearchTree\\10_BinarySearchTree.csproj": {}
+    "Q:\\Projects\\Learn\\1_csharp\\6_DataStructures\\BinarySearchTree\\10_BinarySearchTree.csproj": {}
   },
   "projects": {
-    "Q:\\Projects\\Learn\\Projects\\6_DataStructures\\BinarySearchTree\\10_BinarySearchTree.csproj": {
+    "Q:\\Projects\\Learn\\1_csharp\\6_DataStructures\\BinarySearchTree\\10_BinarySearchTree.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "Q:\\Projects\\Learn\\Projects\\6_DataStructures\\BinarySearchTree\\10_BinarySearchTree.csproj",
+        "projectUniqueName": "Q:\\Projects\\Learn\\1_csharp\\6_DataStructures\\BinarySearchTree\\10_BinarySearchTree.csproj",
         "projectName": "BinarySearchTree",
-        "projectPath": "Q:\\Projects\\Learn\\Projects\\6_DataStructures\\BinarySearchTree\\10_BinarySearchTree.csproj",
+        "projectPath": "Q:\\Projects\\Learn\\1_csharp\\6_DataStructures\\BinarySearchTree\\10_BinarySearchTree.csproj",
         "packagesPath": "C:\\Users\\osvla\\.nuget\\packages\\",
-        "outputPath": "Q:\\Projects\\Learn\\Projects\\6_DataStructures\\BinarySearchTree\\obj\\",
+        "outputPath": "Q:\\Projects\\Learn\\1_csharp\\6_DataStructures\\BinarySearchTree\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\osvla\\AppData\\Roaming\\NuGet\\NuGet.Config",

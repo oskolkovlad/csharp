@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "Q:\\Projects\\Learn\\Projects\\6_DataStructures\\Queue\\5_Queue.csproj": {}
+    "Q:\\Projects\\Learn\\1_csharp\\6_DataStructures\\Queue\\5_Queue.csproj": {}
   },
   "projects": {
-    "Q:\\Projects\\Learn\\Projects\\6_DataStructures\\Queue\\5_Queue.csproj": {
+    "Q:\\Projects\\Learn\\1_csharp\\6_DataStructures\\Queue\\5_Queue.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "Q:\\Projects\\Learn\\Projects\\6_DataStructures\\Queue\\5_Queue.csproj",
+        "projectUniqueName": "Q:\\Projects\\Learn\\1_csharp\\6_DataStructures\\Queue\\5_Queue.csproj",
         "projectName": "Queue",
-        "projectPath": "Q:\\Projects\\Learn\\Projects\\6_DataStructures\\Queue\\5_Queue.csproj",
+        "projectPath": "Q:\\Projects\\Learn\\1_csharp\\6_DataStructures\\Queue\\5_Queue.csproj",
         "packagesPath": "C:\\Users\\osvla\\.nuget\\packages\\",
-        "outputPath": "Q:\\Projects\\Learn\\Projects\\6_DataStructures\\Queue\\obj\\",
+        "outputPath": "Q:\\Projects\\Learn\\1_csharp\\6_DataStructures\\Queue\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\osvla\\AppData\\Roaming\\NuGet\\NuGet.Config",
