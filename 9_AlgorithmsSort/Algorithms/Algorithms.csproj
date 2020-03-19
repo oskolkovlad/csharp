@@ -46,6 +46,7 @@
     <Compile Include="3_InsertionSort.cs" />
     <Compile Include="5_BinaryTreeSort.cs" />
     <Compile Include="6_HeapSort.cs" />
+    <Compile Include="7_SelectionSort.cs" />
     <Compile Include="Trees\BinaryTree.cs" />
     <Compile Include="Trees\Heap.cs" />
     <Compile Include="Trees\Node.cs" />

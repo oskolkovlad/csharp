@@ -36,7 +36,8 @@ namespace SortAlgorithms
                 "Insertion Sort",
                 "Shell Sort",
                 "Binary Tree Sort",
-                "Heap Sort"
+                "Heap Sort",
+                "Selection Sort"
             };
             comboBox1.Items.AddRange(cb);
             comboBox1.SelectedIndex = 0;    // Изначально будет выбрана Bubble Sort
@@ -92,6 +93,9 @@ namespace SortAlgorithms
                     break;
                 case 5:
                     algorithm = new HeapSort<SortedItem>(verticalProgressBars);
+                    break;
+                case 6:
+                    algorithm = new SelectionSort<SortedItem>(verticalProgressBars);
                     break;
             }
 
@@ -158,14 +162,12 @@ namespace SortAlgorithms
         {
             e.Item1.SetColor(Color.Red);
             e.Item2.SetColor(Color.Green);
-
             barsPanel.Refresh();
 
-            Thread.Sleep(100);
+            Thread.Sleep(50);
 
             e.Item1.SetColor(Color.Blue);
             e.Item2.SetColor(Color.Blue);
-
             barsPanel.Refresh();
         }
 

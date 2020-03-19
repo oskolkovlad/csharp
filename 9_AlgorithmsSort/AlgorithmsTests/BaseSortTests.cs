@@ -129,5 +129,23 @@ namespace Algorithms.Tests
                 Assert.AreEqual(golden[i], algorithm.Items[i]);
             }
         }
+
+        [TestMethod()]
+        public void SelectionSortTest()
+        {
+            // Arrange
+            algorithm = new SelectionSort<int>();
+            algorithm.Items.AddRange(golden);
+
+            // Act
+            golden.Sort();
+            algorithm.Sort();
+
+            // Assert
+            for (var i = 0; i < algorithm.Items.Count; i++)
+            {
+                Assert.AreEqual(golden[i], algorithm.Items[i]);
+            }
+        }
     }
 }
