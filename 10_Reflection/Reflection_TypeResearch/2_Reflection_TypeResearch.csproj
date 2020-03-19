@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>Reflection_TypeResearch</RootNamespace>
+    <AssemblyName>Reflection_TypeResearch</AssemblyName>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Type_Class\1_Type_Class.csproj" />
+  </ItemGroup>
+
+</Project>
