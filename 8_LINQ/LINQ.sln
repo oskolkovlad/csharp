@@ -11,6 +11,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "3_Join_GroupJoin_Zip_AllAny
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4_AsParalell_AsOrdered", "AsParalell_AsOrdered\4_AsParalell_AsOrdered.csproj", "{CC09AB40-BD1E-4831-9DA5-593F08149D8E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "5_Errors_CanceledOperation", "Errors_CanceledOperation\5_Errors_CanceledOperation.csproj", "{0CB5680F-6233-413B-9B89-8A907A36D227}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{CC09AB40-BD1E-4831-9DA5-593F08149D8E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CC09AB40-BD1E-4831-9DA5-593F08149D8E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CC09AB40-BD1E-4831-9DA5-593F08149D8E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0CB5680F-6233-413B-9B89-8A907A36D227}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0CB5680F-6233-413B-9B89-8A907A36D227}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0CB5680F-6233-413B-9B89-8A907A36D227}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0CB5680F-6233-413B-9B89-8A907A36D227}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
