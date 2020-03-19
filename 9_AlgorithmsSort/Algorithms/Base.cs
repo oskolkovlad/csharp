@@ -9,6 +9,7 @@ namespace Algorithms
     {
         public event EventHandler<Tuple<T, T>> CompareEvent;
         public event EventHandler<Tuple<T, T>> SwapEvent;
+        public event EventHandler<Tuple<int, T>> SetEvent;
 
         protected Base()
         {
@@ -31,13 +32,13 @@ namespace Algorithms
         {
             if(indexA >= 0 && indexA < Items.Count && indexB >= 0 && indexB < Items.Count)
             {
+                SwapEvent?.Invoke(this, new Tuple<T, T>(Items[indexA], Items[indexB]));
+                SwapCount++;
+
                 var tempVar = Items[indexA];
                 Items[indexA] = Items[indexB];
                 Items[indexB] = tempVar;
             }
-
-            SwapEvent?.Invoke(this, new Tuple<T, T>(Items[indexA], Items[indexB]));
-            SwapCount++;
 
             IsSwapped = true;
         }
@@ -54,6 +55,16 @@ namespace Algorithms
             timer.Stop();
 
             return timer.Elapsed;
+        }
+
+        protected void Set(int index, T value)
+        {
+            if (index < Items.Count)
+            {
+                SetEvent?.Invoke(this, new Tuple<int, T>(index, value));
+
+                Items[index] = value;
+            }
         }
 
         protected virtual void MakeSort()

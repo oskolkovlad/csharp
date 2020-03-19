@@ -1,15 +1,15 @@
 ﻿using System;
 
-namespace Algorithms.Trees
+namespace Algorithms
 {
     public class Node<T>
          where T : IComparable
     {
         public Node() { }
-        public Node(T data/*, int index*/)
+        public Node(T data, int index)
         {
             Data = data;
-            //Index = index;
+            Index = index;
         }
 
         public T Data { get; private set; }

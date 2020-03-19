@@ -16,7 +16,7 @@ namespace Algorithms.Tests
         {
             golden = new List<int>();
 
-            for (var i = 0; i < 10000; i++)
+            for (var i = 0; i < 100; i++)
             {
                 golden.Add(rnd.Next(0, 100));
             }
@@ -98,8 +98,7 @@ namespace Algorithms.Tests
         public void BinaryTreeSortTest()
         {
             // Arrange
-            algorithm = new BinaryTreeSort<int>();
-            algorithm.Items.AddRange(golden);
+            algorithm = new BinaryTreeSort<int>(golden);
 
             // Act
             golden.Sort();
@@ -116,8 +115,8 @@ namespace Algorithms.Tests
         public void HeapSortTest()
         {
             // Arrange
-            algorithm = new HeapSort<int>();
-            algorithm.Items.AddRange(golden);
+            algorithm = new HeapSort<int>(golden);
+            //algorithm.Items.AddRange(golden);
 
             // Act
             golden.Sort();

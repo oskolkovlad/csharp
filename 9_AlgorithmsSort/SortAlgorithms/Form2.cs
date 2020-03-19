@@ -12,13 +12,14 @@ namespace SortAlgorithms
         Base<SortedItem> algorithm;
         List<int> items;
         List<SortedItem> verticalProgressBars;
+        readonly int sleep = 50;
 
         public Form2()
         {
             InitializeComponent();
 
-            addNumericUpDown.Maximum  = 100000;
-            randNumericUpDown.Maximum = 100000;
+            addNumericUpDown.Maximum  = 30;
+            randNumericUpDown.Maximum = 30;
             addNumericUpDown.Value    = 10;
             randNumericUpDown.Value   = 10;
             compareTextBox.ReadOnly   = true;
@@ -27,7 +28,6 @@ namespace SortAlgorithms
 
             items                = new List<int>();
             verticalProgressBars = new List<SortedItem>();
-            algorithm            = new BubbleSort<SortedItem>();
 
             // Переключение сортировок
             string[] cb = {
@@ -40,7 +40,7 @@ namespace SortAlgorithms
                 "Selection Sort"
             };
             comboBox1.Items.AddRange(cb);
-            comboBox1.SelectedIndex = 0;    // Изначально будет выбрана Bubble Sort
+            comboBox1.SelectedIndex = 5;    // Изначально будет выбрана Bubble Sort
         }
 
 
@@ -48,10 +48,8 @@ namespace SortAlgorithms
         {
             var item = new SortedItem((int)addNumericUpDown.Value, verticalProgressBars.Count);
             verticalProgressBars.Add(item);
-            barsPanel.Controls.Add(item.ProgressBar);
-            barsPanel.Controls.Add(item.Label);
 
-            //addNumericUpDown.Value = 0;
+            RefreshVerBars();
         }
 
         private void RandButton_Click(object sender, EventArgs e)
@@ -59,17 +57,13 @@ namespace SortAlgorithms
             items.Clear();
             items.AddRange(FillRandom((int)randNumericUpDown.Value));
 
-            SortedItem item;
             foreach (var i in items)
             {
-                item = new SortedItem(i, verticalProgressBars.Count);
-
-                verticalProgressBars.Add(item);
-                barsPanel.Controls.Add(item.ProgressBar);
-                barsPanel.Controls.Add(item.Label);
+                var sortedItem = new SortedItem(i, verticalProgressBars.Count);
+                verticalProgressBars.Add(sortedItem);
             }
-             
-            //randNumericUpDown.Value = 0;
+
+            RefreshVerBars();
         }
 
         private void SortButton_Click(object sender, EventArgs e)
@@ -116,13 +110,18 @@ namespace SortAlgorithms
 
         private void Button_Click(Base<SortedItem> _algorithm)
         {
+            compareTextBox.Text = "";
+            swapTextBox.Text = "";
+            timeTextBox.Text = "";
+
             RefreshVerBars();
 
-            compareTextBox.Text = "";
-            swapTextBox.Text    = "";
-            timeTextBox.Text    = "";
+            for (var i = 0; i < _algorithm.Items.Count; i++)
+            {
+                _algorithm.Items[i].SetPosition(i);
+            }
+            barsPanel.Refresh();
 
-            _algorithm = new BubbleSort<SortedItem>(verticalProgressBars);
             _algorithm.CompareEvent += Algorithm_CompareEvent;
             _algorithm.SwapEvent    += Algorithm_SwapEvent;
 
@@ -164,20 +163,53 @@ namespace SortAlgorithms
             e.Item2.SetColor(Color.Green);
             barsPanel.Refresh();
 
-            Thread.Sleep(50);
+            Thread.Sleep(sleep);
 
             e.Item1.SetColor(Color.Blue);
             e.Item2.SetColor(Color.Blue);
             barsPanel.Refresh();
+
+            Thread.Sleep(sleep);
         }
 
         private void Algorithm_SwapEvent(object sender, Tuple<SortedItem, SortedItem> e)
         {
+            e.Item1.SetColor(Color.Aqua);
+            e.Item2.SetColor(Color.Brown);
+            barsPanel.Refresh();
+
+            Thread.Sleep(sleep);
+
             var temp = e.Item1.Number;
             e.Item1.SetPosition(e.Item2.Number);
             e.Item2.SetPosition(temp); 
-
             barsPanel.Refresh();
+
+            Thread.Sleep(sleep);
+
+            e.Item1.SetColor(Color.Blue);
+            e.Item2.SetColor(Color.Blue);
+            barsPanel.Refresh();
+
+            Thread.Sleep(sleep);
+        }
+
+        private void AlgorithmSetEvent(object sender, Tuple<int, SortedItem> e)
+        {
+            e.Item2.SetColor(Color.Red);
+            barsPanel.Refresh();
+
+            Thread.Sleep(sleep);
+
+            e.Item2.SetPosition(e.Item1);
+            barsPanel.Refresh();
+
+            Thread.Sleep(sleep);
+
+            e.Item2.SetColor(Color.Blue);
+            barsPanel.Refresh();
+
+            Thread.Sleep(sleep);
         }
 
 

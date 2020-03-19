@@ -1,5 +1,4 @@
-﻿using Algorithms.Trees;
-using System;
+﻿using System;
 using System.Collections.Generic;
 
 namespace Algorithms
@@ -28,13 +27,103 @@ namespace Algorithms
         where T : IComparable
     {
         public HeapSort() { }
-        public HeapSort(IEnumerable<T> items) : base(items) { }
+
+        public HeapSort(IEnumerable<T> items)
+            : base(items)
+        {
+            for (int i = Count; i >= 0; i--)
+            {
+                Sort(i);
+            }
+        }
+
+
+        public int Count => Items.Count;
+        public bool IsEmpty => Count == 0;
+
+
+        public void Add(T item)
+        {
+            Items.Add(item);
+
+            var currentIndex = Count - 1;
+            var parentIndex = GetParentIndex(currentIndex);
+
+            while (currentIndex > 0 && Compare(Items[parentIndex], Items[currentIndex]) == -1)
+            {
+                Swap(currentIndex, parentIndex);
+
+                currentIndex = parentIndex;
+                parentIndex = GetParentIndex(currentIndex);
+            }
+        }
+
+        private int GetParentIndex(int currentIndex) => (currentIndex - 1) / 2;
+
+        public T PeekMaxNode()
+        {
+            if (!IsEmpty)
+            {
+                return Items[0];
+            }
+            else
+            {
+                throw new ArgumentNullException("Куча пуста!");
+            }
+        }
+
+        public T PopMaxNode()
+        {
+            var result = Items[0];
+            Items[0] = Items[Count - 1];
+            Items.RemoveAt(Count - 1);
+            Sort(0);
+
+            return result;
+        }
+
+        private void Sort(int currentIndex, int maxLength = -1)
+        {
+            maxLength = maxLength == -1 ? Count : maxLength;
+
+            while (currentIndex < maxLength)
+            {
+                IndexesForRootLeftRight(currentIndex, out int maxIndex, out int leftIndex, out int rightIndex);
+
+                if (leftIndex < maxLength && Compare(Items[leftIndex], Items[maxIndex]) == 1)
+                {
+                    maxIndex = leftIndex;
+                }
+
+                if (rightIndex < maxLength && Compare(Items[rightIndex], Items[maxIndex]) == 1)
+                {
+                    maxIndex = rightIndex;
+                }
+
+                if (maxIndex == currentIndex)
+                {
+                    break;
+                }
+
+                Swap(currentIndex, maxIndex);
+                currentIndex = maxIndex;
+            }
+        }
 
         protected override void MakeSort()
         {
-            var heap = new Heap<T>(Items);
-            var sorted = heap.Order();
-            Items = sorted;
+            for(int i = Count - 1; i >= 0; i--)
+            {
+                Swap(0, i);
+                Sort(0, i);
+            }
+        }
+
+        private void IndexesForRootLeftRight(int currentIndex, out int rootIndex, out int leftIndex, out int rightIndex)
+        {
+            rootIndex = currentIndex;
+            leftIndex = currentIndex * 2 + 1;
+            rightIndex = currentIndex * 2 + 2;
         }
     }
 }
