@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1_Type_Class", "Type_Class\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2_Reflection_TypeResearch", "Reflection_TypeResearch\2_Reflection_TypeResearch.csproj", "{DDE50875-576C-4285-9461-226DB5D3CFD0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3_DynamicAssemblyLoad_LateBinding", "DynamicAssemblyLoad_LateBinding\3_DynamicAssemblyLoad_LateBinding.csproj", "{CA5A13DD-6BDC-4C27-B482-A4741FFEEA7B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{DDE50875-576C-4285-9461-226DB5D3CFD0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DDE50875-576C-4285-9461-226DB5D3CFD0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DDE50875-576C-4285-9461-226DB5D3CFD0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CA5A13DD-6BDC-4C27-B482-A4741FFEEA7B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA5A13DD-6BDC-4C27-B482-A4741FFEEA7B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA5A13DD-6BDC-4C27-B482-A4741FFEEA7B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA5A13DD-6BDC-4C27-B482-A4741FFEEA7B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

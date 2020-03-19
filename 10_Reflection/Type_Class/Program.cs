@@ -46,7 +46,7 @@ namespace Type_Class
         {
             Console.WriteLine($"Имя: {Name}  Возраст: {Age}");
         }
-        public int Payment(int hours, int perhour)
+        private int Payment(int hours, int perhour)
         {
             return hours * perhour;
         }
