@@ -8,7 +8,14 @@ namespace IronPython
     {
         static void Main(string[] args)
         {
-            Console.ReadKey("Hello World!");
+            ScriptEngine engine = Python.CreateEngine();
+            engine.Execute("print 'hello, world...'");
+            engine.ExecuteFile("hello.py");
+            
+            ScriptScope scope = engine.CreateScope();
+            
+            
+            Console.ReadKey();
         }
     }
 }
