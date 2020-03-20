@@ -42,6 +42,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="1_BubbleSort.cs" />
+    <Compile Include="9_2_RadixMSDSort.cs" />
     <Compile Include="Base.cs" />
     <Compile Include="3_InsertionSort.cs" />
     <Compile Include="5_BinaryTreeSort.cs" />
@@ -52,6 +53,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="2_ShakerSort.cs" />
     <Compile Include="4_ShellSort.cs" />
+    <Compile Include="9_1_RadixLSDSort.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

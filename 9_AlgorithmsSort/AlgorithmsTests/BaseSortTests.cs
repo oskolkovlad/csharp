@@ -164,5 +164,41 @@ namespace Algorithms.Tests
                 Assert.AreEqual(golden[i], algorithm.Items[i]);
             }
         }
+
+        [TestMethod]
+        public void RadixLSDSortTest()
+        {
+            // Arrange
+            algorithm = new RadixLSDSort();
+            algorithm.Items.AddRange(golden);
+
+            // Act
+            golden.Sort();
+            algorithm.Sort();
+
+            // Assert
+            for (var i = 0; i < algorithm.Items.Count; i++)
+            {
+                Assert.AreEqual(golden[i], algorithm.Items[i]);
+            }
+        }
+
+        [TestMethod]
+        public void RadixMSDSortTest()
+        {
+            // Arrange
+            algorithm = new RadixMSDSort();
+            algorithm.Items.AddRange(golden);
+
+            // Act
+            golden.Sort();
+            algorithm.Sort();
+
+            // Assert
+            for (var i = 0; i < algorithm.Items.Count; i++)
+            {
+                Assert.AreEqual(golden[i], algorithm.Items[i]);
+            }
+        }
     }
 }
