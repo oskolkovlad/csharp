@@ -16,7 +16,7 @@ namespace Algorithms.Tests
         {
             golden = new List<int>();
 
-            for (var i = 0; i < 100; i++)
+            for (var i = 0; i < 10000; i++)
             {
                 golden.Add(rnd.Next(0, 100));
             }
@@ -134,6 +134,24 @@ namespace Algorithms.Tests
         {
             // Arrange
             algorithm = new SelectionSort<int>();
+            algorithm.Items.AddRange(golden);
+
+            // Act
+            golden.Sort();
+            algorithm.Sort();
+
+            // Assert
+            for (var i = 0; i < algorithm.Items.Count; i++)
+            {
+                Assert.AreEqual(golden[i], algorithm.Items[i]);
+            }
+        }
+
+        [TestMethod()]
+        public void GnomeSortTest()
+        {
+            // Arrange
+            algorithm = new GnomeSort<int>();
             algorithm.Items.AddRange(golden);
 
             // Act

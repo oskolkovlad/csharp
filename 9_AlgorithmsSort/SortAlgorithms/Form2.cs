@@ -37,7 +37,8 @@ namespace SortAlgorithms
                 "Shell Sort",
                 "Binary Tree Sort",
                 "Heap Sort",
-                "Selection Sort"
+                "Selection Sort",
+                "Gnome Sort"
             };
             comboBox1.Items.AddRange(cb);
             comboBox1.SelectedIndex = 5;    // Изначально будет выбрана Bubble Sort
@@ -90,6 +91,9 @@ namespace SortAlgorithms
                     break;
                 case 6:
                     algorithm = new SelectionSort<SortedItem>(verticalProgressBars);
+                    break;
+                case 7:
+                    algorithm = new GnomeSort<SortedItem>(verticalProgressBars);
                     break;
             }
 
