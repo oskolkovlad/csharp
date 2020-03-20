@@ -22,10 +22,10 @@ namespace ExpandoObject_DynamicObject
             }
 
             expandoObject.IncAge = (Action<int>) (x => expandoObject.Age += x);
-            
-            Console.WriteLine($"{expandoObject.Name} - {expandoObject.Age}");
+
             expandoObject.IncAge(2);
             Console.WriteLine($"{expandoObject.Name} - {expandoObject.Age}");
+            Console.WriteLine();
             
             
             //***********************************************************************************//

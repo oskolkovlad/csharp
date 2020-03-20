@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>DLR_Python</RootNamespace>
+    <AssemblyName>DLR_Python</AssemblyName>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="Q:\Сериалы\factorial.py" Link="factorial.py" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="DynamicLanguageRuntime" Version="1.2.2" />
+    <PackageReference Include="IronPython" Version="2.7.9" />
+  </ItemGroup>
+
+</Project>

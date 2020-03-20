@@ -3,6 +3,8 @@
     <PropertyGroup>
         <OutputType>Exe</OutputType>
         <TargetFramework>netcoreapp3.1</TargetFramework>
+        <RootNamespace>DynamicType</RootNamespace>
+        <AssemblyName>DynamicType</AssemblyName>
     </PropertyGroup>
 
 </Project>
