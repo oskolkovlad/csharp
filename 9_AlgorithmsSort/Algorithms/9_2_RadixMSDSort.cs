@@ -49,7 +49,12 @@ namespace Algorithms
         {
             var length = GetMaxLength(Items);
             var result = SortCollection(Items, length);
-            Items = result;
+
+            // Для визуализации
+            for (var i = 0; i < result.Count; i++)
+            {
+                Set(i, result[i]);
+            }
 
 
             //************************************************************************//
@@ -135,6 +140,5 @@ namespace Algorithms
 
             return length;
         }
-
     }
 }

@@ -46,14 +46,15 @@ namespace Algorithms
 
         protected override void MakeSort()
         {
-            var groups = new List<Queue<T>>(10);
+            var groups = new List<List<T>>(10);
             for (var i = 0; i < 10; i++)
             {
-                groups.Add(new Queue<T>());
+                groups.Add(new List<T>());
             }
 
-            
-            for (var step = 1; step < GetMaxLength() + 1; step++)
+            var length = GetMaxLength();
+
+            for (var step = 1; step < length + 1; step++)
             {
 
                 // Распределение элементов по корзинам
@@ -61,18 +62,33 @@ namespace Algorithms
                 {
                     var i = item.GetHashCode();
                     var value = i % (int)Math.Pow(10, step) / (int)Math.Pow(10, step - 1);
-                    groups[value].Enqueue(item);
+                    groups[value].Add(item);
                 }
 
-                Items.Clear();
+                // Для работы сортировки без визуализации
+                //Items.Clear();
+
+                // Для визуализации
+                var j = 0; 
 
                 // Сборка элементов
                 foreach(var group in groups)
                 {
-                    foreach(var item in Items)
+                    foreach(var item in group)
                     {
-                        Items.Add(group.Dequeue());
+                        // Для работы сортировки без визуализации
+                        //Items.Add(group.Dequeue());
+                        
+                        // Для визуализации
+                        Set(j, item);
+                        j++;
                     }
+                }
+
+                // Очистка корзин.
+                foreach (var group in groups)
+                {
+                    group.Clear();
                 }
             }
         }

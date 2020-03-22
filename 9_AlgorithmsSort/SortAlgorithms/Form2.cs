@@ -45,7 +45,7 @@ namespace SortAlgorithms
                 "Quick Sort"
             };
             comboBox1.Items.AddRange(cb);
-            comboBox1.SelectedIndex = 7;    // Изначально будет выбрана Bubble Sort
+            comboBox1.SelectedIndex = 8;    // Изначально будет выбрана Bubble Sort
         }
 
 
@@ -108,9 +108,9 @@ namespace SortAlgorithms
                 case 10:
                     algorithm = new MergeSort<SortedItem>(verticalProgressBars);
                     break;
-/*                case 11:
+                case 11:
                     algorithm = new QuickSort<SortedItem>(verticalProgressBars);
-                    break;*/
+                    break;
             }
 
             Button_Click(algorithm);
@@ -125,8 +125,6 @@ namespace SortAlgorithms
             swapTextBox.Text = "";
             timeTextBox.Text = "";
         }
-
-
 
         private void Button_Click(Base<SortedItem> _algorithm)
         {
@@ -152,6 +150,7 @@ namespace SortAlgorithms
             swapTextBox.Text = _algorithm.SwapCount.ToString();
             timeTextBox.Text = time.ToString();
         }
+
 
         private void RefreshVerBars()
         {

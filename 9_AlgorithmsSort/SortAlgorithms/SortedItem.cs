@@ -102,9 +102,8 @@ namespace SortAlgorithms
             }
         }
 
-        public override string ToString()
-        {
-            return Value.ToString();
-        }
+        public override string ToString() => Value.ToString();
+
+        public override int GetHashCode() => Value;
     }
 }

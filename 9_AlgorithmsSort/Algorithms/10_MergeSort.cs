@@ -30,6 +30,10 @@ namespace Algorithms
         protected override void MakeSort()
         {
             Items = Sort(Items);
+            for (var i = 0; i < Items.Count; i++)
+            {
+                Set(i, Items[i]);
+            }
         }
 
         private List<T> Sort(List<T> items)
@@ -40,7 +44,6 @@ namespace Algorithms
             }
 
             Split(items, out List<T> left, out List<T> right);
-
             return Merge(Sort(left), Sort(right));
         }
 
