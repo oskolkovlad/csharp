@@ -223,7 +223,7 @@ namespace Algorithms.Tests
         public void QuickSortTest()
         {
             // Arrange
-            //algorithm = new QuickSort<int>();
+            algorithm = new QuickSort<int>();
             algorithm.Items.AddRange(golden);
 
             // Act
