@@ -1,0 +1,10 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <AssemblyName>Class_SystemGC</AssemblyName>
+    <RootNamespace>Class_SystemGC</RootNamespace>
+  </PropertyGroup>
+
+</Project>
