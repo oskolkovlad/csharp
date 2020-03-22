@@ -169,7 +169,7 @@ namespace Algorithms.Tests
         public void RadixLSDSortTest()
         {
             // Arrange
-            algorithm = new RadixLSDSort();
+            algorithm = new RadixLSDSort<int>();
             algorithm.Items.AddRange(golden);
 
             // Act
@@ -187,7 +187,43 @@ namespace Algorithms.Tests
         public void RadixMSDSortTest()
         {
             // Arrange
-            algorithm = new RadixMSDSort();
+            algorithm = new RadixMSDSort<int>();
+            algorithm.Items.AddRange(golden);
+
+            // Act
+            golden.Sort();
+            algorithm.Sort();
+
+            // Assert
+            for (var i = 0; i < algorithm.Items.Count; i++)
+            {
+                Assert.AreEqual(golden[i], algorithm.Items[i]);
+            }
+        }
+
+        [TestMethod]
+        public void MergeSortTest()
+        {
+            // Arrange
+            algorithm = new MergeSort<int>();
+            algorithm.Items.AddRange(golden);
+
+            // Act
+            golden.Sort();
+            algorithm.Sort();
+
+            // Assert
+            for (var i = 0; i < algorithm.Items.Count; i++)
+            {
+                Assert.AreEqual(golden[i], algorithm.Items[i]);
+            }
+        }
+
+        [TestMethod]
+        public void QuickSortTest()
+        {
+            // Arrange
+            //algorithm = new QuickSort<int>();
             algorithm.Items.AddRange(golden);
 
             // Act

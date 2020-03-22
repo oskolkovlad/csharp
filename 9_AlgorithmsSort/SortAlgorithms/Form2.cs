@@ -38,10 +38,14 @@ namespace SortAlgorithms
                 "Binary Tree Sort",
                 "Heap Sort",
                 "Selection Sort",
-                "Gnome Sort"
+                "Gnome Sort",
+                "Radix LSD Sort",
+                "Radix MSD Sort",
+                "Merge Sort",
+                "Quick Sort"
             };
             comboBox1.Items.AddRange(cb);
-            comboBox1.SelectedIndex = 5;    // Изначально будет выбрана Bubble Sort
+            comboBox1.SelectedIndex = 7;    // Изначально будет выбрана Bubble Sort
         }
 
 
@@ -95,6 +99,18 @@ namespace SortAlgorithms
                 case 7:
                     algorithm = new GnomeSort<SortedItem>(verticalProgressBars);
                     break;
+                case 8:
+                    algorithm = new RadixLSDSort<SortedItem>(verticalProgressBars);
+                    break;
+                case 9:
+                    algorithm = new RadixMSDSort<SortedItem>(verticalProgressBars);
+                    break;
+                case 10:
+                    algorithm = new MergeSort<SortedItem>(verticalProgressBars);
+                    break;
+/*                case 11:
+                    algorithm = new QuickSort<SortedItem>(verticalProgressBars);
+                    break;*/
             }
 
             Button_Click(algorithm);
@@ -128,6 +144,7 @@ namespace SortAlgorithms
 
             _algorithm.CompareEvent += Algorithm_CompareEvent;
             _algorithm.SwapEvent    += Algorithm_SwapEvent;
+            _algorithm.SetEvent += Algorithm_SetEvent;
 
             var time = _algorithm.Sort();
 
@@ -198,7 +215,7 @@ namespace SortAlgorithms
             Thread.Sleep(sleep);
         }
 
-        private void AlgorithmSetEvent(object sender, Tuple<int, SortedItem> e)
+        private void Algorithm_SetEvent(object sender, Tuple<int, SortedItem> e)
         {
             e.Item2.SetColor(Color.Red);
             barsPanel.Refresh();

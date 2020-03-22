@@ -49,6 +49,7 @@
     <Compile Include="6_HeapSort.cs" />
     <Compile Include="7_SelectionSort.cs" />
     <Compile Include="8_GnomeSort.cs" />
+    <Compile Include="10_MergeSort.cs" />
     <Compile Include="Node.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="2_ShakerSort.cs" />

@@ -37,11 +37,12 @@ namespace Algorithms
     // Сложность по памяти
     // - Общая O(n + k)
 
-    public class RadixMSDSort : Base<int>
+    public class RadixMSDSort<T> : Base<T>
+        where T : IComparable
     {
         public RadixMSDSort() { }
 
-        public RadixMSDSort(IEnumerable<int> items)
+        public RadixMSDSort(IEnumerable<T> items)
             : base(items) { }
 
         protected override void MakeSort()
@@ -79,20 +80,21 @@ namespace Algorithms
         }
 
 
-        private List<int> SortCollection(List<int> collection, int step)
+        private List<T> SortCollection(List<T> collection, int step)
         {
-            var result = new List<int>();
+            var result = new List<T>();
 
-            var groups = new List<List<int>>(10);
+            var groups = new List<List<T>>(10);
             for (var i = 0; i < 10; i++)
             {
-                groups.Add(new List<int>());
+                groups.Add(new List<T>());
             }
 
             // Распределение элементов по корзинам
             foreach (var item in collection)
             {
-                int value = item % (int)Math.Pow(10, step) / (int)Math.Pow(10, step - 1);
+                var i = item.GetHashCode();
+                int value = i % (int)Math.Pow(10, step) / (int)Math.Pow(10, step - 1);
                 groups[value].Add(item);
             }
 
@@ -111,13 +113,13 @@ namespace Algorithms
             return result;
         }
 
-        private int GetMaxLength(List<int> collection)
+        private int GetMaxLength(List<T> collection)
         {
             var length = 0;
 
             foreach (var item in collection)
             {
-                if (item < 0)
+                if (item.GetHashCode() < 0)
                 {
                     throw new ArgumentException("Числа не могут быть меньше нуля...");
                 }
