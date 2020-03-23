@@ -7,9 +7,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "1_Class_SystemGC", "Class_S
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "2_Finalized_Objects", "Finalized_Objects\2_Finalized_Objects.csproj", "{E2470108-B5FC-4ED2-87D7-5A8E5FFE3EF4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3_Using_Constuction", "Using_Constuction\3_Using_Constuction.csproj", "{E64AAB89-2A31-42DE-BCD0-93158DA7B97A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "3_Using_Constuction", "Using_Constuction\3_Using_Constuction.csproj", "{E64AAB89-2A31-42DE-BCD0-93158DA7B97A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4_Unsafe_Code", "Unsafe_Code\4_Unsafe_Code.csproj", "{C61C25B1-CD0D-4137-B7E3-5B96A75129EF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "4_Unsafe_Code", "Unsafe_Code\4_Unsafe_Code.csproj", "{C61C25B1-CD0D-4137-B7E3-5B96A75129EF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "5_Stackalloc_FixedPointer", "Stackalloc_FixedPointer\5_Stackalloc_FixedPointer.csproj", "{99A241B4-5571-4B65-84F8-1B11D82EBAB4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{C61C25B1-CD0D-4137-B7E3-5B96A75129EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C61C25B1-CD0D-4137-B7E3-5B96A75129EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C61C25B1-CD0D-4137-B7E3-5B96A75129EF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{99A241B4-5571-4B65-84F8-1B11D82EBAB4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{99A241B4-5571-4B65-84F8-1B11D82EBAB4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{99A241B4-5571-4B65-84F8-1B11D82EBAB4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{99A241B4-5571-4B65-84F8-1B11D82EBAB4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
