@@ -17,6 +17,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "6_WW_BinaryWriter_BinaryRea
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "7_Serialize_BinaryFormatter", "Serialize_BinaryFormatter\7_Serialize_BinaryFormatter.csproj", "{12DAEBD2-273F-4C03-B9DE-452063FEB90B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "8_GZipStream_DeflateStream_ZipFile", "GZipStream_DeflateStream_ZipFile\8_GZipStream_DeflateStream_ZipFile.csproj", "{086EAB4F-ABA5-4294-877E-98F6DD156F32}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{12DAEBD2-273F-4C03-B9DE-452063FEB90B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{12DAEBD2-273F-4C03-B9DE-452063FEB90B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{12DAEBD2-273F-4C03-B9DE-452063FEB90B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{086EAB4F-ABA5-4294-877E-98F6DD156F32}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{086EAB4F-ABA5-4294-877E-98F6DD156F32}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{086EAB4F-ABA5-4294-877E-98F6DD156F32}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{086EAB4F-ABA5-4294-877E-98F6DD156F32}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
