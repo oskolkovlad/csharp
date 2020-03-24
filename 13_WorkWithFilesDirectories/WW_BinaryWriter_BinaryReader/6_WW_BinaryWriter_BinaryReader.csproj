@@ -3,6 +3,8 @@
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>WW_BinaryWriter_BinaryReader</RootNamespace>
+    <AssemblyName>WW_BinaryWriter_BinaryReader</AssemblyName>
   </PropertyGroup>
 
 </Project>
