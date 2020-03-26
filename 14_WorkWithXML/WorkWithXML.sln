@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1_WorkWithXML", "WorkWithXM
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2_ModifyXMLFile", "ModifyXMLFile\2_ModifyXMLFile.csproj", "{CA1783C0-0C4D-4600-9D3B-5BE7CEAF5AA1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3_XPath", "XPath\3_XPath.csproj", "{337DD33E-9EBA-4D65-8C40-9A474CAADF19}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{CA1783C0-0C4D-4600-9D3B-5BE7CEAF5AA1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CA1783C0-0C4D-4600-9D3B-5BE7CEAF5AA1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CA1783C0-0C4D-4600-9D3B-5BE7CEAF5AA1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{337DD33E-9EBA-4D65-8C40-9A474CAADF19}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{337DD33E-9EBA-4D65-8C40-9A474CAADF19}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{337DD33E-9EBA-4D65-8C40-9A474CAADF19}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{337DD33E-9EBA-4D65-8C40-9A474CAADF19}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
