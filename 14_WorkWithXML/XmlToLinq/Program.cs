@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Linq;
 using System.Xml.Linq;
 
 namespace XmlToLinq
@@ -37,6 +38,7 @@ namespace XmlToLinq
             //сохраняем документ
             xdoc.Save("phones.xml");*/
 
+            // Создание XML документа с помощью LINQ to XML
             XDocument xdoc = new XDocument(new XElement("phones",
                 new XElement("phone",
                     new XAttribute("name", "iPhone 6"),
@@ -48,16 +50,82 @@ namespace XmlToLinq
                     new XElement("price", "33000"))
                 ));
 
-            xdoc.Save("phones.xml");
+            //xdoc.Save("phones.xml");
 
 
             //************************************************************************//
 
 
+            // Выборка элементов
+            xdoc = XDocument.Load("phones.xml");
 
+            foreach (XElement element in xdoc.Element("phones").Elements("phone"))
+            {
+                XAttribute name = element.Attribute("name");
+                XElement company = element.Element("company");
+                XElement price = element.Element("price");
+
+                if(name != null && company != null && price != null)
+                {
+                    Console.WriteLine(name.Value);
+                    Console.WriteLine(company.Value);
+                    Console.WriteLine(price.Value);
+                    Console.WriteLine();
+                }
+            }
+
+            var items = from element in xdoc.Element("phones").Elements("phone")
+                        where element.Element("company").Value == "Samsung"
+                        select new Phone
+                        {
+                            Name = element.Attribute("name").Value,
+                            Price = element.Element("price").Value
+                        };
+
+            foreach (var item in items)
+                Console.WriteLine($"{item.Name} - {item.Price}");
+            Console.WriteLine();
+
+
+            //************************************************************************//
+
+
+            XElement root = xdoc.Element("phones");
+
+            foreach (XElement xe in root.Elements("phone").ToList())
+            {
+                // изменяем название и цену
+                if (xe.Attribute("name").Value == "Samsung Galaxy S5")
+                {
+                    xe.Attribute("name").Value = "Samsung Galaxy Note 4";
+                    xe.Element("price").Value = "31000";
+                }
+                //если iphone - удаляем его
+                else if (xe.Attribute("name").Value == "iPhone 6")
+                {
+                    xe.Remove();
+                }
+            }
+            // добавляем новый элемент
+            root.Add(new XElement("phone",
+                        new XAttribute("name", "Nokia Lumia 930"),
+                        new XElement("company", "Nokia"),
+                        new XElement("price", "19500")));
+            xdoc.Save("pnones1.xml");
+            // выводим xml-документ на консоль
+            Console.WriteLine(xdoc);
+
+
+            //************************************************************************//
 
 
             Console.ReadKey();
+        }
+
+        class Phone
+        {
+            public string Name { get; set; }
+            public string Price { get; set; }
         }
     }
 }
