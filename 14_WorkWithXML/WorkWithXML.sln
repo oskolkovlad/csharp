@@ -11,6 +11,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "3_XPath", "XPath\3_XPath.cs
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4_XmlToLinq", "XmlToLinq\4_XmlToLinq.csproj", "{3CDF578D-C9B5-4231-8002-F84F5311AD69}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "5_XmlSerialize", "XmlSerialize\5_XmlSerialize.csproj", "{BA256238-A49A-49DA-B6E0-161172007687}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{3CDF578D-C9B5-4231-8002-F84F5311AD69}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3CDF578D-C9B5-4231-8002-F84F5311AD69}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3CDF578D-C9B5-4231-8002-F84F5311AD69}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BA256238-A49A-49DA-B6E0-161172007687}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA256238-A49A-49DA-B6E0-161172007687}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA256238-A49A-49DA-B6E0-161172007687}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA256238-A49A-49DA-B6E0-161172007687}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
