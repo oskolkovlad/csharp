@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4_ValidationBase", "Validat
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "5_AttributesOfValidation", "AttributesOfValidation\5_AttributesOfValidation.csproj", "{493FC2A9-5CA0-4CFC-8A2C-55B004E821D5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "6_CreateOwnAttributesOfValidation", "CreateOwnAttributesOfValidation\6_CreateOwnAttributesOfValidation.csproj", "{43D9167B-B369-4897-8981-C5C67AEA3AF9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +47,10 @@ Global
 		{493FC2A9-5CA0-4CFC-8A2C-55B004E821D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{493FC2A9-5CA0-4CFC-8A2C-55B004E821D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{493FC2A9-5CA0-4CFC-8A2C-55B004E821D5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{43D9167B-B369-4897-8981-C5C67AEA3AF9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{43D9167B-B369-4897-8981-C5C67AEA3AF9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{43D9167B-B369-4897-8981-C5C67AEA3AF9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{43D9167B-B369-4897-8981-C5C67AEA3AF9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
