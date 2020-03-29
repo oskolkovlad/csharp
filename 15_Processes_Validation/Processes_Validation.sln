@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3_DynamicLoad_and_Unload", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyApp", "MyApp\MyApp.csproj", "{B1D0FE7A-3386-478F-95C2-71E772D07918}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4_ValidationBase", "ValidationBase\4_ValidationBase.csproj", "{DC8E5195-6BF8-4045-90FB-7101787DD5E8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{B1D0FE7A-3386-478F-95C2-71E772D07918}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B1D0FE7A-3386-478F-95C2-71E772D07918}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B1D0FE7A-3386-478F-95C2-71E772D07918}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DC8E5195-6BF8-4045-90FB-7101787DD5E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC8E5195-6BF8-4045-90FB-7101787DD5E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC8E5195-6BF8-4045-90FB-7101787DD5E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC8E5195-6BF8-4045-90FB-7101787DD5E8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
